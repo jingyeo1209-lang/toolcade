@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="toolcade-root" content="../">
+  <title>소개 | 툴케이드 (Toolcade)</title>
+  <meta name="description" content="툴케이드(Toolcade)는 지친 실무자를 위한 업무 생산성 툴 큐레이션 사이트입니다. 리더보드·비교 가이드·솔직한 리뷰를 제공합니다.">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/toolcade.css">
+</head>
+<body>
+  <div id="ph-nav"></div>
+  <main class="ph-page ph-legal">
+    <p class="ph-breadcrumb"><a href="../index.html">Toolcade</a> / 소개</p>
+    <h1>툴케이드(Toolcade) 소개</h1>
+    <p class="ph-legal-meta">업무 생산성 툴을 고르는 데 드는 시간을 줄이는 큐레이션 사이트입니다.</p>
+
+    <h2>무엇을 하나요?</h2>
+    <p>툴케이드는 AI 미팅 노트, 글쓰기·문서화, 리서치 등 <strong>업무 생산성 도구</strong>를 주제별로 모아 비교합니다. Product Hunt 스타일 리더보드와 실무 기준 가이드를 통해 “어떤 툴이 내 상황에 맞는지” 빠르게 판단할 수 있도록 돕습니다.</p>
+
+    <h2>콘텐츠는 어떻게 만드나요?</h2>
+    <ul>
+      <li>각 툴의 공식 요금·기능 페이지를 기준으로 팩트를 확인합니다.</li>
+      <li>장점뿐 아니라 <strong>단점·비추천 상황</strong>도 함께 적습니다.</li>
+      <li>제휴(어필리에이트) 링크가 있어도 추천 순위는 광고비와 무관하게 작성합니다.</li>
+      <li>카테고리별 콘텐츠는 정기적으로 검토·업데이트합니다.</li>
+    </ul>
+
+    <h2>운영 주체</h2>
+    <p>툴케이드(Toolcade)는 독립 큐레이션 프로젝트로 운영됩니다. 문의·정정 요청은 <a href="contact.html">문의 페이지</a> 또는 이메일 <a href="mailto:hello@toolcade.kr">hello@toolcade.kr</a>로 보내 주세요.</p>
+
+    <h2>관련 안내</h2>
+    <ul>
+      <li><a href="privacy.html">개인정보처리방침</a></li>
+      <li><a href="terms.html">이용약관</a></li>
+      <li><a href="disclosure.html">제휴·광고 고지</a></li>
+      <li><a href="contact.html">문의하기</a></li>
+    </ul>
+  </main>
+  <div id="ph-footer"></div>
+
+  <script src="../data/categories.bundle.js"></script>
+  <script src="../js/paths.js"></script>
+  <script src="../js/shell.js"></script>
+  <script>
+    ToolcadeShell.mountShell({
+      site: window.TOOLCADE_BUNDLES?.categories?.site,
+    });
+  </script>
+</body>
+</html>

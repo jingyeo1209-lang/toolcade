@@ -1,0 +1,15 @@
+---
+description: Toolcade 큐레이션 하네스 규칙 — 데이터/체크리스트를 지킨다
+globs: data/**/*.json,js/**/*.js,categories/**/*.html,index.html
+alwaysApply: true
+---
+
+# Toolcade curation harness
+
+- Treat `data/*.json` as the source of truth. Do not hardcode tool copy into HTML.
+- Every tool must include: tags, quote, highlights, **cons**, **notFor**, bestFor, comparison, affiliate.
+- Keep comparison table fields consistent with card copy.
+- Never use placeholder affiliate URLs like `여기에_제휴링크_입력`.
+- CTA benefit claims must be accurate; if unsure, use neutral CTA (“알아보기”).
+- After content changes: bump `category.updatedAt`, run `node scripts/validate-curation.mjs`, and skim `CURATION_CHECKLIST.md`.
+- CTA links must support UTM via `ToolcadeAnalytics.withUtm` and use `rel="noopener noreferrer sponsored"`.

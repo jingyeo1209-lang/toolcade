@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="toolcade-root" content="./">
+  <title>툴케이드 (Toolcade) - 업무 생산성 큐레이션</title>
+  <meta name="description" content="지친 실무자를 위한 AI·생산성 툴 큐레이션. Product Hunt 스타일 리더보드로 비교하고 고르세요.">
+  <meta property="og:title" content="툴케이드 (Toolcade)">
+  <meta property="og:description" content="업무 툴 리더보드 — 미팅 노트부터 글쓰기·리서치까지">
+  <meta property="og:type" content="website">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/toolcade.css">
+</head>
+<body>
+  <div id="ph-nav"></div>
+  <div id="app"><p style="padding:2rem;color:#667085">로딩 중…</p></div>
+  <div id="ph-footer"></div>
+
+  <script src="data/categories.bundle.js"></script>
+  <script src="data/meeting-notes.bundle.js"></script>
+  <script src="js/paths.js"></script>
+  <script src="js/shell.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/load-data.js"></script>
+  <script src="js/render.js"></script>
+  <script>
+    ToolcadeRender.mountHomePage({
+      categoriesUrl: "data/categories.json",
+      featuredUrl: "data/meeting-notes.json",
+    }).catch((err) => {
+      console.error(err);
+      document.getElementById("app").innerHTML =
+        '<p style="padding:2rem;color:#dc2626">홈을 불러오지 못했습니다. <code>node scripts/build-data.mjs</code> 실행 후 새로고침해 주세요.</p>';
+    });
+  </script>
+</body>
+</html>

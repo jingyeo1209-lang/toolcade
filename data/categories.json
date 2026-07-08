@@ -1,0 +1,38 @@
+{
+  "site": {
+    "name": "툴케이드",
+    "nameEn": "Toolcade",
+    "tagline": "업무 생산성 큐레이션",
+    "operatorName": "툴케이드",
+    "contactEmail": "hello@toolcade.kr",
+    "privacyUpdatedAt": "2026-07-08",
+    "affiliateDisclosure": "본 사이트의 일부 링크는 제휴(어필리에이트) 링크입니다. 링크를 통해 가입·결제가 이루어지면 툴케이드에 수수료가 발생할 수 있습니다. 추천 순위·리뷰 내용은 광고비와 무관하게 작성됩니다.",
+    "adsDisclosure": "본 사이트는 Google AdSense 등 제3자 광고 서비스를 통해 광고를 게재할 수 있습니다. Google을 포함한 제3자 공급업체는 쿠키를 사용하여 이용자의 이 사이트 및 다른 사이트 방문 기록을 바탕으로 맞춤 광고를 표시할 수 있습니다."
+  },
+  "categories": [
+    {
+      "slug": "meeting-notes",
+      "title": "AI 미팅 노트",
+      "description": "AI 미팅 노트 6종 비교 — 봇 없는 녹음부터 Slack·Notion 연동, 실시간 전사까지",
+      "emoji": "🎙️",
+      "status": "published",
+      "path": "categories/meeting-notes/index.html"
+    },
+    {
+      "slug": "writing",
+      "title": "글쓰기·문서화",
+      "description": "기획안·PRD·커뮤니케이션 문서 툴 (준비 중)",
+      "emoji": "✍️",
+      "status": "coming-soon",
+      "path": "categories/writing/index.html"
+    },
+    {
+      "slug": "research",
+      "title": "리서치·정보수집",
+      "description": "데스크 리서치와 자료 정리를 돕는 툴 (준비 중)",
+      "emoji": "🔍",
+      "status": "coming-soon",
+      "path": "categories/research/index.html"
+    }
+  ]
+}

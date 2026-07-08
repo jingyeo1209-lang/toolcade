@@ -1,0 +1,12 @@
+{
+  "name": "toolcade",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Toolcade — productivity tool curation harness",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "prestart": "node scripts/build-data.mjs",
+    "start": "npx --yes serve . -p 4173",
+    "validate": "node scripts/build-data.mjs && node scripts/validate-curation.mjs"
+  }
+}
