@@ -4,6 +4,7 @@
   "private": true,
   "description": "Toolcade — productivity tool curation harness",
   "scripts": {
+    "build": "node scripts/build-data.mjs",
     "build:data": "node scripts/build-data.mjs",
     "prestart": "node scripts/build-data.mjs",
     "start": "npx --yes serve . -p 4173",

@@ -1,5 +1,8 @@
 {
-  "buildCommand": "node scripts/build-data.mjs",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "installCommand": "echo \"no npm dependencies\"",
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false
