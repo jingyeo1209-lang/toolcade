@@ -1,8 +1,18 @@
 (function (global) {
+  function githubPagesBase() {
+    if (!location.hostname.endsWith("github.io")) return null;
+    const parts = location.pathname.split("/").filter(Boolean);
+    if (parts.length === 0) return null;
+    const repo = parts[0];
+    if (repo === "index.html") return null;
+    return `/${repo}/`;
+  }
+
   function root() {
     const meta = document.querySelector('meta[name="toolcade-root"]');
     if (meta?.content != null) return meta.content;
-    return location.protocol === "file:" ? "./" : "/";
+    if (location.protocol === "file:") return "./";
+    return githubPagesBase() || "/";
   }
 
   function asset(path) {
