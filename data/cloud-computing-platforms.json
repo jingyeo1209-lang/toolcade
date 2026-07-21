@@ -1,0 +1,417 @@
+{
+  "category": {
+    "slug": "cloud-computing-platforms",
+    "title": "클라우드 컴퓨팅 플랫폼",
+    "headline": "서버를 관리할까요, 제품을 배포할까요?",
+    "subtitle": "관리형 PaaS·서버리스·대형 클라우드·개발자 UX를 기준으로 컴퓨팅 플랫폼을 비교합니다.",
+    "updatedAt": "2026-07-21",
+    "seo": {
+      "title": "클라우드 컴퓨팅 플랫폼 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "클라우드 컴퓨팅 플랫폼 도구를 대형 클라우드·개발자 PaaS·서버리스·엣지 기준으로 비교합니다."
+    },
+    "compareTitle": "가격·운영 방식·잘 맞는 팀",
+    "statLabel": "도구 유형"
+  },
+  "guide": {
+    "title": "클라우드 컴퓨팅 플랫폼란?",
+    "summary": "앱·API·데이터를 배포·실행·확장하는 클라우드 컴퓨팅 플랫폼",
+    "howToChoose": [
+      "관리형 서비스와 셀프호스트 중 누가 운영 책임을 질지 먼저 정하세요.",
+      "기존 스택·언어·권한 모델과의 통합 비용을 확인하세요.",
+      "사용량 기반 요금이면 현재와 6개월 뒤의 트래픽을 함께 계산하세요.",
+      "민감 데이터가 있다면 리전·보존·접근 권한 정책을 계약 전에 확인하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "대형 클라우드",
+        "description": "대형 클라우드 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "AWS",
+          "Google Cloud",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "type": "개발자 PaaS",
+        "description": "개발자 PaaS 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Render"
+        ]
+      },
+      {
+        "type": "서버리스·엣지",
+        "description": "서버리스·엣지 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Fly.io",
+          "Cloudflare Workers"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "aws",
+      "name": "AWS",
+      "rank": 1,
+      "tags": [
+        "대형 클라우드",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "AWS은 가장 넓은 클라우드 서비스에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "가장 넓은 클라우드 서비스",
+          "body": "대형 클라우드 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "가장 넓은 클라우드 서비스을 우선순위로 두고 복잡한 인프라·엔터프라이즈에 맞추려는 경우",
+      "comparison": {
+        "advantage": "가장 넓은 클라우드 서비스",
+        "meetingStyle": "대형 클라우드",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "복잡한 인프라·엔터프라이즈"
+      },
+      "affiliate": {
+        "url": "https://aws.amazon.com/",
+        "ctaLabel": "AWS 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "aws",
+        "대형 클라우드"
+      ]
+    },
+    {
+      "slug": "google-cloud",
+      "name": "Google Cloud",
+      "rank": 2,
+      "tags": [
+        "대형 클라우드",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "Google Cloud은 데이터·Kubernetes 친화 클라우드에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "데이터·Kubernetes 친화 클라우드",
+          "body": "대형 클라우드 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "데이터·Kubernetes 친화 클라우드을 우선순위로 두고 GCP·BigQuery 중심 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "데이터·Kubernetes 친화 클라우드",
+        "meetingStyle": "대형 클라우드",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "GCP·BigQuery 중심 팀"
+      },
+      "affiliate": {
+        "url": "https://cloud.google.com/",
+        "ctaLabel": "Google Cloud 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "google-cloud",
+        "대형 클라우드"
+      ]
+    },
+    {
+      "slug": "microsoft-azure",
+      "name": "Microsoft Azure",
+      "rank": 3,
+      "tags": [
+        "대형 클라우드",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Microsoft Azure은 Microsoft 생태계 클라우드에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "Microsoft 생태계 클라우드",
+          "body": "대형 클라우드 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "Microsoft 생태계 클라우드을 우선순위로 두고 Microsoft 365·엔터프라이즈에 맞추려는 경우",
+      "comparison": {
+        "advantage": "Microsoft 생태계 클라우드",
+        "meetingStyle": "대형 클라우드",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Microsoft 365·엔터프라이즈"
+      },
+      "affiliate": {
+        "url": "https://azure.microsoft.com/",
+        "ctaLabel": "Microsoft Azure 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "microsoft-azure",
+        "대형 클라우드"
+      ]
+    },
+    {
+      "slug": "render",
+      "name": "Render",
+      "rank": 4,
+      "tags": [
+        "개발자 PaaS",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Render은 간단한 관리형 배포에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "간단한 관리형 배포",
+          "body": "개발자 PaaS 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "간단한 관리형 배포을 우선순위로 두고 빠른 웹 서비스 배포에 맞추려는 경우",
+      "comparison": {
+        "advantage": "간단한 관리형 배포",
+        "meetingStyle": "개발자 PaaS",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "빠른 웹 서비스 배포"
+      },
+      "affiliate": {
+        "url": "https://render.com/",
+        "ctaLabel": "Render 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "render",
+        "개발자 PaaS"
+      ]
+    },
+    {
+      "slug": "fly-io",
+      "name": "Fly.io",
+      "rank": 5,
+      "tags": [
+        "서버리스·엣지",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Fly.io은 지역 가까운 앱 실행에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "teal",
+      "highlights": [
+        {
+          "title": "지역 가까운 앱 실행",
+          "body": "서버리스·엣지 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "지역 가까운 앱 실행을 우선순위로 두고 컨테이너·저지연 앱 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "지역 가까운 앱 실행",
+        "meetingStyle": "서버리스·엣지",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "컨테이너·저지연 앱 팀"
+      },
+      "affiliate": {
+        "url": "https://fly.io/",
+        "ctaLabel": "Fly.io 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "fly-io",
+        "서버리스·엣지"
+      ]
+    },
+    {
+      "slug": "cloudflare-workers",
+      "name": "Cloudflare Workers",
+      "rank": 6,
+      "tags": [
+        "서버리스·엣지",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Cloudflare Workers은 엣지 서버리스 실행에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "pink",
+      "highlights": [
+        {
+          "title": "엣지 서버리스 실행",
+          "body": "서버리스·엣지 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "엣지 서버리스 실행을 우선순위로 두고 엣지 API·웹 플랫폼 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "엣지 서버리스 실행",
+        "meetingStyle": "서버리스·엣지",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "엣지 API·웹 플랫폼 팀"
+      },
+      "affiliate": {
+        "url": "https://workers.cloudflare.com/",
+        "ctaLabel": "Cloudflare Workers 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "cloudflare-workers",
+        "서버리스·엣지"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "aws",
+      "label": "가장 넓은 클라우드 서비스",
+      "recommend": "aws",
+      "reason": "AWS은 가장 넓은 클라우드 서비스에 초점을 둡니다."
+    },
+    {
+      "id": "google-cloud",
+      "label": "데이터·Kubernetes 친화 클라우드",
+      "recommend": "google-cloud",
+      "reason": "Google Cloud은 데이터·Kubernetes 친화 클라우드에 초점을 둡니다."
+    },
+    {
+      "id": "microsoft-azure",
+      "label": "Microsoft 생태계 클라우드",
+      "recommend": "microsoft-azure",
+      "reason": "Microsoft Azure은 Microsoft 생태계 클라우드에 초점을 둡니다."
+    },
+    {
+      "id": "render",
+      "label": "간단한 관리형 배포",
+      "recommend": "render",
+      "reason": "Render은 간단한 관리형 배포에 초점을 둡니다."
+    },
+    {
+      "id": "fly-io",
+      "label": "지역 가까운 앱 실행",
+      "recommend": "fly-io",
+      "reason": "Fly.io은 지역 가까운 앱 실행에 초점을 둡니다."
+    },
+    {
+      "id": "cloudflare-workers",
+      "label": "엣지 서버리스 실행",
+      "recommend": "cloudflare-workers",
+      "reason": "Cloudflare Workers은 엣지 서버리스 실행에 초점을 둡니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "ai-code-editors",
+      "title": "AI 코드 에디터"
+    },
+    {
+      "slug": "ai-coding-agents",
+      "title": "AI 코딩 에이전트"
+    },
+    {
+      "slug": "security-software",
+      "title": "보안 소프트웨어"
+    }
+  ],
+  "faq": [
+    {
+      "q": "무료 플랜만으로 운영할 수 있나요?",
+      "a": "프로토타입에는 가능할 수 있지만, 사용량·팀 기능·보안 요구에 따라 제한이 달라집니다. 구매 전 공식 요금과 한도를 확인하세요."
+    },
+    {
+      "q": "민감한 데이터나 시크릿을 넣어도 되나요?",
+      "a": "기본값으로 허용하지 마세요. 최소 권한·환경 분리·보존 정책을 확인하고, 회사 정책과 DPA를 검토한 뒤 필요한 범위만 연결하세요."
+    }
+  ]
+}

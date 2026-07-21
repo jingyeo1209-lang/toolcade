@@ -1,0 +1,417 @@
+{
+  "category": {
+    "slug": "ai-databases",
+    "title": "AI 데이터베이스",
+    "headline": "AI 앱의 기억은 어디에 저장할까요?",
+    "subtitle": "벡터 검색·임베딩·하이브리드 검색을 기준으로 AI 앱에 맞는 데이터베이스를 비교합니다.",
+    "updatedAt": "2026-07-21",
+    "seo": {
+      "title": "AI 데이터베이스 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "AI 데이터베이스 도구를 벡터 DB·Postgres 확장·검색 엔진 기준으로 비교합니다."
+    },
+    "compareTitle": "가격·운영 방식·잘 맞는 팀",
+    "statLabel": "도구 유형"
+  },
+  "guide": {
+    "title": "AI 데이터베이스란?",
+    "summary": "벡터 검색·임베딩·AI 앱용 데이터를 저장·검색하는 데이터베이스",
+    "howToChoose": [
+      "관리형 서비스와 셀프호스트 중 누가 운영 책임을 질지 먼저 정하세요.",
+      "기존 스택·언어·권한 모델과의 통합 비용을 확인하세요.",
+      "사용량 기반 요금이면 현재와 6개월 뒤의 트래픽을 함께 계산하세요.",
+      "민감 데이터가 있다면 리전·보존·접근 권한 정책을 계약 전에 확인하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "벡터 DB",
+        "description": "벡터 DB 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Pinecone",
+          "Weaviate",
+          "Qdrant",
+          "Milvus"
+        ]
+      },
+      {
+        "type": "Postgres 확장",
+        "description": "Postgres 확장 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "pgvector"
+        ]
+      },
+      {
+        "type": "검색 엔진",
+        "description": "검색 엔진 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Elasticsearch"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "rank": 1,
+      "tags": [
+        "벡터 DB",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "Pinecone은 관리형 벡터 검색에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "관리형 벡터 검색",
+          "body": "벡터 DB 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "관리형 벡터 검색을 우선순위로 두고 관리형 검색이 우선인 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "관리형 벡터 검색",
+        "meetingStyle": "벡터 DB",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "관리형 검색이 우선인 팀"
+      },
+      "affiliate": {
+        "url": "https://www.pinecone.io/",
+        "ctaLabel": "Pinecone 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "pinecone",
+        "벡터 DB"
+      ]
+    },
+    {
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "rank": 2,
+      "tags": [
+        "벡터 DB",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "Weaviate은 오픈소스·하이브리드 검색에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "오픈소스·하이브리드 검색",
+          "body": "벡터 DB 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "오픈소스·하이브리드 검색을 우선순위로 두고 검색 품질을 조정할 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "오픈소스·하이브리드 검색",
+        "meetingStyle": "벡터 DB",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "검색 품질을 조정할 팀"
+      },
+      "affiliate": {
+        "url": "https://weaviate.io/",
+        "ctaLabel": "Weaviate 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "weaviate",
+        "벡터 DB"
+      ]
+    },
+    {
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "rank": 3,
+      "tags": [
+        "벡터 DB",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Qdrant은 성능 중심 벡터 DB에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "성능 중심 벡터 DB",
+          "body": "벡터 DB 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "성능 중심 벡터 DB을 우선순위로 두고 셀프호스트·고성능 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "성능 중심 벡터 DB",
+        "meetingStyle": "벡터 DB",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "셀프호스트·고성능 팀"
+      },
+      "affiliate": {
+        "url": "https://qdrant.tech/",
+        "ctaLabel": "Qdrant 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "qdrant",
+        "벡터 DB"
+      ]
+    },
+    {
+      "slug": "milvus",
+      "name": "Milvus",
+      "rank": 4,
+      "tags": [
+        "벡터 DB",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Milvus은 대규모 오픈소스 벡터 DB에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "대규모 오픈소스 벡터 DB",
+          "body": "벡터 DB 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "대규모 오픈소스 벡터 DB을 우선순위로 두고 대량 임베딩을 운영할 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "대규모 오픈소스 벡터 DB",
+        "meetingStyle": "벡터 DB",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "대량 임베딩을 운영할 팀"
+      },
+      "affiliate": {
+        "url": "https://milvus.io/",
+        "ctaLabel": "Milvus 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "milvus",
+        "벡터 DB"
+      ]
+    },
+    {
+      "slug": "pgvector",
+      "name": "pgvector",
+      "rank": 5,
+      "tags": [
+        "Postgres 확장",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "pgvector은 Postgres 안의 벡터 검색에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "teal",
+      "highlights": [
+        {
+          "title": "Postgres 안의 벡터 검색",
+          "body": "Postgres 확장 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "Postgres 안의 벡터 검색을 우선순위로 두고 기존 Postgres를 쓰는 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "Postgres 안의 벡터 검색",
+        "meetingStyle": "Postgres 확장",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "기존 Postgres를 쓰는 팀"
+      },
+      "affiliate": {
+        "url": "https://github.com/pgvector/pgvector",
+        "ctaLabel": "pgvector 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "pgvector",
+        "Postgres 확장"
+      ]
+    },
+    {
+      "slug": "elasticsearch",
+      "name": "Elasticsearch",
+      "rank": 6,
+      "tags": [
+        "검색 엔진",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Elasticsearch은 키워드+벡터 하이브리드 검색에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "pink",
+      "highlights": [
+        {
+          "title": "키워드+벡터 하이브리드 검색",
+          "body": "검색 엔진 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "키워드+벡터 하이브리드 검색을 우선순위로 두고 기존 검색 스택이 있는 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "키워드+벡터 하이브리드 검색",
+        "meetingStyle": "검색 엔진",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "기존 검색 스택이 있는 팀"
+      },
+      "affiliate": {
+        "url": "https://www.elastic.co/elasticsearch",
+        "ctaLabel": "Elasticsearch 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "elasticsearch",
+        "검색 엔진"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "pinecone",
+      "label": "관리형 벡터 검색",
+      "recommend": "pinecone",
+      "reason": "Pinecone은 관리형 벡터 검색에 초점을 둡니다."
+    },
+    {
+      "id": "weaviate",
+      "label": "오픈소스·하이브리드 검색",
+      "recommend": "weaviate",
+      "reason": "Weaviate은 오픈소스·하이브리드 검색에 초점을 둡니다."
+    },
+    {
+      "id": "qdrant",
+      "label": "성능 중심 벡터 DB",
+      "recommend": "qdrant",
+      "reason": "Qdrant은 성능 중심 벡터 DB에 초점을 둡니다."
+    },
+    {
+      "id": "milvus",
+      "label": "대규모 오픈소스 벡터 DB",
+      "recommend": "milvus",
+      "reason": "Milvus은 대규모 오픈소스 벡터 DB에 초점을 둡니다."
+    },
+    {
+      "id": "pgvector",
+      "label": "Postgres 안의 벡터 검색",
+      "recommend": "pgvector",
+      "reason": "pgvector은 Postgres 안의 벡터 검색에 초점을 둡니다."
+    },
+    {
+      "id": "elasticsearch",
+      "label": "키워드+벡터 하이브리드 검색",
+      "recommend": "elasticsearch",
+      "reason": "Elasticsearch은 키워드+벡터 하이브리드 검색에 초점을 둡니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "ai-code-editors",
+      "title": "AI 코드 에디터"
+    },
+    {
+      "slug": "ai-coding-agents",
+      "title": "AI 코딩 에이전트"
+    },
+    {
+      "slug": "security-software",
+      "title": "보안 소프트웨어"
+    }
+  ],
+  "faq": [
+    {
+      "q": "무료 플랜만으로 운영할 수 있나요?",
+      "a": "프로토타입에는 가능할 수 있지만, 사용량·팀 기능·보안 요구에 따라 제한이 달라집니다. 구매 전 공식 요금과 한도를 확인하세요."
+    },
+    {
+      "q": "민감한 데이터나 시크릿을 넣어도 되나요?",
+      "a": "기본값으로 허용하지 마세요. 최소 권한·환경 분리·보존 정책을 확인하고, 회사 정책과 DPA를 검토한 뒤 필요한 범위만 연결하세요."
+    }
+  ]
+}

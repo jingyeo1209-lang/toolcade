@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="toolcade-root" content="../../">
-  <title>글쓰기 어시스턴트 비교 가이드 | Toolcade</title>
-  <meta name="description" content="문장 다듬기·초안·톤 교정까지 돕는 AI 글쓰기 도구">
+  <title>AI 데이터베이스 비교 가이드 | Toolcade</title>
+  <meta name="description" content="벡터 검색·임베딩·AI 앱용 데이터를 저장·검색하는 데이터베이스">
   <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
   <link rel="stylesheet" href="../../css/toolcade.css">
   <link rel="stylesheet" href="../../css/ws-landing.css">
@@ -14,7 +14,7 @@
   <div id="ph-nav"></div>
   <div id="app"><p style="padding:2rem;color:#667085">큐레이션 로딩 중…</p></div>
   <div id="ph-footer"></div>
-  <script src="../../data/writing-assistants.bundle.js"></script>
+  <script src="../../data/ai-databases.bundle.js"></script>
   <script src="../../data/categories.bundle.js"></script>
   <script src="../../js/paths.js"></script>
   <script src="../../js/shell.js"></script>
@@ -22,7 +22,7 @@
   <script src="../../js/load-data.js"></script>
   <script src="../../js/render.js"></script>
   <script>
-    ToolcadeRender.mountCategoryPage({ dataUrl: "data/writing-assistants.json" }).catch((err) => {
+    ToolcadeRender.mountCategoryPage({ dataUrl: "data/ai-databases.json" }).catch((err) => {
       console.error(err);
       document.getElementById("app").innerHTML =
         '<p style="padding:2rem;color:#dc2626">데이터를 불러오지 못했습니다. <code>node scripts/build-data.mjs</code> 실행 후 새로고침해 주세요.</p>';

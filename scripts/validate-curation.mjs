@@ -178,6 +178,15 @@ validateCategoryContent("data/team-collaboration.json");
 validateCategoryContent("data/time-tracking.json");
 validateCategoryContent("data/virtual-office.json");
 validateCategoryContent("data/web-browsers.json");
+validateCategoryContent("data/writing-assistants.json");
+validateCategoryContent("data/a-b-testing.json");
+validateCategoryContent("data/ai-code-editors.json");
+validateCategoryContent("data/ai-code-testing.json");
+validateCategoryContent("data/ai-coding-agents.json");
+validateCategoryContent("data/ai-databases.json");
+validateCategoryContent("data/authentication-identity.json");
+validateCategoryContent("data/browser-automation.json");
+validateCategoryContent("data/cloud-computing-platforms.json");
 
 if (warnings.length) {
   console.log("Warnings:");

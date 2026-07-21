@@ -1,0 +1,413 @@
+{
+  "category": {
+    "slug": "ai-coding-agents",
+    "title": "AI 코딩 에이전트",
+    "headline": "채팅으로 묻지 말고, 에이전트에게 맡기나요?",
+    "subtitle": "Claude Code·Codex·Devin부터 Cursor Agent·Aider·OpenHands까지. 터미널·클라우드·자율 코딩 기준으로 실무용 AI 코딩 에이전트를 골랐습니다.",
+    "updatedAt": "2026-07-21",
+    "seo": {
+      "title": "AI 코딩 에이전트 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Claude Code, Codex, Devin, Cursor Agent, Aider, OpenHands를 자율 코딩·환경 기준으로 비교."
+    },
+    "compareTitle": "가격 · 잘 맞는 방식",
+    "statLabel": "에이전트 유형"
+  },
+  "guide": {
+    "title": "AI 코딩 에이전트란?",
+    "summary": "이슈를 받아 코드 수정·테스트·PR까지 스스로 진행하려는 AI입니다. 터미널 에이전트, IDE 내 에이전트, 클라우드 샌드박스형으로 나뉩니다.",
+    "howToChoose": [
+      "로컬 터미널에서 통제할지, 클라우드 샌드박스에 맡길지 정하세요.",
+      "PR 단위 백그라운드 작업이 필요한지, 페어 프로그래밍이 필요한지 보세요.",
+      "시크릿·프로덕션 접근을 에이전트에 줄지 보안 경계를 먼저 긋으세요.",
+      "모델 락인(Claude·OpenAI·멀티모델) 선호를 확인하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "터미널·로컬 에이전트",
+        "description": "로컬 리포에서 명령·패치를 실행합니다. 통제력이 큽니다.",
+        "examples": [
+          "Claude Code",
+          "Aider",
+          "OpenHands"
+        ]
+      },
+      {
+        "type": "클라우드·자율형",
+        "description": "원격 환경에서 이슈를 끝까지 처리하려 합니다.",
+        "examples": [
+          "Devin",
+          "Codex"
+        ]
+      },
+      {
+        "type": "IDE 내 에이전트",
+        "description": "에디터 안에서 멀티스텝 작업을 돌립니다.",
+        "examples": [
+          "Cursor Agent"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "rank": 1,
+      "tags": [
+        "터미널",
+        "Claude",
+        "에이전트"
+      ],
+      "quote": "터미널에서 Claude와 리포를 다루는 에이전트 경험으로 많이 쓰입니다. 긴 맥락·도구 사용이 강점입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "터미널 네이티브",
+          "body": "로컬 파일·명령·테스트 루프를 에이전트 방식으로 돌리기 좋습니다."
+        },
+        {
+          "title": "긴 작업",
+          "body": "멀티파일 수정과 설명 가능한 변경에 강하다는 평가가 많습니다."
+        }
+      ],
+      "cons": [
+        "Claude 생태계·요금에 의존합니다.",
+        "완전 무인 클라우드 샌드박스 제품과는 운영 모델이 다릅니다."
+      ],
+      "notFor": [
+        "브라우저만으로 코딩할 때",
+        "OpenAI만 표준인 조직(정책 확인)"
+      ],
+      "bestFor": "로컬에서 Claude로 이슈를 끝까지 밀 때",
+      "comparison": {
+        "advantage": "터미널 Claude 에이전트",
+        "meetingStyle": "터미널·로컬 에이전트",
+        "freeQuota": "API/구독 연동",
+        "stackFit": "시니어·풀스택"
+      },
+      "affiliate": {
+        "url": "https://www.anthropic.com/claude-code",
+        "ctaLabel": "Claude Code 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "claude",
+        "terminal"
+      ]
+    },
+    {
+      "slug": "openai-codex",
+      "name": "Codex",
+      "rank": 2,
+      "tags": [
+        "OpenAI",
+        "클라우드",
+        "에이전트"
+      ],
+      "quote": "OpenAI 쪽 코딩 에이전트·자동화 흐름의 중심축입니다. ChatGPT·API 생태계와 맞물려 쓰기 좋습니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "OpenAI 생태계",
+          "body": "이미 ChatGPT·API를 쓰는 조직이 에이전트 코딩으로 확장하기 쉽습니다."
+        },
+        {
+          "title": "작업 자동화",
+          "body": "이슈·PR 단위 백그라운드 작업 패턴과 잘 맞습니다."
+        }
+      ],
+      "cons": [
+        "데이터·모델 정책을 조직 기준에 맞게 검토해야 합니다.",
+        "로컬 완전 통제만 원하면 오픈소스 에이전트가 나을 수 있습니다."
+      ],
+      "notFor": [
+        "온프레미스 LLM만 허용될 때",
+        "Anthropic만 표준인 팀"
+      ],
+      "bestFor": "OpenAI 스택에서 코딩 에이전트를 쓸 때",
+      "comparison": {
+        "advantage": "OpenAI 코딩 에이전트",
+        "meetingStyle": "클라우드·자율형",
+        "freeQuota": "플랜·사용량 기반",
+        "stackFit": "OpenAI 팀"
+      },
+      "affiliate": {
+        "url": "https://openai.com/codex/",
+        "ctaLabel": "Codex 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "openai",
+        "cloud"
+      ]
+    },
+    {
+      "slug": "devin",
+      "name": "Devin",
+      "rank": 3,
+      "tags": [
+        "자율",
+        "샌드박스",
+        "에이전트"
+      ],
+      "quote": "클라우드 샌드박스에서 이슈를 끝까지 처리하려는 자율 에이전트 포지션입니다. ‘맡기고 검토’ 운영에 가깝습니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "샌드박스 실행",
+          "body": "격리 환경에서 코드·명령을 실행해 작업을 진행합니다."
+        },
+        {
+          "title": "이슈→결과물",
+          "body": "티켓 단위로 결과(PR 등)를 받는 워크플로를 지향합니다."
+        }
+      ],
+      "cons": [
+        "비용·좌석 정책이 팀 규모에 민감할 수 있습니다.",
+        "모든 이슈에 적합하진 않아 범위 선정이 중요합니다."
+      ],
+      "notFor": [
+        "로컬만 허용되는 보안 환경",
+        "5분짜리 수정을 채팅으로 끝낼 때"
+      ],
+      "bestFor": "클라우드에 이슈를 맡겨 PR로 받을 때",
+      "comparison": {
+        "advantage": "자율 클라우드 에이전트",
+        "meetingStyle": "클라우드·자율형",
+        "freeQuota": "유료·견적",
+        "stackFit": "플랫폼·제품팀"
+      },
+      "affiliate": {
+        "url": "https://devin.ai/",
+        "ctaLabel": "Devin 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "autonomous",
+        "sandbox"
+      ]
+    },
+    {
+      "slug": "cursor-agent",
+      "name": "Cursor Agent",
+      "rank": 4,
+      "tags": [
+        "IDE",
+        "에이전트",
+        "MCP"
+      ],
+      "quote": "Cursor 안에서 멀티스텝으로 코드를 바꾸는 에이전트 모드입니다. 이미 Cursor를 쓰면 추가 학습이 적습니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "IDE 통합",
+          "body": "편집·터미널·MCP를 한 화면에서 에이전트에 맡기기 좋습니다."
+        },
+        {
+          "title": "실무 밀착",
+          "body": "채팅과 에이전트를 오가며 일상 개발 속도를 올리기 쉽습니다."
+        }
+      ],
+      "cons": [
+        "Cursor 구독·환경에 묶입니다.",
+        "완전 무인 클라우드 전용 제품과는 운영이 다릅니다."
+      ],
+      "notFor": [
+        "에디터를 바꾸지 못할 때",
+        "터미널-only 표준인 팀"
+      ],
+      "bestFor": "Cursor 사용자가 IDE 안에서 에이전트를 돌릴 때",
+      "comparison": {
+        "advantage": "IDE 내 에이전트",
+        "meetingStyle": "IDE 내 에이전트",
+        "freeQuota": "Cursor 플랜",
+        "stackFit": "Cursor 사용자"
+      },
+      "affiliate": {
+        "url": "https://cursor.com/",
+        "ctaLabel": "Cursor Agent 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "cursor",
+        "ide-agent"
+      ]
+    },
+    {
+      "slug": "aider",
+      "name": "Aider",
+      "rank": 5,
+      "tags": [
+        "오픈소스",
+        "git",
+        "터미널"
+      ],
+      "quote": "git과 함께 쓰는 오픈소스 코딩 에이전트입니다. 커밋 단위로 변경을 남기며 통제하기 좋습니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "git 밀착",
+          "body": "변경을 커밋 흐름에 녹여 리뷰·롤백이 쉽습니다."
+        },
+        {
+          "title": "모델 유연",
+          "body": "여러 LLM을 연결해 비용·성능 밸런스를 맞출 수 있습니다."
+        }
+      ],
+      "cons": [
+        "GUI·올인원 UX는 상용 IDE 에이전트보다 수작업 설정이 많습니다.",
+        "비개발자 친화도는 낮습니다."
+      ],
+      "notFor": [
+        "클릭만으로 쓰고 싶을 때",
+        "완전 관리형만 원할 때"
+      ],
+      "bestFor": "터미널·git 중심으로 오픈소스 에이전트를 쓸 때",
+      "comparison": {
+        "advantage": "오픈소스 git 에이전트",
+        "meetingStyle": "터미널·로컬 에이전트",
+        "freeQuota": "오픈소스 무료(+모델비)",
+        "freeQuotaHighlight": true,
+        "stackFit": "인디·플랫폼"
+      },
+      "affiliate": {
+        "url": "https://aider.chat/",
+        "ctaLabel": "Aider 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "oss",
+        "git"
+      ]
+    },
+    {
+      "slug": "openhands",
+      "name": "OpenHands",
+      "rank": 6,
+      "tags": [
+        "오픈소스",
+        "에이전트",
+        "연구·실무"
+      ],
+      "quote": "오픈소스 소프트웨어 에이전트 스택으로, 자체 호스팅·실험이 필요할 때 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "오픈 에이전트 스택",
+          "body": "에이전트 런타임을 직접 운영·확장하려는 팀에 맞습니다."
+        },
+        {
+          "title": "연구·커스텀",
+          "body": "도구·샌드박스·평가를 커스터마이즈하기 좋습니다."
+        }
+      ],
+      "cons": [
+        "운영·보안 하드닝 책임이 팀에 있습니다.",
+        "즉시 쓰는 SaaS UX를 기대하면 실망할 수 있습니다."
+      ],
+      "notFor": [
+        "설치 없이 바로 PR만 받고 싶을 때",
+        "비엔지니어 팀"
+      ],
+      "bestFor": "오픈소스로 코딩 에이전트를 구축·연구할 때",
+      "comparison": {
+        "advantage": "오픈소스 에이전트 스택",
+        "meetingStyle": "터미널·로컬 에이전트",
+        "freeQuota": "오픈소스 무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "플랫폼·R&D"
+      },
+      "affiliate": {
+        "url": "https://github.com/All-Hands-AI/OpenHands",
+        "ctaLabel": "OpenHands 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "oss-stack",
+        "self-host"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "claude",
+      "label": "Claude 터미널",
+      "recommend": "claude-code",
+      "reason": "로컬 Claude 에이전트에 강합니다."
+    },
+    {
+      "id": "openai",
+      "label": "OpenAI 생태계",
+      "recommend": "openai-codex",
+      "reason": "Codex·ChatGPT 흐름과 맞습니다."
+    },
+    {
+      "id": "auto",
+      "label": "클라우드에 맡기기",
+      "recommend": "devin",
+      "reason": "샌드박스 자율 에이전트 포지션입니다."
+    },
+    {
+      "id": "ide",
+      "label": "Cursor 안에서",
+      "recommend": "cursor-agent",
+      "reason": "IDE 통합 에이전트입니다."
+    },
+    {
+      "id": "git",
+      "label": "오픈소스·git",
+      "recommend": "aider",
+      "reason": "커밋 단위 통제에 좋습니다."
+    },
+    {
+      "id": "stack",
+      "label": "자체 에이전트 스택",
+      "recommend": "openhands",
+      "reason": "오픈소스로 구축·확장합니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "ai-code-editors",
+      "title": "AI 코드 에디터"
+    },
+    {
+      "slug": "ai-code-testing",
+      "title": "AI 코드 테스팅"
+    },
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "browser-automation",
+      "title": "브라우저 자동화"
+    }
+  ],
+  "faq": [
+    {
+      "q": "에디터 AI와 코딩 에이전트 차이는?",
+      "a": "에디터 AI는 작성·완성에 가깝고, 에이전트는 이슈를 받아 여러 단계(수정·테스트·PR)를 진행하려 합니다. 둘을 같이 쓰는 팀이 많습니다."
+    },
+    {
+      "q": "프로덕션 시크릿을 줘도 되나요?",
+      "a": "기본적으로 최소 권한·샌드박스·시크릿 분리하세요. 에이전트에 운영 키를 그대로 주는 구성은 피하세요."
+    }
+  ]
+}

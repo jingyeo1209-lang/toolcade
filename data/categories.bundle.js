@@ -165,8 +165,9 @@ window.TOOLCADE_BUNDLES["categories"] = {
       "title": "글쓰기 어시스턴트",
       "description": "문장 다듬기·초안·톤 교정까지 돕는 AI 글쓰기 도구",
       "emoji": "📝",
-      "status": "coming-soon",
-      "path": "categories/writing-assistants/index.html"
+      "status": "published",
+      "path": "categories/writing-assistants/index.html",
+      "toolCount": 6
     },
     {
       "slug": "project-management",
@@ -439,6 +440,86 @@ window.TOOLCADE_BUNDLES["categories"] = {
       "emoji": "🖼️",
       "status": "coming-soon",
       "path": "categories/ai-generative-art/index.html"
+    },
+    {
+      "slug": "ai-databases",
+      "group": "ai",
+      "title": "AI 데이터베이스",
+      "description": "벡터 검색·임베딩·AI 앱용 데이터를 저장·검색하는 데이터베이스",
+      "emoji": "🗄️",
+      "status": "published",
+      "path": "categories/ai-databases/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "authentication-identity",
+      "group": "engineering-development",
+      "title": "인증·아이덴티티",
+      "description": "로그인·권한·SSO·사용자 관리를 구현하는 인증·아이덴티티 플랫폼",
+      "emoji": "🪪",
+      "status": "published",
+      "path": "categories/authentication-identity/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "browser-automation",
+      "group": "engineering-development",
+      "title": "브라우저 자동화",
+      "description": "웹 브라우저의 반복 작업·테스트·데이터 수집을 자동화하는 툴",
+      "emoji": "🤖",
+      "status": "published",
+      "path": "categories/browser-automation/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "cloud-computing-platforms",
+      "group": "engineering-development",
+      "title": "클라우드 컴퓨팅 플랫폼",
+      "description": "앱·API·데이터를 배포·실행·확장하는 클라우드 컴퓨팅 플랫폼",
+      "emoji": "☁️",
+      "status": "published",
+      "path": "categories/cloud-computing-platforms/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "a-b-testing",
+      "group": "engineering-development",
+      "title": "A/B 테스트",
+      "description": "전환·기능 실험을 설계하고 결과를 측정하는 A/B 테스트 플랫폼",
+      "emoji": "🧪",
+      "toolCount": 6,
+      "status": "published",
+      "path": "categories/a-b-testing/index.html"
+    },
+    {
+      "slug": "ai-code-editors",
+      "group": "engineering-development",
+      "title": "AI 코드 에디터",
+      "description": "코드 작성·리팩터링을 AI로 돕는 에디터와 IDE 플러그인",
+      "emoji": "⌨️",
+      "toolCount": 6,
+      "status": "published",
+      "path": "categories/ai-code-editors/index.html"
+    },
+    {
+      "slug": "ai-code-testing",
+      "group": "engineering-development",
+      "title": "AI 코드 테스팅",
+      "description": "테스트 생성·유지보수·실패 분석을 AI로 돕는 QA 도구",
+      "emoji": "🧫",
+      "toolCount": 6,
+      "status": "published",
+      "path": "categories/ai-code-testing/index.html"
+    },
+    {
+      "slug": "ai-coding-agents",
+      "group": "engineering-development",
+      "title": "AI 코딩 에이전트",
+      "description": "코드 수정·테스트·PR 작업을 멀티스텝으로 수행하는 AI 에이전트",
+      "emoji": "🛠️",
+      "toolCount": 6,
+      "status": "published",
+      "path": "categories/ai-coding-agents/index.html"
     }
   ]
 }

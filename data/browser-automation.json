@@ -1,0 +1,417 @@
+{
+  "category": {
+    "slug": "browser-automation",
+    "title": "브라우저 자동화",
+    "headline": "사람이 클릭하는 일을 브라우저에 맡기세요",
+    "subtitle": "테스트·스크래핑·개인 업무 자동화를 기준으로 브라우저 자동화 도구를 비교합니다.",
+    "updatedAt": "2026-07-21",
+    "seo": {
+      "title": "브라우저 자동화 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "브라우저 자동화 도구를 코드 기반·RPA·데스크톱·개인 브라우저 자동화 기준으로 비교합니다."
+    },
+    "compareTitle": "가격·운영 방식·잘 맞는 팀",
+    "statLabel": "도구 유형"
+  },
+  "guide": {
+    "title": "브라우저 자동화란?",
+    "summary": "웹 브라우저의 반복 작업·테스트·데이터 수집을 자동화하는 툴",
+    "howToChoose": [
+      "관리형 서비스와 셀프호스트 중 누가 운영 책임을 질지 먼저 정하세요.",
+      "기존 스택·언어·권한 모델과의 통합 비용을 확인하세요.",
+      "사용량 기반 요금이면 현재와 6개월 뒤의 트래픽을 함께 계산하세요.",
+      "민감 데이터가 있다면 리전·보존·접근 권한 정책을 계약 전에 확인하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "코드 기반",
+        "description": "코드 기반 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Playwright",
+          "Puppeteer",
+          "Selenium",
+          "Browserbase"
+        ]
+      },
+      {
+        "type": "RPA·데스크톱",
+        "description": "RPA·데스크톱 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "UiPath"
+        ]
+      },
+      {
+        "type": "개인 브라우저 자동화",
+        "description": "개인 브라우저 자동화 방식의 도구입니다. 팀의 운영 역량과 통합 요구에 맞춰 비교하세요.",
+        "examples": [
+          "Bardeen"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "playwright",
+      "name": "Playwright",
+      "rank": 1,
+      "tags": [
+        "코드 기반",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "Playwright은 현대 브라우저 테스트 자동화에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "현대 브라우저 테스트 자동화",
+          "body": "코드 기반 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "현대 브라우저 테스트 자동화을 우선순위로 두고 개발팀의 E2E·크롤링에 맞추려는 경우",
+      "comparison": {
+        "advantage": "현대 브라우저 테스트 자동화",
+        "meetingStyle": "코드 기반",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "개발팀의 E2E·크롤링"
+      },
+      "affiliate": {
+        "url": "https://playwright.dev/",
+        "ctaLabel": "Playwright 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "playwright",
+        "코드 기반"
+      ]
+    },
+    {
+      "slug": "puppeteer",
+      "name": "Puppeteer",
+      "rank": 2,
+      "tags": [
+        "코드 기반",
+        "개발자용",
+        "대표 후보"
+      ],
+      "quote": "Puppeteer은 Chrome 중심 제어에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "Chrome 중심 제어",
+          "body": "코드 기반 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "Chrome 중심 제어을 우선순위로 두고 Node.js 기반 자동화에 맞추려는 경우",
+      "comparison": {
+        "advantage": "Chrome 중심 제어",
+        "meetingStyle": "코드 기반",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Node.js 기반 자동화"
+      },
+      "affiliate": {
+        "url": "https://pptr.dev/",
+        "ctaLabel": "Puppeteer 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "puppeteer",
+        "코드 기반"
+      ]
+    },
+    {
+      "slug": "selenium",
+      "name": "Selenium",
+      "rank": 3,
+      "tags": [
+        "코드 기반",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Selenium은 오래된 표준·멀티 브라우저에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "오래된 표준·멀티 브라우저",
+          "body": "코드 기반 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "오래된 표준·멀티 브라우저을 우선순위로 두고 레거시·다언어 테스트팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "오래된 표준·멀티 브라우저",
+        "meetingStyle": "코드 기반",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "레거시·다언어 테스트팀"
+      },
+      "affiliate": {
+        "url": "https://www.selenium.dev/",
+        "ctaLabel": "Selenium 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "selenium",
+        "코드 기반"
+      ]
+    },
+    {
+      "slug": "browserbase",
+      "name": "Browserbase",
+      "rank": 4,
+      "tags": [
+        "코드 기반",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Browserbase은 클라우드 브라우저 인프라에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "클라우드 브라우저 인프라",
+          "body": "코드 기반 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "클라우드 브라우저 인프라을 우선순위로 두고 에이전트·대량 실행 팀에 맞추려는 경우",
+      "comparison": {
+        "advantage": "클라우드 브라우저 인프라",
+        "meetingStyle": "코드 기반",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "에이전트·대량 실행 팀"
+      },
+      "affiliate": {
+        "url": "https://www.browserbase.com/",
+        "ctaLabel": "Browserbase 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "browserbase",
+        "코드 기반"
+      ]
+    },
+    {
+      "slug": "ui-path",
+      "name": "UiPath",
+      "rank": 5,
+      "tags": [
+        "RPA·데스크톱",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "UiPath은 기업 RPA·웹 업무 자동화에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "teal",
+      "highlights": [
+        {
+          "title": "기업 RPA·웹 업무 자동화",
+          "body": "RPA·데스크톱 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "기업 RPA·웹 업무 자동화을 우선순위로 두고 사내 업무를 자동화할 조직에 맞추려는 경우",
+      "comparison": {
+        "advantage": "기업 RPA·웹 업무 자동화",
+        "meetingStyle": "RPA·데스크톱",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "사내 업무를 자동화할 조직"
+      },
+      "affiliate": {
+        "url": "https://www.uipath.com/",
+        "ctaLabel": "UiPath 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "ui-path",
+        "RPA·데스크톱"
+      ]
+    },
+    {
+      "slug": "bardeen",
+      "name": "Bardeen",
+      "rank": 6,
+      "tags": [
+        "개인 브라우저 자동화",
+        "개발자용",
+        "비교 검토"
+      ],
+      "quote": "Bardeen은 확장 기반 개인 업무 자동화에 초점을 둔 선택지입니다. 현재 스택·운영 인력·보안 요구와 함께 검토하세요.",
+      "quoteTone": "pink",
+      "highlights": [
+        {
+          "title": "확장 기반 개인 업무 자동화",
+          "body": "개인 브라우저 자동화 관점에서 도입·운영할 때 강점이 드러납니다."
+        },
+        {
+          "title": "공식 문서·통합",
+          "body": "실제 지원 범위와 팀의 기존 도구 연동은 도입 전에 공식 문서로 확인하세요."
+        }
+      ],
+      "cons": [
+        "기능 범위와 가격은 사용량·플랜에 따라 달라져 실제 워크로드로 검증해야 합니다.",
+        "관리형 서비스는 벤더 종속과 데이터 경로를 함께 검토해야 합니다."
+      ],
+      "notFor": [
+        "요구 기능·규정·지원 리전을 검증하지 않고 바로 표준으로 정할 때",
+        "운영 책임과 비용 모델을 비교할 시간이 전혀 없을 때"
+      ],
+      "bestFor": "확장 기반 개인 업무 자동화을 우선순위로 두고 리서치·세일즈 개인 업무에 맞추려는 경우",
+      "comparison": {
+        "advantage": "확장 기반 개인 업무 자동화",
+        "meetingStyle": "개인 브라우저 자동화",
+        "freeQuota": "무료·체험 또는 사용량 기반(공식 요금 확인)",
+        "freeQuotaHighlight": false,
+        "stackFit": "리서치·세일즈 개인 업무"
+      },
+      "affiliate": {
+        "url": "https://www.bardeen.ai/",
+        "ctaLabel": "Bardeen 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "bardeen",
+        "개인 브라우저 자동화"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "playwright",
+      "label": "현대 브라우저 테스트 자동화",
+      "recommend": "playwright",
+      "reason": "Playwright은 현대 브라우저 테스트 자동화에 초점을 둡니다."
+    },
+    {
+      "id": "puppeteer",
+      "label": "Chrome 중심 제어",
+      "recommend": "puppeteer",
+      "reason": "Puppeteer은 Chrome 중심 제어에 초점을 둡니다."
+    },
+    {
+      "id": "selenium",
+      "label": "오래된 표준·멀티 브라우저",
+      "recommend": "selenium",
+      "reason": "Selenium은 오래된 표준·멀티 브라우저에 초점을 둡니다."
+    },
+    {
+      "id": "browserbase",
+      "label": "클라우드 브라우저 인프라",
+      "recommend": "browserbase",
+      "reason": "Browserbase은 클라우드 브라우저 인프라에 초점을 둡니다."
+    },
+    {
+      "id": "ui-path",
+      "label": "기업 RPA·웹 업무 자동화",
+      "recommend": "ui-path",
+      "reason": "UiPath은 기업 RPA·웹 업무 자동화에 초점을 둡니다."
+    },
+    {
+      "id": "bardeen",
+      "label": "확장 기반 개인 업무 자동화",
+      "recommend": "bardeen",
+      "reason": "Bardeen은 확장 기반 개인 업무 자동화에 초점을 둡니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "ai-code-editors",
+      "title": "AI 코드 에디터"
+    },
+    {
+      "slug": "ai-coding-agents",
+      "title": "AI 코딩 에이전트"
+    },
+    {
+      "slug": "security-software",
+      "title": "보안 소프트웨어"
+    }
+  ],
+  "faq": [
+    {
+      "q": "무료 플랜만으로 운영할 수 있나요?",
+      "a": "프로토타입에는 가능할 수 있지만, 사용량·팀 기능·보안 요구에 따라 제한이 달라집니다. 구매 전 공식 요금과 한도를 확인하세요."
+    },
+    {
+      "q": "민감한 데이터나 시크릿을 넣어도 되나요?",
+      "a": "기본값으로 허용하지 마세요. 최소 권한·환경 분리·보존 정책을 확인하고, 회사 정책과 DPA를 검토한 뒤 필요한 범위만 연결하세요."
+    }
+  ]
+}

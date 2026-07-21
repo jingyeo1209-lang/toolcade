@@ -1,0 +1,419 @@
+{
+  "category": {
+    "slug": "a-b-testing",
+    "title": "A/B 테스트",
+    "headline": "감으로 바꾸지 말고, 숫자로 확인하세요",
+    "subtitle": "Optimizely·VWO·LaunchDarkly부터 Statsig·PostHog·GrowthBook까지. 실험·피처 플래그·분석 기준으로 실무용 A/B 테스트 툴을 골랐습니다.",
+    "updatedAt": "2026-07-21",
+    "seo": {
+      "title": "A/B 테스트 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Optimizely, VWO, LaunchDarkly, Statsig, PostHog, GrowthBook을 실험·피처 플래그·가격 기준으로 비교."
+    },
+    "compareTitle": "가격 · 잘 맞는 팀",
+    "statLabel": "실험 유형"
+  },
+  "guide": {
+    "title": "A/B 테스트 툴이란?",
+    "summary": "두 가지 이상 변형을 사용자에게 나눠 보여 주고, 전환·참여 지표로 승자를 가리는 실험 도구입니다. 시각 편집기형 CRO부터 개발자형 피처 플래그·실험 플랫폼까지 포함합니다.",
+    "howToChoose": [
+      "마케터가 코드 없이 페이지를 바꿀지, 개발자가 플래그로 기능을 나눌지 먼저 정하세요.",
+      "트래픽·통계적 유의성·가드레일(성능·오류)이 필요한 규모인지 보세요.",
+      "이미 쓰는 분석 스택(PostHog·Amplitude 등)과 중복을 줄일 수 있는지 확인하세요.",
+      "셀프호스트·데이터 주권이 필요하면 오픈소스 실험 플랫폼을 검토하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "CRO·시각 실험형",
+        "description": "페이지 요소를 바꿔 전환을 올립니다. 마케팅·그로스 팀에 익숙합니다.",
+        "examples": [
+          "Optimizely",
+          "VWO"
+        ]
+      },
+      {
+        "type": "피처 플래그·실험형",
+        "description": "코드를 플래그로 켜고 끄며 점진 배포·실험을 합니다. 제품·엔지니어링에 맞습니다.",
+        "examples": [
+          "LaunchDarkly",
+          "Statsig",
+          "GrowthBook"
+        ]
+      },
+      {
+        "type": "제품 분석 일체형",
+        "description": "이벤트 분석과 실험을 한 제품에 둡니다. 스택을 단순화하기 좋습니다.",
+        "examples": [
+          "PostHog"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "optimizely",
+      "name": "Optimizely",
+      "rank": 1,
+      "tags": [
+        "CRO",
+        "엔터프라이즈",
+        "실험"
+      ],
+      "quote": "대규모 웹 실험·개인화의 대표 후보입니다. 거버넌스와 실험 운영 성숙도가 높습니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "엔터프라이즈 실험",
+          "body": "권한·워크플로·개인화까지 큰 조직의 실험 운영에 맞춰져 있습니다."
+        },
+        {
+          "title": "웹·풀스택",
+          "body": "클라이언트 실험뿐 아니라 서버 사이드 실험 범위도 넓습니다."
+        }
+      ],
+      "cons": [
+        "중소팀에는 가격·도입 비용이 부담될 수 있습니다.",
+        "가벼운 플래그 전용 툴보다 무거울 수 있습니다."
+      ],
+      "notFor": [
+        "주간 실험 1~2개뿐인 초기 스타트업",
+        "오픈소스·셀프호스트만 원할 때"
+      ],
+      "bestFor": "대규모 웹·디지털 실험을 운영하는 조직",
+      "comparison": {
+        "advantage": "엔터프라이즈 CRO·실험",
+        "meetingStyle": "CRO·시각 실험형",
+        "freeQuota": "유료·견적",
+        "stackFit": "대기업·그로스"
+      },
+      "affiliate": {
+        "url": "https://www.optimizely.com/",
+        "ctaLabel": "Optimizely 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "enterprise",
+        "cro"
+      ]
+    },
+    {
+      "slug": "vwo",
+      "name": "VWO",
+      "rank": 2,
+      "tags": [
+        "CRO",
+        "비주얼",
+        "리서치"
+      ],
+      "quote": "시각 편집기·히트맵·설문까지 CRO 툴킷이 한곳에 가깝습니다. 마케팅 팀이 직접 실험하기 좋습니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "비주얼 에디터",
+          "body": "코드 없이도 페이지 변형을 만들어 실험하기 쉽습니다."
+        },
+        {
+          "title": "리서치 묶음",
+          "body": "히트맵·세션·설문과 실험을 같이 보면 가설→검증 루프가 짧아집니다."
+        }
+      ],
+      "cons": [
+        "고급 서버 사이드·대규모 플래그 체계는 전용 플래그 플랫폼이 더 맞을 수 있습니다.",
+        "트래픽·기능에 따라 비용이 올라갑니다."
+      ],
+      "notFor": [
+        "피처 플래그만 필요할 때",
+        "완전 개발자 중심 실험만 할 때"
+      ],
+      "bestFor": "마케팅·CRO 팀이 웹 전환 실험을 돌릴 때",
+      "comparison": {
+        "advantage": "시각 CRO·리서치",
+        "meetingStyle": "CRO·시각 실험형",
+        "freeQuota": "무료+(유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "마케팅·그로스"
+      },
+      "affiliate": {
+        "url": "https://vwo.com/",
+        "ctaLabel": "VWO 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "visual",
+        "marketing"
+      ]
+    },
+    {
+      "slug": "launchdarkly",
+      "name": "LaunchDarkly",
+      "rank": 3,
+      "tags": [
+        "플래그",
+        "점진 배포",
+        "엔터프라이즈"
+      ],
+      "quote": "피처 플래그의 사실상 표준에 가깝습니다. 실험보다 ‘안전하게 켜고 끄기’가 핵심인 팀에 맞습니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "플래그 거버넌스",
+          "body": "타깃팅·권한·감사로 프로덕션 플래그를 체계적으로 관리합니다."
+        },
+        {
+          "title": "점진 배포",
+          "body": "퍼센트 롤아웃으로 위험을 낮추며 기능을 내보낼 수 있습니다."
+        }
+      ],
+      "cons": [
+        "순수 마케터용 시각 A/B보다 개발 연동이 전제입니다.",
+        "엔터프라이즈 가격대가 부담될 수 있습니다."
+      ],
+      "notFor": [
+        "노코드로만 랜딩을 실험할 때",
+        "이벤트 분석까지 한 툴에 넣고 싶을 때(PostHog 등)"
+      ],
+      "bestFor": "제품·엔지니어링이 플래그 기반 배포·실험을 할 때",
+      "comparison": {
+        "advantage": "피처 플래그 표준",
+        "meetingStyle": "피처 플래그·실험형",
+        "freeQuota": "유료 중심",
+        "stackFit": "제품·엔지니어링"
+      },
+      "affiliate": {
+        "url": "https://launchdarkly.com/",
+        "ctaLabel": "LaunchDarkly 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "flags",
+        "eng"
+      ]
+    },
+    {
+      "slug": "statsig",
+      "name": "Statsig",
+      "rank": 4,
+      "tags": [
+        "실험",
+        "통계",
+        "제품"
+      ],
+      "quote": "통계·가드레일을 강조하는 제품 실험 플랫폼입니다. 데이터 팀이 실험 품질을 중시할 때 자주 후보에 오릅니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "실험 통계",
+          "body": "유의성·가드레일 중심으로 실험 설계·판독을 돕습니다."
+        },
+        {
+          "title": "플래그+실험",
+          "body": "피처 관리와 실험을 같은 제품 맥락에서 다루기 좋습니다."
+        }
+      ],
+      "cons": [
+        "시각 CRO 에디터 경험은 VWO·Optimizely와 결이 다릅니다.",
+        "도입 시 이벤트 스키마·계측 정리가 필요합니다."
+      ],
+      "notFor": [
+        "마케터만 코드 없이 배너 색을 바꿀 때",
+        "초소형 팀에 무거운 실험 조직이 없을 때"
+      ],
+      "bestFor": "제품·데이터 팀이 엄밀한 실험을 운영할 때",
+      "comparison": {
+        "advantage": "통계·제품 실험",
+        "meetingStyle": "피처 플래그·실험형",
+        "freeQuota": "무료+(유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "제품·데이터"
+      },
+      "affiliate": {
+        "url": "https://www.statsig.com/",
+        "ctaLabel": "Statsig 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "stats",
+        "product"
+      ]
+    },
+    {
+      "slug": "posthog",
+      "name": "PostHog",
+      "rank": 5,
+      "tags": [
+        "분석",
+        "오픈소스",
+        "올인원"
+      ],
+      "quote": "분석·세션·실험·플래그를 한 제품에 모읍니다. 스택을 줄이고 싶은 제품팀에 매력적입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "제품 분석 일체",
+          "body": "이벤트·퍼널과 실험을 같은 데이터 모델에서 보기 쉽습니다."
+        },
+        {
+          "title": "셀프호스트 옵션",
+          "body": "데이터 위치 통제가 필요하면 오픈소스·셀프호스트를 검토할 수 있습니다."
+        }
+      ],
+      "cons": [
+        "엔터프라이즈 CRO 전용 기능 깊이는 전문 CRO 스위트와 다를 수 있습니다.",
+        "기능을 많이 켜면 운영·학습 비용이 생깁니다."
+      ],
+      "notFor": [
+        "분석은 Amplitude, 실험은 다른 툴로 이미 고정됐을 때(중복 주의)",
+        "순수 시각 편집만 원할 때"
+      ],
+      "bestFor": "제품 분석과 실험을 한곳에서 돌리고 싶을 때",
+      "comparison": {
+        "advantage": "분석+실험 올인원",
+        "meetingStyle": "제품 분석 일체형",
+        "freeQuota": "무료+(유료/셀프호스트)",
+        "freeQuotaHighlight": true,
+        "stackFit": "스타트업 제품팀"
+      },
+      "affiliate": {
+        "url": "https://posthog.com/",
+        "ctaLabel": "PostHog 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "all-in-one",
+        "self-host"
+      ]
+    },
+    {
+      "slug": "growthbook",
+      "name": "GrowthBook",
+      "rank": 6,
+      "tags": [
+        "오픈소스",
+        "플래그",
+        "웨어하우스"
+      ],
+      "quote": "오픈소스 실험·플래그로 웨어하우스 데이터를 실험에 연결하기 좋습니다. 비용·통제를 중시할 때 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "오픈소스",
+          "body": "셀프호스트와 투명한 실험 엔진을 원할 때 적합합니다."
+        },
+        {
+          "title": "웨어하우스 네이티브",
+          "body": "이미 쌓인 분석 데이터를 실험 판독에 활용하는 흐름이 강점입니다."
+        }
+      ],
+      "cons": [
+        "노코드 시각 편집 UX는 마케팅 CRO 툴보다 약합니다.",
+        "셀프호스트 시 운영 책임이 생깁니다."
+      ],
+      "notFor": [
+        "완전 관리형만 원할 때",
+        "마케터 전용 비주얼 에디터가 필수일 때"
+      ],
+      "bestFor": "데이터·엔지니어링이 오픈소스 실험을 운영할 때",
+      "comparison": {
+        "advantage": "오픈소스·웨어하우스",
+        "meetingStyle": "피처 플래그·실험형",
+        "freeQuota": "오픈소스 무료+(클라우드)",
+        "freeQuotaHighlight": true,
+        "stackFit": "데이터·엔지니어링"
+      },
+      "affiliate": {
+        "url": "https://www.growthbook.io/",
+        "ctaLabel": "GrowthBook 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "oss",
+        "warehouse"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "enterprise-cro",
+      "label": "대규모 웹 CRO",
+      "recommend": "optimizely",
+      "reason": "엔터프라이즈 실험·개인화에 성숙합니다."
+    },
+    {
+      "id": "visual",
+      "label": "마케터가 시각 편집",
+      "recommend": "vwo",
+      "reason": "비주얼 에디터·리서치 묶음이 맞습니다."
+    },
+    {
+      "id": "flags",
+      "label": "플래그·점진 배포",
+      "recommend": "launchdarkly",
+      "reason": "플래그 거버넌스가 강합니다."
+    },
+    {
+      "id": "stats",
+      "label": "엄밀한 제품 실험",
+      "recommend": "statsig",
+      "reason": "통계·가드레일 중심입니다."
+    },
+    {
+      "id": "allinone",
+      "label": "분석+실험을 한곳에",
+      "recommend": "posthog",
+      "reason": "제품 분석과 실험을 묶습니다."
+    },
+    {
+      "id": "oss",
+      "label": "오픈소스·웨어하우스",
+      "recommend": "growthbook",
+      "reason": "셀프호스트·데이터 통제에 유리합니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "landing-page-builders",
+      "title": "랜딩페이지 빌더"
+    },
+    {
+      "slug": "best-seo-tools",
+      "title": "SEO 툴"
+    },
+    {
+      "slug": "no-code-platforms",
+      "title": "노코드 플랫폼"
+    }
+  ],
+  "faq": [
+    {
+      "q": "A/B 테스트와 피처 플래그 차이는?",
+      "a": "A/B는 승자를 가리는 실험이고, 플래그는 기능을 켜고 끄는 배포 스위치입니다. 많은 팀이 플래그 위에서 실험을 돌립니다."
+    },
+    {
+      "q": "트래픽이 적은데 실험을 해야 할까요?",
+      "a": "유의성을 얻기 어렵습니다. 정성 리서치·롤아웃 가드레일부터 하고, 트래픽이 쌓이면 실험 플랫폼을 키우세요."
+    },
+    {
+      "q": "분석 툴이 있는데 실험 툴이 또 필요해요?",
+      "a": "PostHog처럼 일체형이면 중복을 줄일 수 있습니다. 이미 Amplitude+LaunchDarkly처럼 나뉘어 잘 돌면 억지로 합치지 않아도 됩니다."
+    }
+  ]
+}
