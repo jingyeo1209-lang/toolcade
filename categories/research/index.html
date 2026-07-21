@@ -10,23 +10,22 @@
 </head>
 <body>
   <div id="ph-nav"></div>
-  <div class="ph-page">
-    <div class="ph-breadcrumb"><a href="../../index.html">Toolcade</a> / 리서치·정보수집</div>
-    <div class="ph-empty">
-      <div class="ph-empty-icon">🔍</div>
-      <h1>리서치·정보수집</h1>
-      <p>데스크 리서치와 자료 정리를 돕는 툴 큐레이션을 준비 중입니다.</p>
-      <a href="../../index.html" class="ph-cta">홈으로 돌아가기</a>
-    </div>
-  </div>
+  <div id="app"><p style="padding:2rem;color:#667085">로딩 중…</p></div>
   <div id="ph-footer"></div>
   <script src="../../data/categories.bundle.js"></script>
   <script src="../../js/paths.js"></script>
   <script src="../../js/shell.js"></script>
+  <script src="../../js/analytics.js"></script>
+  <script src="../../js/load-data.js"></script>
+  <script src="../../js/render.js"></script>
   <script>
-    ToolcadeShell.mountShell({
-      active: "category",
-      site: window.TOOLCADE_BUNDLES?.categories?.site,
+    ToolcadeRender.mountComingSoonPage({
+      slug: "research",
+      categoriesUrl: "data/categories.json",
+    }).catch((err) => {
+      console.error(err);
+      document.getElementById("app").innerHTML =
+        '<p style="padding:2rem;color:#dc2626">카테고리를 불러오지 못했습니다.</p>';
     });
   </script>
 </body>

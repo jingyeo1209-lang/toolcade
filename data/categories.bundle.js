@@ -11,30 +11,434 @@ window.TOOLCADE_BUNDLES["categories"] = {
     "affiliateDisclosure": "본 사이트의 일부 링크는 제휴(어필리에이트) 링크입니다. 링크를 통해 가입·결제가 이루어지면 툴케이드에 수수료가 발생할 수 있습니다. 추천 순위·리뷰 내용은 광고비와 무관하게 작성됩니다.",
     "adsDisclosure": "본 사이트는 Google AdSense 등 제3자 광고 서비스를 통해 광고를 게재할 수 있습니다. Google을 포함한 제3자 공급업체는 쿠키를 사용하여 이용자의 이 사이트 및 다른 사이트 방문 기록을 바탕으로 맞춤 광고를 표시할 수 있습니다."
   },
+  "groups": [
+    {
+      "slug": "work-productivity",
+      "title": "업무 & 생산성",
+      "description": "회의·문서·협업·일정 — 매일 쓰는 업무 툴"
+    },
+    {
+      "slug": "ai",
+      "title": "AI",
+      "description": "리서치·챗봇·코딩 등 AI로 업무를 줄이는 툴"
+    },
+    {
+      "slug": "engineering-development",
+      "title": "엔지니어링 & 개발",
+      "description": "자동화·노코드·개발 생산성"
+    },
+    {
+      "slug": "marketing-sales",
+      "title": "마케팅 & 세일즈",
+      "description": "유입·전환·세일즈 운영 툴"
+    },
+    {
+      "slug": "design-creative",
+      "title": "디자인 & 크리에이티브",
+      "description": "UI·이미지·크리에이티브 제작 툴"
+    }
+  ],
   "categories": [
     {
       "slug": "meeting-notes",
+      "group": "work-productivity",
       "title": "AI 미팅 노트",
-      "description": "AI 미팅 노트 6종 비교 — 봇 없는 녹음부터 Slack·Notion 연동, 실시간 전사까지",
+      "description": "회의를 자동으로 전사·요약하고 액션 아이템까지 정리하는 AI 노트 테이커",
       "emoji": "🎙️",
       "status": "published",
-      "path": "categories/meeting-notes/index.html"
+      "path": "categories/meeting-notes/index.html",
+      "toolCount": 6
     },
     {
-      "slug": "writing",
-      "title": "글쓰기·문서화",
-      "description": "기획안·PRD·커뮤니케이션 문서 툴 (준비 중)",
+      "slug": "meetings",
+      "group": "work-productivity",
+      "title": "미팅 운영",
+      "description": "안건·액션·미팅 로드를 관리하는 미팅 운영 툴",
+      "emoji": "🤝",
+      "status": "published",
+      "path": "categories/meetings/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "video-conferencing",
+      "group": "work-productivity",
+      "title": "화상회의",
+      "description": "원격·하이브리드 팀을 위한 화상회의와 화면 공유 툴",
+      "emoji": "📹",
+      "status": "published",
+      "path": "categories/video-conferencing/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "virtual-office",
+      "group": "work-productivity",
+      "title": "가상 오피스",
+      "description": "맵·상시 보이스·VR로 원격 공간감을 만드는 가상 오피스",
+      "emoji": "🏢",
+      "status": "published",
+      "path": "categories/virtual-office/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "calendars",
+      "group": "work-productivity",
+      "title": "캘린더",
+      "description": "일정·미팅·리마인더를 한곳에서 관리하는 캘린더 앱",
+      "emoji": "📅",
+      "status": "published",
+      "path": "categories/calendars/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "compliance-software",
+      "group": "work-productivity",
+      "title": "컴플라이언스 소프트웨어",
+      "description": "SOC 2·보안 감사 준비와 규제 준수를 자동화하는 컴플라이언스 툴",
+      "emoji": "✅",
+      "status": "published",
+      "path": "categories/compliance-software/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "customer-support",
+      "group": "work-productivity",
+      "title": "고객 지원",
+      "description": "이메일·채팅·인앱 문의에 응대하는 헬프데스크·공유 인박스 툴",
+      "emoji": "💬",
+      "status": "published",
+      "path": "categories/customer-support/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "e-signature",
+      "group": "work-productivity",
+      "title": "전자서명",
+      "description": "계약·문서에 전자서명을 요청하고 감사 추적하는 eSign 툴",
       "emoji": "✍️",
+      "status": "published",
+      "path": "categories/e-signature/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "scheduling",
+      "group": "work-productivity",
+      "title": "스케줄링",
+      "description": "가용 시간 맞추기와 예약 링크를 자동화하는 스케줄링 툴",
+      "emoji": "🗓️",
+      "status": "published",
+      "path": "categories/scheduling/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "email-clients",
+      "group": "work-productivity",
+      "title": "이메일 클라이언트",
+      "description": "여러 메일함을 정리하고 빠르게 처리하는 이메일 앱",
+      "emoji": "✉️",
+      "status": "published",
+      "path": "categories/email-clients/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "notes-documents",
+      "group": "work-productivity",
+      "title": "노트·문서",
+      "description": "아이디어 캡처부터 팀 문서까지, 노트와 문서화 툴",
+      "emoji": "📝",
+      "status": "published",
+      "path": "categories/notes-documents/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "spreadsheets",
+      "group": "work-productivity",
+      "title": "스프레드시트",
+      "description": "표 계산부터 DB형 시트·자동화까지 다루는 스프레드시트",
+      "emoji": "📊",
+      "status": "published",
+      "path": "categories/spreadsheets/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "writing-assistants",
+      "group": "work-productivity",
+      "title": "글쓰기 어시스턴트",
+      "description": "문장 다듬기·초안·톤 교정까지 돕는 AI 글쓰기 도구",
+      "emoji": "📝",
       "status": "coming-soon",
-      "path": "categories/writing/index.html"
+      "path": "categories/writing-assistants/index.html"
+    },
+    {
+      "slug": "project-management",
+      "group": "work-productivity",
+      "title": "프로젝트 관리",
+      "description": "태스크·일정·리소스를 한 보드에서 추적하는 PM 툴",
+      "emoji": "📋",
+      "status": "published",
+      "path": "categories/project-management/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "team-collaboration",
+      "group": "work-productivity",
+      "title": "팀 협업",
+      "description": "메시지·파일·워크스페이스를 묶는 팀 협업 플랫폼",
+      "emoji": "💬",
+      "status": "published",
+      "path": "categories/team-collaboration/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "knowledge-base",
+      "group": "work-productivity",
+      "title": "지식베이스",
+      "description": "팀 문서·FAQ·위키를 검색 가능하게 모으는 지식베이스",
+      "emoji": "📚",
+      "status": "published",
+      "path": "categories/knowledge-base/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "search",
+      "group": "work-productivity",
+      "title": "검색",
+      "description": "사이트·앱·웹에서 원하는 정보를 빠르게 찾는 검색 툴",
+      "emoji": "🔎",
+      "status": "published",
+      "path": "categories/search/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "file-storage",
+      "group": "work-productivity",
+      "title": "파일 저장·공유",
+      "description": "클라우드에 파일을 저장하고 권한 있게 공유하는 스토리지",
+      "emoji": "📁",
+      "status": "published",
+      "path": "categories/file-storage/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "pdf-editor",
+      "group": "work-productivity",
+      "title": "PDF 편집",
+      "description": "PDF를 편집·병합·압축·OCR하는 문서 툴",
+      "emoji": "📄",
+      "status": "published",
+      "path": "categories/pdf-editor/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "hiring-software",
+      "group": "work-productivity",
+      "title": "채용 소프트웨어",
+      "description": "공고·지원·면접·오퍼를 추적하는 ATS·채용 CRM 툴",
+      "emoji": "🧳",
+      "status": "published",
+      "path": "categories/hiring-software/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "resumes",
+      "group": "work-productivity",
+      "title": "이력서",
+      "description": "이력서·커버레터 작성과 지원 추적을 돕는 툴",
+      "emoji": "📎",
+      "status": "published",
+      "path": "categories/resumes/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "legal-services",
+      "group": "work-productivity",
+      "title": "법률·계약 소프트웨어",
+      "description": "CLM·로펌 운영·리걸 AI·디스커버리 등 법률 업무 툴",
+      "emoji": "⚖️",
+      "status": "published",
+      "path": "categories/legal-services/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "presentation-software",
+      "group": "work-productivity",
+      "title": "프레젠테이션",
+      "description": "슬라이드·데모·발표 자료를 만드는 프레젠테이션 툴",
+      "emoji": "🖥️",
+      "status": "published",
+      "path": "categories/presentation-software/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "product-demo",
+      "group": "work-productivity",
+      "title": "제품 데모",
+      "description": "영상·인터랙티브·샌드박스로 제품을 보여 주는 데모 툴",
+      "emoji": "🎬",
+      "status": "published",
+      "path": "categories/product-demo/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "screenshots-and-screen-recording",
+      "group": "work-productivity",
+      "title": "스크린샷·화면 녹화",
+      "description": "화면 캡처·주석·녹화로 설명과 버그 리포트를 남기는 툴",
+      "emoji": "🖼️",
+      "status": "published",
+      "path": "categories/screenshots-and-screen-recording/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "time-tracking",
+      "group": "work-productivity",
+      "title": "시간 추적",
+      "description": "업무 시간을 기록하고 어디에 쓰였는지 분석하는 트래커",
+      "emoji": "⏱️",
+      "status": "published",
+      "path": "categories/time-tracking/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "ad-blockers",
+      "group": "work-productivity",
+      "title": "광고 차단",
+      "description": "브라우저·기기에서 광고와 트래커를 막아 집중과 속도를 지키는 툴",
+      "emoji": "🛡️",
+      "status": "published",
+      "path": "categories/ad-blockers/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "web-browsers",
+      "group": "work-productivity",
+      "title": "웹 브라우저",
+      "description": "웹 호환·프라이버시·생산성 UX를 고르는 브라우저",
+      "emoji": "🌐",
+      "status": "published",
+      "path": "categories/web-browsers/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "password-managers",
+      "group": "work-productivity",
+      "title": "비밀번호 관리자",
+      "description": "비밀번호·패스키·2FA를 금고에 저장하고 공유하는 툴",
+      "emoji": "🔐",
+      "status": "published",
+      "path": "categories/password-managers/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "security-software",
+      "group": "work-productivity",
+      "title": "보안 소프트웨어",
+      "description": "엔드포인트·신원·앱섹으로 위협을 줄이는 보안 툴",
+      "emoji": "🔒",
+      "status": "published",
+      "path": "categories/security-software/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "app-switcher",
+      "group": "work-productivity",
+      "title": "앱 스위처",
+      "description": "앱·창 사이를 키보드로 빠르게 전환하고 실행하는 런처·스위처 툴",
+      "emoji": "⌨️",
+      "status": "published",
+      "path": "categories/app-switcher/index.html",
+      "toolCount": 6
     },
     {
       "slug": "research",
+      "group": "ai",
       "title": "리서치·정보수집",
-      "description": "데스크 리서치와 자료 정리를 돕는 툴 (준비 중)",
+      "description": "데스크 리서치와 자료 정리·요약을 돕는 AI 리서치 툴",
       "emoji": "🔍",
       "status": "coming-soon",
       "path": "categories/research/index.html"
+    },
+    {
+      "slug": "ai-chatbots",
+      "group": "ai",
+      "title": "AI 챗봇",
+      "description": "질문·초안·브레인스토밍을 대화로 처리하는 AI 챗봇",
+      "emoji": "🤖",
+      "status": "coming-soon",
+      "path": "categories/ai-chatbots/index.html"
+    },
+    {
+      "slug": "ai-coding",
+      "group": "ai",
+      "title": "AI 코딩 어시스턴트",
+      "description": "코드 작성·리뷰·디버깅을 돕는 AI 개발 어시스턴트",
+      "emoji": "💻",
+      "status": "coming-soon",
+      "path": "categories/ai-coding/index.html"
+    },
+    {
+      "slug": "automation",
+      "group": "engineering-development",
+      "title": "AI 워크플로 자동화",
+      "description": "앱 간 반복 업무를 AI·규칙으로 잇는 워크플로 자동화 툴",
+      "emoji": "⚡",
+      "status": "published",
+      "path": "categories/automation/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "cms",
+      "group": "engineering-development",
+      "title": "CMS",
+      "description": "웹·앱 콘텐츠를 만들고 관리하는 전통형·빌더·헤드리스 CMS",
+      "emoji": "📰",
+      "status": "published",
+      "path": "categories/cms/index.html",
+      "toolCount": 6
+    },
+    {
+      "slug": "no-code-platforms",
+      "group": "engineering-development",
+      "title": "노코드 플랫폼",
+      "description": "코드 없이 앱·사이트·내부 툴을 만드는 노코드 플랫폼",
+      "emoji": "🧱",
+      "status": "coming-soon",
+      "path": "categories/no-code-platforms/index.html"
+    },
+    {
+      "slug": "best-seo-tools",
+      "group": "marketing-sales",
+      "title": "SEO 툴",
+      "description": "키워드·콘텐츠·검색 노출을 관리하는 SEO 툴",
+      "emoji": "📈",
+      "status": "coming-soon",
+      "path": "categories/best-seo-tools/index.html"
+    },
+    {
+      "slug": "landing-page-builders",
+      "group": "marketing-sales",
+      "title": "랜딩페이지 빌더",
+      "description": "캠페인용 랜딩페이지를 빠르게 만들고 전환을 측정하는 빌더",
+      "emoji": "🚀",
+      "status": "coming-soon",
+      "path": "categories/landing-page-builders/index.html"
+    },
+    {
+      "slug": "interface-design",
+      "group": "design-creative",
+      "title": "인터페이스 디자인",
+      "description": "UI·프로토타입·디자인 시스템을 만드는 인터페이스 툴",
+      "emoji": "🎨",
+      "status": "coming-soon",
+      "path": "categories/interface-design/index.html"
+    },
+    {
+      "slug": "ai-generative-art",
+      "group": "design-creative",
+      "title": "AI 이미지 생성",
+      "description": "텍스트·레퍼런스로 이미지·비주얼을 생성하는 AI 툴",
+      "emoji": "🖼️",
+      "status": "coming-soon",
+      "path": "categories/ai-generative-art/index.html"
     }
   ]
 }

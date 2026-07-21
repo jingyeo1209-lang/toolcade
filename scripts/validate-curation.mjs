@@ -71,8 +71,14 @@ function validateCategoryContent(relPath) {
     if (!Array.isArray(tool.notFor) || tool.notFor.length === 0) {
       fail(`${label}: notFor required (at least 1)`);
     }
-    if (!tool.comparison?.advantage || !tool.comparison?.freeQuota || !tool.comparison?.botVisibility) {
-      fail(`${label}: comparison.advantage/freeQuota/botVisibility required`);
+    if (!tool.comparison?.advantage || !tool.comparison?.freeQuota) {
+      fail(`${label}: comparison.advantage/freeQuota required`);
+    }
+    const cmpKeys = Object.keys(tool.comparison || {}).filter(
+      (k) => !["advantage", "freeQuota", "freeQuotaHighlight"].includes(k)
+    );
+    if (cmpKeys.length < 1) {
+      fail(`${label}: comparison needs at least one extra dimension (e.g. meetingStyle, botVisibility)`);
     }
     if (!tool.affiliate?.url || !tool.affiliate?.ctaLabel) {
       fail(`${label}: affiliate.url/ctaLabel required`);
@@ -110,10 +116,29 @@ function validateSite() {
   if (!cats.site?.contactEmail) {
     warn("categories.json: site.contactEmail missing — recommended for AdSense/trust pages");
   }
+  if (!Array.isArray(cats.groups) || cats.groups.length === 0) {
+    fail("categories.json: groups required (PH-style category taxonomy)");
+  }
   if (!Array.isArray(cats.categories) || cats.categories.length === 0) {
     fail("categories.json: categories required");
   }
+
+  const groupSlugs = new Set();
+  for (const g of cats.groups) {
+    if (!g.slug || !g.title) fail(`categories.json: group missing slug/title`);
+    if (groupSlugs.has(g.slug)) fail(`categories.json: duplicate group "${g.slug}"`);
+    groupSlugs.add(g.slug);
+  }
+
+  const catSlugs = new Set();
   for (const c of cats.categories) {
+    if (!c.slug || !c.title) fail(`categories.json: category missing slug/title`);
+    if (catSlugs.has(c.slug)) fail(`categories.json: duplicate category "${c.slug}"`);
+    catSlugs.add(c.slug);
+    if (!c.group || !groupSlugs.has(c.group)) {
+      fail(`categories.json: category "${c.slug}" has invalid group "${c.group}"`);
+    }
+    if (!c.description) warn(`categories.json: category "${c.slug}" missing description`);
     if (c.status === "published" && !c.path) {
       fail(`categories.json: published category "${c.slug}" missing path`);
     }
@@ -122,6 +147,37 @@ function validateSite() {
 
 validateSite();
 validateCategoryContent("data/meeting-notes.json");
+validateCategoryContent("data/video-conferencing.json");
+validateCategoryContent("data/automation.json");
+validateCategoryContent("data/ad-blockers.json");
+validateCategoryContent("data/app-switcher.json");
+validateCategoryContent("data/cms.json");
+validateCategoryContent("data/calendars.json");
+validateCategoryContent("data/compliance-software.json");
+validateCategoryContent("data/customer-support.json");
+validateCategoryContent("data/e-signature.json");
+validateCategoryContent("data/email-clients.json");
+validateCategoryContent("data/file-storage.json");
+validateCategoryContent("data/hiring-software.json");
+validateCategoryContent("data/knowledge-base.json");
+validateCategoryContent("data/legal-services.json");
+validateCategoryContent("data/meetings.json");
+validateCategoryContent("data/notes-documents.json");
+validateCategoryContent("data/pdf-editor.json");
+validateCategoryContent("data/password-managers.json");
+validateCategoryContent("data/presentation-software.json");
+validateCategoryContent("data/product-demo.json");
+validateCategoryContent("data/project-management.json");
+validateCategoryContent("data/resumes.json");
+validateCategoryContent("data/scheduling.json");
+validateCategoryContent("data/screenshots-and-screen-recording.json");
+validateCategoryContent("data/search.json");
+validateCategoryContent("data/security-software.json");
+validateCategoryContent("data/spreadsheets.json");
+validateCategoryContent("data/team-collaboration.json");
+validateCategoryContent("data/time-tracking.json");
+validateCategoryContent("data/virtual-office.json");
+validateCategoryContent("data/web-browsers.json");
 
 if (warnings.length) {
   console.log("Warnings:");

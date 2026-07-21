@@ -71,6 +71,57 @@
   color: var(--ph-text-secondary);
 }
 
+.ws-lead--soft {
+  margin-top: -12px;
+  margin-bottom: 28px;
+  max-width: 640px;
+  font-size: 0.9375rem;
+  color: var(--ph-text-muted);
+}
+
+.ws-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 0.8125rem;
+  color: var(--ph-text-muted);
+}
+
+.ws-breadcrumb a {
+  color: var(--ph-text-secondary);
+  text-decoration: none;
+}
+
+.ws-breadcrumb a:hover { color: var(--ph-brand); }
+
+.ws-related-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ws-related-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid var(--ph-border);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ph-text);
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.ws-related-chip:hover {
+  border-color: var(--ph-brand-muted);
+  background: var(--ph-brand-soft);
+  color: var(--ph-brand);
+}
+
 .ws-band--dark .ws-lead { color: rgba(255, 255, 255, 0.75); }
 
 .ws-stat-row {
@@ -504,6 +555,194 @@
 .ws-tool-band--granola { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
 .ws-tool-band--meetgeek { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
 .ws-tool-band--tldv { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--zoom { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--google-meet { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--microsoft-teams { background: linear-gradient(135deg, var(--ph-brand-soft), var(--ph-brand-tint)); }
+.ws-tool-band--whereby { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--discord { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--jitsi { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--zapier { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--make { background: linear-gradient(135deg, #faf5ff, #f3e8ff); }
+.ws-tool-band--n8n { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--relay { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--bardeen { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--activepieces { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--ublock-origin { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--adguard { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--brave-shields { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--privacy-badger { background: linear-gradient(135deg, #fffbeb, #fef3c7); }
+.ws-tool-band--ghostery { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--ublock-origin-lite { background: linear-gradient(135deg, #fef2f2, #fecaca); }
+.ws-tool-band--raycast { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--alfred { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--alttab { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--powertoys-command-palette { background: linear-gradient(135deg, #eff6ff, #e0f2fe); }
+.ws-tool-band--flow-launcher { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--contexts { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--wordpress { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--webflow { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--sanity { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--contentful { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--strapi { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--ghost { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--google-calendar { background: linear-gradient(135deg, #eff6ff, #dcfce7); }
+.ws-tool-band--outlook-calendar { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--notion-calendar { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--fantastical { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--motion { background: linear-gradient(135deg, #eef2ff, #ede9fe); }
+.ws-tool-band--reclaim { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--vanta { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--drata { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--secureframe { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--sprinto { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--thoropass { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--onetrust { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--zendesk { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--intercom { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--freshdesk { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--help-scout { background: linear-gradient(135deg, #eff6ff, #e0f2fe); }
+.ws-tool-band--gorgias { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--front { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--docusign { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--dropbox-sign { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--adobe-sign { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--pandadoc { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--signnow { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--docuseal { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--superhuman { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--spark { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--outlook-mail { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--apple-mail { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--shortwave { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--thunderbird { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--google-drive { background: linear-gradient(135deg, #eff6ff, #dcfce7); }
+.ws-tool-band--dropbox { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--onedrive { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--box { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--icloud-drive { background: linear-gradient(135deg, #eff6ff, #e0f2fe); }
+.ws-tool-band--nextcloud { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--greenhouse { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--ashby { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--lever { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--workable { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--bamboohr { background: linear-gradient(135deg, #f7fee7, #ecfccb); }
+.ws-tool-band--jazzhr { background: linear-gradient(135deg, #fffbeb, #fef3c7); }
+.ws-tool-band--notion-kb { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--confluence { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--guru { background: linear-gradient(135deg, #eef2ff, #ede9fe); }
+.ws-tool-band--coda { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--slab { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--gitbook { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--ironclad { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--clio { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--harvey { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--spellbook { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--lawgeex { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--relativity { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+
+.ws-tool-band--fellow { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--range { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--spinach { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--supernormal { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--clockwise { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--reclaim { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--notion-notes { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--obsidian { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--craft { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--bear { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--evernote { background: linear-gradient(135deg, #f7fee7, #ecfccb); }
+.ws-tool-band--reflect { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--adobe-acrobat { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--foxit { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--pdf-expert { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--smallpdf { background: linear-gradient(135deg, #fff1f2, #ffe4e6); }
+.ws-tool-band--sejda { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--pdfgear { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--onepassword { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--bitwarden { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--proton-pass { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--dashlane { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--keeper { background: linear-gradient(135deg, #fefce8, #fef9c3); }
+.ws-tool-band--nordpass { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--powerpoint { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--google-slides { background: linear-gradient(135deg, #fffbeb, #fef3c7); }
+.ws-tool-band--keynote { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--canva-present { background: linear-gradient(135deg, #ecfeff, #cffafe); }
+.ws-tool-band--pitch { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--gamma { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--loom { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--navattic { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--storylane { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--walnut { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--demostack { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--tourial { background: linear-gradient(135deg, #ecfdf5, #d1fae5); }
+.ws-tool-band--linear { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--jira { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--asana { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--clickup { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--monday { background: linear-gradient(135deg, #fff1f2, #ffe4e6); }
+.ws-tool-band--trello { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--teal { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--rezi { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--kickresume { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--novoresume { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--resume-io { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--enhancv { background: linear-gradient(135deg, #fff1f2, #ffe4e6); }
+.ws-tool-band--calendly { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--calcom { background: linear-gradient(135deg, #f8fafc, #e2e8f0); }
+.ws-tool-band--savvycal { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--motion { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--tidycal { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--ms-bookings { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+
+.ws-tool-band--cleanshot { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--snagit { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--loom-capture { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--obs { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--zight { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--shottr { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--algolia { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--elasticsearch { background: linear-gradient(135deg, #fefce8, #fef9c3); }
+.ws-tool-band--meilisearch { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--typesense { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--coveo { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--kagi { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--crowdstrike { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--sentinelone { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--malwarebytes { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--bitdefender { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--okta { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--snyk { background: linear-gradient(135deg, #fefce8, #fef9c3); }
+.ws-tool-band--excel { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--google-sheets { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--airtable { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--smartsheet { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--rows { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--nocodb { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--slack { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--microsoft-teams-collab { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--discord-collab { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--twist { background: linear-gradient(135deg, #fefce8, #fef9c3); }
+.ws-tool-band--mattermost { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--google-chat { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--toggl { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--clockify { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--harvest { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--rescuetime { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--timely { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--hubstaff { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--gather { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--tandem { background: linear-gradient(135deg, #fefce8, #fef9c3); }
+.ws-tool-band--remo { background: linear-gradient(135deg, #eef2ff, #e0e7ff); }
+.ws-tool-band--sococo { background: linear-gradient(135deg, #fdf2f8, #fce7f3); }
+.ws-tool-band--immersed { background: linear-gradient(135deg, #f5f3ff, #ede9fe); }
+.ws-tool-band--wonder { background: linear-gradient(135deg, #eff6ff, #dbeafe); }
+.ws-tool-band--chrome { background: linear-gradient(135deg, #f0fdf4, #dcfce7); }
+.ws-tool-band--firefox { background: linear-gradient(135deg, #fff7ed, #ffedd5); }
+.ws-tool-band--safari { background: linear-gradient(135deg, #f0f9ff, #e0f2fe); }
+.ws-tool-band--arc { background: linear-gradient(135deg, #fef2f2, #fee2e2); }
+.ws-tool-band--brave { background: linear-gradient(135deg, #f0fdfa, #ccfbf1); }
+.ws-tool-band--edge { background: linear-gradient(135deg, #fefce8, #fef9c3); }
 
 /* FAQ */
 .ws-faq-grid {

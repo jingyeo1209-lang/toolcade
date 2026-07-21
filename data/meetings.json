@@ -1,0 +1,437 @@
+{
+  "category": {
+    "slug": "meetings",
+    "title": "미팅 운영",
+    "headline": "미팅은 많은데, 안건·액션은 어디로 갔나요?",
+    "subtitle": "Fellow·Range·Spinach부터 Supernormal·Clockwise·Reclaim까지. 안건·액션·미팅 로드 기준으로 실무용 미팅 운영 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "미팅 운영 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Fellow, Range, Spinach, Supernormal, Clockwise, Reclaim을 안건·액션·캘린더 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "미팅 유형"
+  },
+  "guide": {
+    "title": "미팅 운영 툴이란?",
+    "summary": "안건·노트·액션 아이템·미팅 로드를 관리해 ‘회의만 하고 끝나는’ 문제를 줄이는 도구입니다. AI 전사(미팅 노트)나 화상회의 앱과는 겹치되, 운영·캘린더 최적화에 초점이 있습니다.",
+    "howToChoose": [
+      "안건·액션 추적(미팅 OS)이 필요한지, 캘린더에서 미팅 시간을 줄이는 게 목적인지 나누세요.",
+      "이미 Fireflies·Fathom 같은 전사 툴이 있으면, 중복 AI 노트보다 안건·팔로업 툴을 보세요.",
+      "슬랙/캘린더 어디에 팀이 사는지 확인하세요. 네이티브 연동이 채택을 좌우합니다.",
+      "개인 포커스 타임 보호(Clockwise·Reclaim)와 팀 미팅 문화(Fellow)는 목적이 다릅니다."
+    ],
+    "recordingTypes": [
+      {
+        "type": "미팅 OS·안건형",
+        "description": "안건·노트·액션을 미팅 전후로 묶습니다. 팀 문화를 바꾸기 좋지만 도입 습관이 필요합니다.",
+        "examples": [
+          "Fellow",
+          "Range"
+        ]
+      },
+      {
+        "type": "AI 미팅 어시스턴트형",
+        "description": "봇/슬랙으로 요약·액션을 뽑습니다. 전사 카테고리와 겹칠 수 있습니다.",
+        "examples": [
+          "Spinach",
+          "Supernormal"
+        ]
+      },
+      {
+        "type": "캘린더·로드 최적화형",
+        "description": "미팅 밀도·포커스 타임을 자동으로 조정합니다. 안건 툴은 아닙니다.",
+        "examples": [
+          "Clockwise",
+          "Reclaim"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "fellow",
+      "name": "Fellow",
+      "rank": 1,
+      "tags": [
+        "미팅OS",
+        "안건",
+        "액션"
+      ],
+      "quote": "미팅을 ‘습관’으로 만들고 안건·액션을 남기려면, Fellow는 미팅 OS 후보로 자주 꼽힙니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "안건·액션 루프",
+          "body": "미팅 전 안건부터 후속 액션까지 한 흐름으로 묶어 회의 품질을 올립니다."
+        },
+        {
+          "title": "팀 습관화",
+          "body": "1:1·팀 미팅 템플릿으로 반복 회의를 표준화하기 좋습니다."
+        }
+      ],
+      "cons": [
+        "전사·녹화만 필요하면 오버스펙일 수 있습니다.",
+        "팀 전체가 써야 효과가 납니다."
+      ],
+      "notFor": [
+        "캘린더 미팅 수만 줄이고 싶을 때",
+        "개인 단독 사용만 원할 때"
+      ],
+      "bestFor": "안건·액션 중심의 팀 미팅 문화",
+      "comparison": {
+        "advantage": "미팅 OS·안건 표준",
+        "meetingStyle": "미팅 OS·안건형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "성장기 팀·1:1"
+      },
+      "affiliate": {
+        "url": "https://fellow.app/",
+        "ctaLabel": "Fellow 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "meeting-os",
+        "agendas"
+      ]
+    },
+    {
+      "slug": "range",
+      "name": "Range",
+      "rank": 2,
+      "tags": [
+        "체크인",
+        "비동기",
+        "팀리듬"
+      ],
+      "quote": "매일 미팅 대신 체크인으로 팀 맥락을 맞추려면, Range는 비동기 미팅 리듬 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "비동기 체크인",
+          "body": "스탠드업·상태 공유를 미팅 없이 돌리기 좋습니다."
+        },
+        {
+          "title": "팀 리듬",
+          "body": "목표·기분·블로커를 주기적으로 모아 미팅 부담을 줄입니다."
+        }
+      ],
+      "cons": [
+        "풀 1:1 안건 OS는 Fellow가 더 강할 수 있습니다.",
+        "전사·녹화 AI 요약은 전용 노트 툴이 더 맞습니다."
+      ],
+      "notFor": [
+        "전사 AI·녹화 분석이 핵심일 때",
+        "미팅 로드 자동 최적화가 목적일 때"
+      ],
+      "bestFor": "비동기 체크인·팀 리듬",
+      "comparison": {
+        "advantage": "비동기 체크인·리듬",
+        "meetingStyle": "미팅 OS·안건형",
+        "freeQuota": "유료 중심",
+        "freeQuotaHighlight": false,
+        "stackFit": "원격·하이브리드"
+      },
+      "affiliate": {
+        "url": "https://www.range.co/",
+        "ctaLabel": "Range 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "light-agenda"
+      ]
+    },
+    {
+      "slug": "spinach",
+      "name": "Spinach AI",
+      "rank": 3,
+      "tags": [
+        "슬랙",
+        "AI",
+        "스탠드업"
+      ],
+      "quote": "스탠드업·미팅 요약을 슬랙에서 돌리고 싶다면, Spinach는 봇 기반 미팅 어시스턴트 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "슬랙 네이티브",
+          "body": "슬랙에서 스탠드업·액션을 돌리기 좋은 흐름입니다."
+        },
+        {
+          "title": "AI 요약",
+          "body": "미팅 후 요약·할 일을 빠르게 뽑는 데 초점이 있습니다."
+        }
+      ],
+      "cons": [
+        "풀 미팅 OS·1:1 프레임워크는 Fellow가 더 강할 수 있습니다.",
+        "슬랙 밖 팀에는 가치가 줄어듭니다."
+      ],
+      "notFor": [
+        "슬랙을 안 쓸 때",
+        "캘린더 최적화만 필요할 때"
+      ],
+      "bestFor": "슬랙 중심 스탠드업·미팅 요약",
+      "comparison": {
+        "advantage": "슬랙 AI 미팅 봇",
+        "meetingStyle": "AI 미팅 어시스턴트형",
+        "freeQuota": "유료(플랜)",
+        "freeQuotaHighlight": false,
+        "stackFit": "슬랙 팀"
+      },
+      "affiliate": {
+        "url": "https://www.spinach.ai/",
+        "ctaLabel": "Spinach AI 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "slack-meetings"
+      ]
+    },
+    {
+      "slug": "supernormal",
+      "name": "Supernormal",
+      "rank": 4,
+      "tags": [
+        "AI노트",
+        "팔로업",
+        "녹화"
+      ],
+      "quote": "미팅 후 팔로업 메일·노트를 자동으로 남기고 싶다면, Supernormal은 AI 미팅 어시스턴트 쪽에 가깝습니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "팔로업 자동화",
+          "body": "요약뿐 아니라 후속 커뮤니케이션까지 줄이는 데 초점이 있습니다."
+        },
+        {
+          "title": "멀티 미팅 툴",
+          "body": "Zoom·Meet 등과 붙여 쓰기 좋은 편입니다."
+        }
+      ],
+      "cons": [
+        "순수 안건 문화 구축만이면 Fellow가 더 맞을 수 있습니다.",
+        "미팅 노트 카테고리 툴과 기능이 겹칩니다."
+      ],
+      "notFor": [
+        "봇 없는 로컬 녹음만 원할 때",
+        "미팅 시간 자체를 줄이는 게 목표일 때"
+      ],
+      "bestFor": "AI 요약·팔로업이 필요한 미팅",
+      "comparison": {
+        "advantage": "AI 요약·팔로업",
+        "meetingStyle": "AI 미팅 어시스턴트형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "원격·고객미팅"
+      },
+      "affiliate": {
+        "url": "https://supernormal.com/",
+        "ctaLabel": "Supernormal 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "ai-followup"
+      ]
+    },
+    {
+      "slug": "clockwise",
+      "name": "Clockwise",
+      "rank": 5,
+      "tags": [
+        "포커스",
+        "캘린더",
+        "로드"
+      ],
+      "quote": "미팅이 하루를 조각내면, Clockwise는 포커스 타임을 지키고 미팅 배치를 재배치하는 쪽에 가깝습니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "포커스 타임",
+          "body": "집중 블록을 보호하고 미팅을 몰아 배치하는 데 강합니다."
+        },
+        {
+          "title": "팀 캘린더",
+          "body": "Google Calendar 중심 팀에서 미팅 로드를 줄이기 좋습니다."
+        }
+      ],
+      "cons": [
+        "안건·액션 추적은 하지 않습니다.",
+        "Outlook만 쓰는 환경은 제약이 있을 수 있습니다."
+      ],
+      "notFor": [
+        "미팅 OS·안건이 필요할 때",
+        "예약 링크(스케줄링)만 필요할 때"
+      ],
+      "bestFor": "미팅 밀도·포커스 타임 최적화",
+      "comparison": {
+        "advantage": "포커스·미팅 재배치",
+        "meetingStyle": "캘린더·로드 최적화형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "Google Calendar 팀"
+      },
+      "affiliate": {
+        "url": "https://www.getclockwise.com/",
+        "ctaLabel": "Clockwise 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "focus-time",
+        "meeting-load"
+      ]
+    },
+    {
+      "slug": "reclaim",
+      "name": "Reclaim.ai",
+      "rank": 6,
+      "tags": [
+        "습관",
+        "스마트캘린더",
+        "버퍼"
+      ],
+      "quote": "습관·버퍼·미팅을 캘린더에 자동으로 끼워 넣으려면, Reclaim은 스마트 타임블로킹 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "습관·버퍼",
+          "body": "운동·딥워크·출퇴근 버퍼를 미팅과 같이 스케줄합니다."
+        },
+        {
+          "title": "스마트 방어",
+          "body": "우선순위에 따라 일정을 방어·재배치하는 감각이 있습니다."
+        }
+      ],
+      "cons": [
+        "팀 안건 OS는 아닙니다.",
+        "자동화에 익숙해지기까지 설정이 필요합니다."
+      ],
+      "notFor": [
+        "안건·액션 툴이 필요할 때",
+        "단순 예약 페이지만 필요할 때"
+      ],
+      "bestFor": "습관·버퍼 포함 스마트 캘린더",
+      "comparison": {
+        "advantage": "습관·버퍼 타임블로킹",
+        "meetingStyle": "캘린더·로드 최적화형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "개인·하이브리드"
+      },
+      "affiliate": {
+        "url": "https://reclaim.ai/",
+        "ctaLabel": "Reclaim.ai 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "habits-calendar"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "meeting-os",
+      "label": "안건·액션 미팅 OS",
+      "recommend": "fellow",
+      "reason": "팀 미팅 문화를 표준화하기 좋습니다."
+    },
+    {
+      "id": "agendas",
+      "label": "1:1·팀 안건",
+      "recommend": "fellow",
+      "reason": "템플릿과 액션 루프가 강합니다."
+    },
+    {
+      "id": "light-agenda",
+      "label": "비동기 체크인",
+      "recommend": "range",
+      "reason": "미팅 없이 팀 맥락을 맞춥니다."
+    },
+    {
+      "id": "slack-meetings",
+      "label": "슬랙 스탠드업",
+      "recommend": "spinach",
+      "reason": "슬랙 네이티브 봇 흐름입니다."
+    },
+    {
+      "id": "ai-followup",
+      "label": "AI 팔로업",
+      "recommend": "supernormal",
+      "reason": "요약·후속을 자동화합니다."
+    },
+    {
+      "id": "focus-time",
+      "label": "포커스 타임 보호",
+      "recommend": "clockwise",
+      "reason": "미팅을 재배치해 집중 블록을 만듭니다."
+    },
+    {
+      "id": "meeting-load",
+      "label": "미팅 로드 줄이기",
+      "recommend": "clockwise",
+      "reason": "캘린더 밀도 최적화에 초점이 있습니다."
+    },
+    {
+      "id": "habits-calendar",
+      "label": "습관·버퍼 스케줄",
+      "recommend": "reclaim",
+      "reason": "타임블로킹과 습관을 같이 넣습니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "meeting-notes",
+      "title": "AI 미팅 노트"
+    },
+    {
+      "slug": "video-conferencing",
+      "title": "화상회의"
+    },
+    {
+      "slug": "scheduling",
+      "title": "스케줄링"
+    },
+    {
+      "slug": "calendars",
+      "title": "캘린더"
+    }
+  ],
+  "faq": [
+    {
+      "q": "미팅 노트 카테고리와 뭐가 다른가요?",
+      "a": "미팅 노트는 전사·요약에, 이 카테고리는 안건·액션·미팅 로드 운영에 초점이 있습니다. 둘 다 쓰는 팀도 많습니다."
+    },
+    {
+      "q": "Fellow vs Range?",
+      "a": "1:1·안건 OS면 Fellow, 미팅을 줄이는 비동기 체크인이면 Range를 먼저 보세요."
+    },
+    {
+      "q": "Clockwise는 미팅 툴인가요?",
+      "a": "안건 툴이라기보다 캘린더에서 미팅/포커스를 재배치하는 로드 최적화 툴입니다."
+    },
+    {
+      "q": "봇이 미팅에 참석해도 되나요?",
+      "a": "고객·보안 정책에 따라 다릅니다. 민감 미팅은 봇 없는 옵션이나 로컬 녹음을 검토하세요."
+    },
+    {
+      "q": "스케줄링(Calendly)과 차이는?",
+      "a": "스케줄링은 외부 예약 링크, 미팅 운영은 이미 잡힌 회의의 안건·품질·로드 관리입니다."
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "category": {
+    "slug": "web-browsers",
+    "title": "웹 브라우저",
+    "headline": "탭은 많은데, 브라우저가 일을 도와주나요?",
+    "subtitle": "Chrome·Firefox·Safari부터 Arc·Brave·Edge까지. 호환·프라이버시·생산성 기준으로 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "웹 브라우저 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Chrome, Firefox, Safari, Arc, Brave, Edge를 호환·프라이버시·생산성 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 사용자",
+    "statLabel": "브라우저 유형"
+  },
+  "guide": {
+    "title": "웹 브라우저란?",
+    "summary": "웹을 렌더링하고 확장·동기화·프라이버시 기능을 제공하는 기본 앱입니다. 검색·광고 차단과 겹치지만, 여기선 브라우저 자체에 초점이 있습니다.",
+    "howToChoose": [
+      "업무 웹앱 호환이 최우선이면 Chromium(Chrome/Edge/Brave/Arc)을 보세요.",
+      "프라이버시·오픈소스면 Firefox, Apple 생태계면 Safari가 기본입니다.",
+      "세로 탭·스페이스 등 생산성 UX면 Arc, 광고/트래커 차단 기본이면 Brave입니다.",
+      "기업은 관리 정책(Edge/Chrome)과 확장 프로그램 허용 목록을 확인하세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "호환·표준형",
+        "description": "웹앱 호환과 동기화가 넓습니다.",
+        "examples": [
+          "Chrome",
+          "Edge",
+          "Safari"
+        ]
+      },
+      {
+        "type": "프라이버시·오픈형",
+        "description": "추적 방지·오픈소스에 초점이 있습니다.",
+        "examples": [
+          "Firefox",
+          "Brave"
+        ]
+      },
+      {
+        "type": "생산성 UX형",
+        "description": "탭·스페이스 등 워크플로 UX를 강조합니다.",
+        "examples": [
+          "Arc"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "chrome",
+      "name": "Google Chrome",
+      "rank": 1,
+      "tags": [
+        "호환",
+        "확장",
+        "동기화"
+      ],
+      "quote": "웹앱이 ‘Chrome에서 열어 주세요’를 전제로 하면, Chrome은 여전히 호환성 기본값입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "호환·확장",
+          "body": "확장 프로그램과 웹앱 테스트 기준이 되는 경우가 많습니다."
+        },
+        {
+          "title": "동기화",
+          "body": "Google 계정으로 북마크·비밀번호 동기화가 쉽습니다."
+        }
+      ],
+      "cons": [
+        "RAM 사용·Google 계정 의존이 부담일 수 있습니다.",
+        "프라이버시 기본값은 Brave/Firefox가 더 강할 수 있습니다."
+      ],
+      "notFor": [
+        "광고·추적 최소화가 최우선일 때",
+        "Apple만 쓰고 Safari로 충분할 때"
+      ],
+      "bestFor": "최대 호환 업무 브라우저",
+      "comparison": {
+        "advantage": "웹앱 호환 표준",
+        "meetingStyle": "호환·표준형",
+        "freeQuota": "무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "대부분의 직장인"
+      },
+      "affiliate": {
+        "url": "https://www.google.com/chrome/",
+        "ctaLabel": "Google Chrome 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "compat",
+        "chrome"
+      ]
+    },
+    {
+      "slug": "firefox",
+      "name": "Firefox",
+      "rank": 2,
+      "tags": [
+        "오픈소스",
+        "프라이버시",
+        "확장"
+      ],
+      "quote": "Chromium 일색에서 벗어나 프라이버시·오픈소스를 지키려면, Firefox는 강력한 대안입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "프라이버시",
+          "body": "추적 방지와 독립 엔진(비 Chromium) 선택지가 됩니다."
+        },
+        {
+          "title": "확장",
+          "body": "컨테이너 등 생산성·보안 확장이 실무적입니다."
+        }
+      ],
+      "cons": [
+        "일부 사이트가 Chrome 최적화만 되어 깨질 수 있습니다.",
+        "기업 관리 정책은 Chrome/Edge가 더 흔합니다."
+      ],
+      "notFor": [
+        "100% Chrome 전용 웹앱만 쓸 때",
+        "Safari만 필요한 Apple 사용자"
+      ],
+      "bestFor": "프라이버시·오픈소스 브라우저",
+      "comparison": {
+        "advantage": "오픈소스·추적 방지",
+        "meetingStyle": "프라이버시·오픈형",
+        "freeQuota": "무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "프라이버시 중시"
+      },
+      "affiliate": {
+        "url": "https://www.mozilla.org/firefox/",
+        "ctaLabel": "Firefox 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "privacy-browser"
+      ]
+    },
+    {
+      "slug": "safari",
+      "name": "Safari",
+      "rank": 3,
+      "tags": [
+        "Apple",
+        "배터리",
+        "연동"
+      ],
+      "quote": "맥·아이폰에서 배터리와 시스템 연동이 중요하면, Safari는 Apple 기본 브라우저 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "배터리·최적화",
+          "body": "Apple 실리콘에서 효율이 좋은 편입니다."
+        },
+        {
+          "title": "생태계",
+          "body": "iCloud·연속성으로 기기 간 이어보기가 쉽습니다."
+        }
+      ],
+      "cons": [
+        "Windows 업무와 확장 생태계는 Chrome이 넓습니다.",
+        "일부 기업 웹앱이 Safari를 덜 테스트합니다."
+      ],
+      "notFor": [
+        "Windows 주력",
+        "Chrome 확장 필수 워크플로"
+      ],
+      "bestFor": "Apple 생태계 기본 브라우저",
+      "comparison": {
+        "advantage": "Apple 연동·효율",
+        "meetingStyle": "호환·표준형",
+        "freeQuota": "Apple 무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "Mac·iPhone 사용자"
+      },
+      "affiliate": {
+        "url": "https://www.apple.com/safari/",
+        "ctaLabel": "Safari 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "apple-browser"
+      ]
+    },
+    {
+      "slug": "arc",
+      "name": "Arc",
+      "rank": 4,
+      "tags": [
+        "생산성",
+        "스페이스",
+        "세로탭"
+      ],
+      "quote": "탭 지옥을 스페이스·세로 탭으로 정리하려면, Arc는 생산성 UX형 브라우저 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "스페이스·탭",
+          "body": "프로젝트별 공간으로 브라우징을 나누기 좋습니다."
+        },
+        {
+          "title": "모던 UX",
+          "body": "피닝·스플릿 등 파워유저 워크플로에 맞습니다."
+        }
+      ],
+      "cons": [
+        "Chromium 기반이라도 학습 곡선이 있습니다.",
+        "기업 표준 배포·장기 지원은 Chrome/Edge가 더 안전할 수 있습니다."
+      ],
+      "notFor": [
+        "변화 없는 기본 UI만 원할 때",
+        "완전 오픈소스만"
+      ],
+      "bestFor": "생산성 UX 중심 브라우징",
+      "comparison": {
+        "advantage": "스페이스·세로탭 UX",
+        "meetingStyle": "생산성 UX형",
+        "freeQuota": "무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "파워유저·지식노동자"
+      },
+      "affiliate": {
+        "url": "https://arc.net/",
+        "ctaLabel": "Arc 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "productivity-browser"
+      ]
+    },
+    {
+      "slug": "brave",
+      "name": "Brave",
+      "rank": 5,
+      "tags": [
+        "광고차단",
+        "프라이버시",
+        "Chromium"
+      ],
+      "quote": "Chrome 호환을 유지하면서 광고·트래커를 기본 차단하려면, Brave는 실무형 프라이버시 브라우저입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "기본 차단",
+          "body": "별도 확장 없이 광고·추적을 줄이기 좋습니다."
+        },
+        {
+          "title": "Chromium 호환",
+          "body": "확장·웹앱 호환을 크게 해치지 않는 편입니다."
+        }
+      ],
+      "cons": [
+        "일부 사이트 깨짐·보상형 광고 기능은 취향이 갈립니다.",
+        "기업 관리형으로는 Edge/Chrome이 더 흔합니다."
+      ],
+      "notFor": [
+        "사이트 호환 이슈를 절대 원하지 않을 때",
+        "Safari만 쓰는 Apple 사용자"
+      ],
+      "bestFor": "광고 차단 기본 Chromium",
+      "comparison": {
+        "advantage": "기본 광고·추적 차단",
+        "meetingStyle": "프라이버시·오픈형",
+        "freeQuota": "무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "프라이버시+호환"
+      },
+      "affiliate": {
+        "url": "https://brave.com/",
+        "ctaLabel": "Brave 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "brave-block"
+      ]
+    },
+    {
+      "slug": "edge",
+      "name": "Microsoft Edge",
+      "rank": 6,
+      "tags": [
+        "M365",
+        "기업",
+        "성능"
+      ],
+      "quote": "Windows·Microsoft 365 환경이면, Edge는 기업 관리와 성능 면에서 기본 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "기업 관리",
+          "body": "Intune 등과의 정책 배포가 실무적입니다."
+        },
+        {
+          "title": "Chromium+MS",
+          "body": "호환을 유지하며 Microsoft 서비스와 붙습니다."
+        }
+      ],
+      "cons": [
+        "Microsoft 푸시·번들이 거슬릴 수 있습니다.",
+        "프라이버시 기본 포지션은 Firefox/Brave가 더 명확합니다."
+      ],
+      "notFor": [
+        "Google 계정만 쓰는 팀의 유일한 선택",
+        "오픈소스만 허용될 때"
+      ],
+      "bestFor": "Windows·M365 기업 브라우저",
+      "comparison": {
+        "advantage": "기업 Windows 브라우저",
+        "meetingStyle": "호환·표준형",
+        "freeQuota": "무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "Windows 기업"
+      },
+      "affiliate": {
+        "url": "https://www.microsoft.com/edge",
+        "ctaLabel": "Microsoft Edge 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "edge-enterprise"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "compat",
+      "label": "최대 호환",
+      "recommend": "chrome",
+      "reason": "웹앱 기준점이 됩니다."
+    },
+    {
+      "id": "chrome",
+      "label": "일반 업무",
+      "recommend": "chrome",
+      "reason": "확장·동기화가 쉽습니다."
+    },
+    {
+      "id": "privacy-browser",
+      "label": "프라이버시·오픈소스",
+      "recommend": "firefox",
+      "reason": "독립 엔진·추적 방지입니다."
+    },
+    {
+      "id": "apple-browser",
+      "label": "Apple만",
+      "recommend": "safari",
+      "reason": "배터리·연동이 좋습니다."
+    },
+    {
+      "id": "productivity-browser",
+      "label": "탭·스페이스 UX",
+      "recommend": "arc",
+      "reason": "생산성 워크플로에 맞습니다."
+    },
+    {
+      "id": "brave-block",
+      "label": "기본 광고 차단",
+      "recommend": "brave",
+      "reason": "Chromium+차단입니다."
+    },
+    {
+      "id": "edge-enterprise",
+      "label": "Windows 기업",
+      "recommend": "edge",
+      "reason": "관리·M365에 맞습니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "ad-blockers",
+      "title": "광고 차단"
+    },
+    {
+      "slug": "password-managers",
+      "title": "비밀번호 관리자"
+    },
+    {
+      "slug": "search",
+      "title": "검색"
+    },
+    {
+      "slug": "security-software",
+      "title": "보안 소프트웨어"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Chrome을 꼭 써야 하나요?",
+      "a": "호환에는 유리하지만, Edge/Brave/Arc도 Chromium이라 대부분 충분합니다. 문제는 비 Chromium(Firefox/Safari)에서 더 자주 납니다."
+    },
+    {
+      "q": "RAM을 덜 쓰려면?",
+      "a": "탭 수·확장 수를 줄이고, 절전 기능이 있는 Edge/Safari/Brave를 시험해 보세요."
+    },
+    {
+      "q": "회사 PC 정책은?",
+      "a": "IT가 허용한 브라우저만 쓰세요. 확장은 화이트리스트가 있는 경우가 많습니다."
+    },
+    {
+      "q": "광고 차단은 브라우저 vs 확장?",
+      "a": "Brave는 기본 내장, 다른 브라우저는 uBlock 등 확장(광고 차단 카테고리)을 씁니다."
+    },
+    {
+      "q": "Arc는 안전한가요?",
+      "a": "Chromium 기반이지만 계정·동기화 정책을 확인하고, 기업은 공식 지원 여부를 보세요."
+    }
+  ]
+}

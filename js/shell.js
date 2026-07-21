@@ -1,4 +1,19 @@
 (function (global) {
+  const ADSENSE_CLIENT = "ca-pub-8183610093645853";
+
+  function ensureAdSense() {
+    if (document.querySelector(`script[src*="adsbygoogle.js"][src*="${ADSENSE_CLIENT}"]`)) {
+      return;
+    }
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
+  }
+
+  ensureAdSense();
+
   const FOOTER_LINKS = [
     { path: "pages/about.html", label: "소개" },
     { path: "pages/contact.html", label: "문의" },
@@ -55,7 +70,7 @@
         <nav class="ph-nav-links" aria-label="주요 메뉴">
           <a class="ph-nav-link ${active === "home" ? "is-active" : ""}" href="${home}">홈</a>
           <a class="ph-nav-link" href="${home}#leaderboard">리더보드</a>
-          <a class="ph-nav-link" href="${home}#categories">카테고리</a>
+          <a class="ph-nav-link ${active === "categories" || active === "category" ? "is-active" : ""}" href="${pageHref("categories/index.html")}">카테고리</a>
           <a class="ph-nav-link" href="${pageHref("pages/about.html")}">소개</a>
         </nav>
       </div>

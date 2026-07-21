@@ -1,0 +1,363 @@
+{
+  "category": {
+    "slug": "compliance-software",
+    "title": "컴플라이언스 소프트웨어",
+    "headline": "고객이 SOC 2를 물어보기 전에",
+    "subtitle": "Vanta·Drata·Secureframe·Sprinto부터 Thoropass·OneTrust까지. 감사 자동화·가이드·엔터프라이즈 GRC 기준으로 실무용 컴플라이언스 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "컴플라이언스 소프트웨어 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Vanta, Drata, Secureframe, Sprinto, Thoropass, OneTrust를 SOC 2·자동화·팀 규모 기준으로 비교. 감사 준비 툴을 고르세요."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "컴플라이언스 유형"
+  },
+  "guide": {
+    "title": "컴플라이언스 소프트웨어란?",
+    "summary": "SOC 2·ISO 27001 같은 보안·규제 요구를 정책·증거·모니터링으로 관리하는 도구입니다. 스타트업용 감사 자동화부터 엔터프라이즈 GRC(거버넌스·리스크·컴플라이언스)까지 범위가 갈립니다.",
+    "howToChoose": [
+      "첫 SOC 2인지, 이미 여러 프레임워크를 돌리는지 정하세요. 첫 감사는 속도·연동, 이후는 멀티프레임워크·커스텀 통제가 중요해집니다.",
+      "보안/엔지니어링이 직접 운영할지, 가이드·자문이 많이 필요할지 보세요. Secureframe·Thoropass류는 손잡이가 더 있는 편입니다.",
+      "클라우드 스택(AWS/GCP/Okta 등) 연동 범위를 확인하세요. 증거 자동 수집이 핵심 가치입니다.",
+      "플랫폼 연간 비용 + 외부 감사 비용 + 내부 인건비를 합산하세요. 견적형 가격이 많아 ‘싸 보이는 플랜’만 보면 총비용이 빗나갑니다."
+    ],
+    "recordingTypes": [
+      {
+        "type": "감사 자동화형",
+        "description": "연동으로 증거를 모으고 통제 상태를 모니터링합니다. SaaS 스타트업의 첫 SOC 2에 자주 쓰입니다.",
+        "examples": ["Vanta", "Drata", "Sprinto"]
+      },
+      {
+        "type": "가이드·지원 강화형",
+        "description": "온보딩·전직 감사인 리뷰·번들 지원으로 ‘무엇을 해야 하는지’를 더 붙입니다. 내부 컴플라이언스 인력이 얇을 때 유리합니다.",
+        "examples": ["Secureframe", "Thoropass"]
+      },
+      {
+        "type": "엔터프라이즈 GRC형",
+        "description": "SOC 2만이 아니라 프라이버시·리스크·정책·벤더 리스크까지 넓게 다룹니다. 규모가 큰 조직에 맞지만 도입이 무거울 수 있습니다.",
+        "examples": ["OneTrust"]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    { "key": "name", "label": "툴" },
+    { "key": "advantage", "label": "한 줄 요약" },
+    { "key": "meetingStyle", "label": "잘 맞는 용도" },
+    { "key": "freeQuota", "label": "가격대" },
+    { "key": "stackFit", "label": "잘 맞는 팀" }
+  ],
+  "tools": [
+    {
+      "slug": "vanta",
+      "name": "Vanta",
+      "rank": 1,
+      "tags": ["SOC2", "연동많음", "스타트업"],
+      "quote": "클라우드 SaaS가 첫 SOC 2를 빠르게 통과해야 한다면, Vanta는 연동·감사 네트워크 측면에서 가장 자주 기본값으로 올라옵니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "넓은 연동",
+          "body": "클라우드·IdP·HR·티켓 툴과 붙여 증거 수집을 자동화하는 범위가 넓은 편이라, 수동 스크린샷을 줄이기 좋습니다."
+        },
+        {
+          "title": "첫 감사 속도",
+          "body": "스타트업·성장기 SaaS의 첫 SOC 2 실행에서 익숙한 워크플로와 감사 협업 경로가 강점으로 자주 언급됩니다."
+        }
+      ],
+      "cons": [
+        "연간 견적이 부담될 수 있고, 갱신·프레임워크 확장 시 비용이 커질 수 있습니다.",
+        "초커스텀 통제·복잡한 멀티프레임워크는 Drata·엔터프라이즈 GRC가 더 맞을 수 있습니다."
+      ],
+      "notFor": [
+        "예산이 매우 빠듯한 초극소 팀(스프린토 등 저비용 후보 검토)",
+        "프라이버시·GRC 전체를 한 플랫폼에 몰아야 할 대기업"
+      ],
+      "bestFor": "클라우드 SaaS의 빠른 첫 SOC 2 자동화",
+      "comparison": {
+        "advantage": "연동·첫 SOC 2 기본값",
+        "meetingStyle": "감사 자동화형",
+        "freeQuota": "연간 견적(대략 중상위)",
+        "freeQuotaHighlight": false,
+        "stackFit": "SaaS 스타트업·성장기"
+      },
+      "affiliate": {
+        "url": "https://www.vanta.com/",
+        "ctaLabel": "Vanta 알아보기 ↗"
+      },
+      "recommendWhen": ["first-soc2", "broad-integrations"]
+    },
+    {
+      "slug": "drata",
+      "name": "Drata",
+      "rank": 2,
+      "tags": ["엔지니어링", "모니터링", "멀티프레임워크"],
+      "quote": "보안·엔지니어링이 통제를 깊게 보고 여러 프레임워크를 같이 돌릴 계획이면, Drata는 기술 모니터링 쪽에 무게가 실린 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "기술 통제 깊이",
+          "body": "실시간 대시보드·커스텀 테스트 감각이 엔지니어링 주도 컴플라이언스에 잘 맞습니다."
+        },
+        {
+          "title": "멀티프레임워크",
+          "body": "SOC 2와 다른 프레임워크를 함께 매핑·운영할 때 자주 비교 대상이 됩니다."
+        }
+      ],
+      "cons": [
+        "작은 팀이 처음 쓰기엔 설정·학습 곡선이 느껴질 수 있습니다.",
+        "가격도 견적형이라 Vanta와 비슷하게 ‘저렴한 월정액’으로 보기 어렵습니다."
+      ],
+      "notFor": [
+        "비기술 창업자 혼자 최소 설정으로 끝내고 싶을 때",
+        "엔터프라이즈 프라이버시 스위트 전체가 필요할 때"
+      ],
+      "bestFor": "엔지니어링 주도·멀티프레임워크 컴플라이언스",
+      "comparison": {
+        "advantage": "기술 모니터링·멀티프레임워크",
+        "meetingStyle": "감사 자동화형",
+        "freeQuota": "연간 견적(중상위)",
+        "freeQuotaHighlight": false,
+        "stackFit": "보안·엔지니어링 팀"
+      },
+      "affiliate": {
+        "url": "https://drata.com/",
+        "ctaLabel": "Drata 알아보기 ↗"
+      },
+      "recommendWhen": ["eng-led", "multi-framework"]
+    },
+    {
+      "slug": "secureframe",
+      "name": "Secureframe",
+      "rank": 3,
+      "tags": ["가이드", "온보딩", "자문"],
+      "quote": "툴만 던져주면 막막한 팀에게는, Secureframe처럼 온보딩·가이드가 두꺼운 쪽이 첫 감사 스트레스를 줄이는 경우가 많습니다.",
+      "quoteTone": "teal",
+      "highlights": [
+        {
+          "title": "가이드형 준비",
+          "body": "전직 감사인 리뷰·구조화된 태스크로 ‘다음에 뭘 할지’가 비교적 명확합니다."
+        },
+        {
+          "title": "멀티프레임워크 프로세스",
+          "body": "프로세스 무게가 있지만, 여러 인증을 체계적으로 가져가려는 팀에 맞습니다."
+        }
+      ],
+      "cons": [
+        "프로세스·모듈이 무겁게 느껴질 수 있고, 애드온에 따라 총비용이 올라갑니다.",
+        "완전 셀프서브로 빨리 끝내고 싶은 팀엔 과할 수 있습니다."
+      ],
+      "notFor": [
+        "이미 컴플라이언스 전담이 있고 자동화 UI만 필요할 때",
+        "최저가 중심 스타트업"
+      ],
+      "bestFor": "손잡이·가이드가 필요한 첫 감사 준비",
+      "comparison": {
+        "advantage": "가이드·온보딩 강화",
+        "meetingStyle": "가이드·지원 강화형",
+        "freeQuota": "연간 견적(+지원)",
+        "freeQuotaHighlight": false,
+        "stackFit": "내부 인력 얇은 팀"
+      },
+      "affiliate": {
+        "url": "https://secureframe.com/",
+        "ctaLabel": "Secureframe 알아보기 ↗"
+      },
+      "recommendWhen": ["guided", "hand-holding"]
+    },
+    {
+      "slug": "sprinto",
+      "name": "Sprinto",
+      "rank": 4,
+      "tags": ["가성비", "빠른준비", "린팀"],
+      "quote": "예산이 빠듯한데 60–90일 안에 감사 준비를 밀어붙여야 한다면, Sprinto는 처방형·저마찰 경로로 자주 거론됩니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "린 팀 친화",
+          "body": "작은 조직이 최소 오버헤드로 준비 상태를 만드는 데 초점이 맞춰진 편입니다."
+        },
+        {
+          "title": "상대적 비용",
+          "body": "빅3 대비 진입 비용이 낮게 언급되는 경우가 많아, 예산 제약이 클 때 후보가 됩니다."
+        }
+      ],
+      "cons": [
+        "연동·감사 워크플로 깊이는 Vanta·Drata만 못할 수 있어 PoC로 확인이 필요합니다.",
+        "역시 견적형이라 ‘공개 정가’로 비교하기 어렵습니다."
+      ],
+      "notFor": [
+        "엔터프라이즈 GRC·프라이버시 통합이 필요할 때",
+        "초커스텀 통제 운영이 핵심일 때"
+      ],
+      "bestFor": "예산·속도가 중요한 린 스타트업 SOC 2",
+      "comparison": {
+        "advantage": "린 팀·상대적 저비용",
+        "meetingStyle": "감사 자동화형",
+        "freeQuota": "연간 견적(상대적 저가)",
+        "freeQuotaHighlight": true,
+        "stackFit": "초기 스타트업"
+      },
+      "affiliate": {
+        "url": "https://sprinto.com/",
+        "ctaLabel": "Sprinto 알아보기 ↗"
+      },
+      "recommendWhen": ["budget", "fast-lean"]
+    },
+    {
+      "slug": "thoropass",
+      "name": "Thoropass",
+      "rank": 5,
+      "tags": ["소프트웨어+지원", "감사지원", "핸드온"],
+      "quote": "소프트웨어만으로는 불안하고, 감사 준비에 사람 손을 더 붙이고 싶다면 Thoropass는 ‘툴+지원’ 묶음형으로 비교됩니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "핸드온 지원",
+          "body": "플랫폼과 함께 준비·감사 협업을 돕는 모델이라, 내부 경험이 적을 때 심리적 허들이 낮습니다."
+        },
+        {
+          "title": "번들 유연성 검토",
+          "body": "지원이 포함된 패키지를 원하는 구매자에게 맞춰져 있습니다."
+        }
+      ],
+      "cons": [
+        "번들 감사/지원 모델은 나중에 감사인 선택 유연성이 줄어들 수 있습니다.",
+        "순수 셀프서브 자동화만 원할 때는 오버킬일 수 있습니다."
+      ],
+      "notFor": [
+        "이미 선호 감사인이 있고 플랫폼만 필요할 때",
+        "최저 플랫폼 비용만 최적화할 때"
+      ],
+      "bestFor": "소프트웨어와 준비 지원을 같이 사고 싶을 때",
+      "comparison": {
+        "advantage": "툴+핸드온 지원 묶음",
+        "meetingStyle": "가이드·지원 강화형",
+        "freeQuota": "연간 견적(번들)",
+        "freeQuotaHighlight": false,
+        "stackFit": "지원 필요로 하는 팀"
+      },
+      "affiliate": {
+        "url": "https://thoropass.com/",
+        "ctaLabel": "Thoropass 알아보기 ↗"
+      },
+      "recommendWhen": ["bundled-support", "hands-on"]
+    },
+    {
+      "slug": "onetrust",
+      "name": "OneTrust",
+      "rank": 6,
+      "tags": ["엔터프라이즈", "GRC", "프라이버시"],
+      "quote": "SOC 2만이 아니라 프라이버시·리스크·정책까지 한 생태계로 묶어야 한다면, OneTrust는 스타트업 자동화 툴과 결이 다른 엔터프라이즈 GRC에 가깝습니다.",
+      "quoteTone": "indigo",
+      "highlights": [
+        {
+          "title": "넓은 GRC·프라이버시",
+          "body": "인증 자동화뿐 아니라 프라이버시·벤더 리스크 등 모듈을 확장하는 조직에 맞습니다."
+        },
+        {
+          "title": "엔터프라이즈 스케일",
+          "body": "복잡한 조직·다수 프레임워크를 한 거버넌스 체계로 가져가려 할 때 후보가 됩니다."
+        }
+      ],
+      "cons": [
+        "작은 팀의 첫 SOC 2에는 무겁고 비쌀 수 있습니다.",
+        "구현 범위에 따라 도입 기간·컨설팅 의존도가 커질 수 있습니다."
+      ],
+      "notFor": [
+        "직원 수십 명 이하 스타트업의 첫 감사만 필요할 때",
+        "가벼운 SaaS 자동화 UI만 원할 때"
+      ],
+      "bestFor": "엔터프라이즈 GRC·프라이버시 통합 운영",
+      "comparison": {
+        "advantage": "엔터프라이즈 GRC·프라이버시",
+        "meetingStyle": "엔터프라이즈 GRC형",
+        "freeQuota": "견적형(엔터프라이즈)",
+        "freeQuotaHighlight": false,
+        "stackFit": "대기업·복합 규제"
+      },
+      "affiliate": {
+        "url": "https://www.onetrust.com/",
+        "ctaLabel": "OneTrust 알아보기 ↗"
+      },
+      "recommendWhen": ["enterprise-grc", "privacy-suite"]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "first-soc2",
+      "label": "첫 SOC 2를 빨리",
+      "recommend": "vanta",
+      "reason": "연동·감사 협업 경로가 스타트업 첫 감사에 자주 맞습니다."
+    },
+    {
+      "id": "eng-led",
+      "label": "엔지니어링이 깊게 운영",
+      "recommend": "drata",
+      "reason": "기술 모니터링·멀티프레임워크에 무게가 있습니다."
+    },
+    {
+      "id": "guided",
+      "label": "가이드·손잡이가 필요",
+      "recommend": "secureframe",
+      "reason": "온보딩·구조화 태스크로 준비 부담을 나눕니다."
+    },
+    {
+      "id": "budget",
+      "label": "예산이 빠듯한 린 팀",
+      "recommend": "sprinto",
+      "reason": "상대적 저비용·빠른 준비 경로로 거론됩니다."
+    },
+    {
+      "id": "bundled-support",
+      "label": "툴+사람 지원 번들",
+      "recommend": "thoropass",
+      "reason": "핸드온 지원과 플랫폼을 같이 보는 모델입니다."
+    },
+    {
+      "id": "enterprise-grc",
+      "label": "엔터프라이즈 GRC·프라이버시",
+      "recommend": "onetrust",
+      "reason": "SOC 2를 넘어 거버넌스 생태계가 필요할 때 맞습니다."
+    },
+    {
+      "id": "multi-framework",
+      "label": "여러 프레임워크 동시",
+      "recommend": "drata",
+      "reason": "멀티프레임워크 매핑·운영에 강점이 있습니다."
+    },
+    {
+      "id": "fast-lean",
+      "label": "60–90일 린 준비",
+      "recommend": "sprinto",
+      "reason": "처방형 빠른 준비에 초점이 맞춰진 편입니다."
+    }
+  ],
+  "relatedCategories": [
+    { "slug": "automation", "title": "AI 워크플로 자동화" },
+    { "slug": "cms", "title": "CMS" },
+    { "slug": "team-collaboration", "title": "팀 협업" },
+    { "slug": "knowledge-base", "title": "지식베이스" }
+  ],
+  "faq": [
+    {
+      "q": "이 툴만 사면 SOC 2가 나오나요?",
+      "a": "아닙니다. 플랫폼은 증거 수집·모니터링·협업을 돕고, 독립 감사인의 감사와 내부 정책·통제 운영은 별개입니다. 플랫폼 비용과 감사 비용을 따로 보세요."
+    },
+    {
+      "q": "Vanta vs Drata 한 줄로?",
+      "a": "빠른 첫 감사·넓은 연동이면 Vanta, 엔지니어링 주도·통제 깊이·멀티프레임워크면 Drata를 먼저 보세요. 둘 다 PoC와 견적 비교가 필요합니다."
+    },
+    {
+      "q": "스타트업에 OneTrust가 맞나요?",
+      "a": "대개 무겁습니다. 첫 SOC 2만 필요하면 Vanta·Drata·Sprinto·Secureframe 같은 감사 자동화형이 더 흔합니다. 프라이버시·GRC 통합이 이미 과제일 때 OneTrust를 검토하세요."
+    },
+    {
+      "q": "가격을 왜 공개 안 하나요?",
+      "a": "대부분 세일즈 견적형이라 회사 규모·프레임워크·모듈에 따라 달라집니다. 대략 연 수천~수만 달러대가 흔히 언급되니, 데모에서 감사비·내부 공수까지 물어보세요."
+    },
+    {
+      "q": "언제부터 도입해야 하나요?",
+      "a": "엔터프라이즈 고객이 보안 설문·SOC 2를 요구하기 시작하거나, 6–12개월 내 요구가 확실할 때입니다. 너무 이르면 비용만 나가고, 너무 늦으면 딜이 멈춥니다."
+    }
+  ]
+}

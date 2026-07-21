@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build-data.mjs",
     "build:data": "node scripts/build-data.mjs",
+    "scaffold:categories": "node scripts/scaffold-category-pages.mjs",
     "prestart": "node scripts/build-data.mjs",
     "start": "npx --yes serve . -p 4173",
     "validate": "node scripts/build-data.mjs && node scripts/validate-curation.mjs"

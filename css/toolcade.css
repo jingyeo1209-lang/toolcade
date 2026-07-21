@@ -280,6 +280,192 @@ img { max-width: 100%; display: block; }
 .ph-thumb--granola { background: linear-gradient(135deg, #14b8a6, #0f766e); }
 .ph-thumb--meetgeek { background: linear-gradient(135deg, #10b981, #047857); }
 .ph-thumb--tldv { background: linear-gradient(135deg, #ec4899, #be185d); }
+.ph-thumb--zoom { background: linear-gradient(135deg, #2d8cff, #0b5cff); }
+.ph-thumb--google-meet { background: linear-gradient(135deg, #34a853, #4285f4); }
+.ph-thumb--microsoft-teams { background: linear-gradient(135deg, #6264a7, #464775); }
+.ph-thumb--whereby { background: linear-gradient(135deg, #1b1b1b, #444); }
+.ph-thumb--discord { background: linear-gradient(135deg, #5865f2, #404eed); }
+.ph-thumb--jitsi { background: linear-gradient(135deg, #1d76ba, #17a0db); }
+.ph-thumb--zapier { background: linear-gradient(135deg, #ff4a00, #ff8c42); }
+.ph-thumb--make { background: linear-gradient(135deg, #6d00cc, #9b4dff); }
+.ph-thumb--n8n { background: linear-gradient(135deg, #ea4b71, #ff6b9d); }
+.ph-thumb--relay { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--bardeen { background: linear-gradient(135deg, #0d9488, #14b8a6); }
+.ph-thumb--activepieces { background: linear-gradient(135deg, #16a34a, #22c55e); }
+.ph-thumb--ublock-origin { background: linear-gradient(135deg, #b00500, #e11d48); }
+.ph-thumb--adguard { background: linear-gradient(135deg, #68bc71, #3d8b48); }
+.ph-thumb--brave-shields { background: linear-gradient(135deg, #fb542b, #ff2000); }
+.ph-thumb--privacy-badger { background: linear-gradient(135deg, #f90, #e67e22); }
+.ph-thumb--ghostery { background: linear-gradient(135deg, #00aef0, #0284c7); }
+.ph-thumb--ublock-origin-lite { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--raycast { background: linear-gradient(135deg, #ff6363, #ff4d4d); }
+.ph-thumb--alfred { background: linear-gradient(135deg, #5e35b1, #7e57c2); }
+.ph-thumb--alttab { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+.ph-thumb--powertoys { background: linear-gradient(135deg, #0078d4, #00bcf2); }
+.ph-thumb--flow-launcher { background: linear-gradient(135deg, #16a34a, #22c55e); }
+.ph-thumb--contexts { background: linear-gradient(135deg, #f97316, #ea580c); }
+.ph-thumb--wordpress { background: linear-gradient(135deg, #21759b, #0073aa); }
+.ph-thumb--webflow { background: linear-gradient(135deg, #4353ff, #146ef5); }
+.ph-thumb--sanity { background: linear-gradient(135deg, #f03e2f, #fa1d00); }
+.ph-thumb--contentful { background: linear-gradient(135deg, #2478cc, #0c2c4d); }
+.ph-thumb--strapi { background: linear-gradient(135deg, #4945ff, #7b79ff); }
+.ph-thumb--ghost { background: linear-gradient(135deg, #15171a, #333); }
+.ph-thumb--google-calendar { background: linear-gradient(135deg, #4285f4, #34a853); }
+.ph-thumb--outlook-calendar { background: linear-gradient(135deg, #0078d4, #106ebe); }
+.ph-thumb--notion-calendar { background: linear-gradient(135deg, #000000, #37352f); }
+.ph-thumb--fantastical { background: linear-gradient(135deg, #ff5a36, #ff8a65); }
+.ph-thumb--motion { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+.ph-thumb--reclaim { background: linear-gradient(135deg, #10b981, #059669); }
+.ph-thumb--vanta { background: linear-gradient(135deg, #4f46e5, #6366f1); }
+.ph-thumb--drata { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--secureframe { background: linear-gradient(135deg, #14b8a6, #0d9488); }
+.ph-thumb--sprinto { background: linear-gradient(135deg, #22c55e, #16a34a); }
+.ph-thumb--thoropass { background: linear-gradient(135deg, #f97316, #ea580c); }
+.ph-thumb--onetrust { background: linear-gradient(135deg, #1e3a5f, #334155); }
+.ph-thumb--zendesk { background: linear-gradient(135deg, #03363d, #17494d); }
+.ph-thumb--intercom { background: linear-gradient(135deg, #1f8ded, #0b6fc2); }
+.ph-thumb--freshdesk { background: linear-gradient(135deg, #25c16f, #0d9f4f); }
+.ph-thumb--help-scout { background: linear-gradient(135deg, #1292ee, #0b6fc2); }
+.ph-thumb--gorgias { background: linear-gradient(135deg, #4b5bf5, #6c63ff); }
+.ph-thumb--front { background: linear-gradient(135deg, #001b38, #335dff); }
+.ph-thumb--docusign { background: linear-gradient(135deg, #4c00ff, #2500a8); }
+.ph-thumb--dropbox-sign { background: linear-gradient(135deg, #0061ff, #0d47a1); }
+.ph-thumb--adobe-sign { background: linear-gradient(135deg, #eb1000, #b10f00); }
+.ph-thumb--pandadoc { background: linear-gradient(135deg, #20807c, #16a34a); }
+.ph-thumb--signnow { background: linear-gradient(135deg, #00b4e4, #0284c7); }
+.ph-thumb--docuseal { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+.ph-thumb--superhuman { background: linear-gradient(135deg, #6d28d9, #4c1d95); }
+.ph-thumb--spark { background: linear-gradient(135deg, #1d9bf0, #0ea5e9); }
+.ph-thumb--outlook-mail { background: linear-gradient(135deg, #0078d4, #106ebe); }
+.ph-thumb--apple-mail { background: linear-gradient(135deg, #1d1d1f, #6e6e73); }
+.ph-thumb--shortwave { background: linear-gradient(135deg, #0d9488, #14b8a6); }
+.ph-thumb--thunderbird { background: linear-gradient(135deg, #0a84ff, #003eaa); }
+.ph-thumb--google-drive { background: linear-gradient(135deg, #4285f4, #34a853); }
+.ph-thumb--dropbox { background: linear-gradient(135deg, #0061ff, #0052cc); }
+.ph-thumb--onedrive { background: linear-gradient(135deg, #094ab2, #0078d4); }
+.ph-thumb--box { background: linear-gradient(135deg, #0061d5, #003d82); }
+.ph-thumb--icloud-drive { background: linear-gradient(135deg, #3b82f6, #93c5fd); }
+.ph-thumb--nextcloud { background: linear-gradient(135deg, #0082c9, #006aa3); }
+.ph-thumb--greenhouse { background: linear-gradient(135deg, #24a47b, #1b7a5c); }
+.ph-thumb--ashby { background: linear-gradient(135deg, #5b5bd6, #4338ca); }
+.ph-thumb--lever { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+.ph-thumb--workable { background: linear-gradient(135deg, #1f8a70, #157a5f); }
+.ph-thumb--bamboohr { background: linear-gradient(135deg, #73c41d, #4d7c0f); }
+.ph-thumb--jazzhr { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.ph-thumb--notion-kb { background: linear-gradient(135deg, #000, #37352f); }
+.ph-thumb--confluence { background: linear-gradient(135deg, #1868db, #0052cc); }
+.ph-thumb--guru { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.ph-thumb--coda { background: linear-gradient(135deg, #f46a54, #ea580c); }
+.ph-thumb--slab { background: linear-gradient(135deg, #5b4dff, #4f46e5); }
+.ph-thumb--gitbook { background: linear-gradient(135deg, #2dae62, #15803d); }
+.ph-thumb--ironclad { background: linear-gradient(135deg, #0f172a, #334155); }
+.ph-thumb--clio { background: linear-gradient(135deg, #0076d6, #0369a1); }
+.ph-thumb--harvey { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--spellbook { background: linear-gradient(135deg, #0d9488, #115e59); }
+.ph-thumb--lawgeex { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--relativity { background: linear-gradient(135deg, #e11d48, #9f1239); }
+.ph-thumb--fellow { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--range { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--spinach { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--supernormal { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--clockwise { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--reclaim { background: linear-gradient(135deg, #059669, #047857); }
+.ph-thumb--notion-notes { background: linear-gradient(135deg, #111827, #374151); }
+.ph-thumb--obsidian { background: linear-gradient(135deg, #7c3aed, #4c1d95); }
+.ph-thumb--craft { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--bear { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--evernote { background: linear-gradient(135deg, #65a30d, #3f6212); }
+.ph-thumb--reflect { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
+.ph-thumb--adobe-acrobat { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--foxit { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--pdf-expert { background: linear-gradient(135deg, #2563eb, #1e40af); }
+.ph-thumb--smallpdf { background: linear-gradient(135deg, #e11d48, #be123c); }
+.ph-thumb--sejda { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--pdfgear { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--onepassword { background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
+.ph-thumb--bitwarden { background: linear-gradient(135deg, #175ddc, #0f3d8c); }
+.ph-thumb--proton-pass { background: linear-gradient(135deg, #6d4aff, #4c1d95); }
+.ph-thumb--dashlane { background: linear-gradient(135deg, #0f766e, #115e59); }
+.ph-thumb--keeper { background: linear-gradient(135deg, #ffc700, #ca8a04); }
+.ph-thumb--nordpass { background: linear-gradient(135deg, #4687ff, #1d4ed8); }
+.ph-thumb--powerpoint { background: linear-gradient(135deg, #c43e1c, #9a3412); }
+.ph-thumb--google-slides { background: linear-gradient(135deg, #fbbc04, #d97706); }
+.ph-thumb--keynote { background: linear-gradient(135deg, #22c55e, #15803d); }
+.ph-thumb--canva-present { background: linear-gradient(135deg, #00c4cc, #0d9488); }
+.ph-thumb--pitch { background: linear-gradient(135deg, #000, #374151); }
+.ph-thumb--gamma { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
+.ph-thumb--loom { background: linear-gradient(135deg, #625df5, #4f46e5); }
+.ph-thumb--navattic { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--storylane { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--walnut { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--demostack { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--tourial { background: linear-gradient(135deg, #059669, #047857); }
+.ph-thumb--linear { background: linear-gradient(135deg, #5e6ad2, #4338ca); }
+.ph-thumb--jira { background: linear-gradient(135deg, #2684ff, #1d4ed8); }
+.ph-thumb--asana { background: linear-gradient(135deg, #f06a6a, #dc2626); }
+.ph-thumb--clickup { background: linear-gradient(135deg, #7b68ee, #5b21b6); }
+.ph-thumb--monday { background: linear-gradient(135deg, #ff3d57, #e11d48); }
+.ph-thumb--trello { background: linear-gradient(135deg, #0079bf, #0369a1); }
+.ph-thumb--teal { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--rezi { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--kickresume { background: linear-gradient(135deg, #f97316, #ea580c); }
+.ph-thumb--novoresume { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--resume-io { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--enhancv { background: linear-gradient(135deg, #e11d48, #be123c); }
+.ph-thumb--calendly { background: linear-gradient(135deg, #006bff, #1d4ed8); }
+.ph-thumb--calcom { background: linear-gradient(135deg, #111827, #374151); }
+.ph-thumb--savvycal { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
+.ph-thumb--motion { background: linear-gradient(135deg, #f97316, #ea580c); }
+.ph-thumb--tidycal { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--ms-bookings { background: linear-gradient(135deg, #0078d4, #0369a1); }
+.ph-thumb--cleanshot { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--snagit { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--loom-capture { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--obs { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--zight { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--shottr { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--algolia { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--elasticsearch { background: linear-gradient(135deg, #ca8a04, #a16207); }
+.ph-thumb--meilisearch { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+.ph-thumb--typesense { background: linear-gradient(135deg, #db2777, #9d174d); }
+.ph-thumb--coveo { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--kagi { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--crowdstrike { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--sentinelone { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--malwarebytes { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--bitdefender { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--okta { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--snyk { background: linear-gradient(135deg, #ca8a04, #a16207); }
+.ph-thumb--excel { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+.ph-thumb--google-sheets { background: linear-gradient(135deg, #db2777, #9d174d); }
+.ph-thumb--airtable { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--smartsheet { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--rows { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--nocodb { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--slack { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--microsoft-teams-collab { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--discord-collab { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--twist { background: linear-gradient(135deg, #ca8a04, #a16207); }
+.ph-thumb--mattermost { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+.ph-thumb--google-chat { background: linear-gradient(135deg, #db2777, #9d174d); }
+.ph-thumb--toggl { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--clockify { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--harvest { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--rescuetime { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--timely { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--hubstaff { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--gather { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--tandem { background: linear-gradient(135deg, #ca8a04, #a16207); }
+.ph-thumb--remo { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+.ph-thumb--sococo { background: linear-gradient(135deg, #db2777, #9d174d); }
+.ph-thumb--immersed { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.ph-thumb--wonder { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.ph-thumb--chrome { background: linear-gradient(135deg, #16a34a, #15803d); }
+.ph-thumb--firefox { background: linear-gradient(135deg, #ea580c, #c2410c); }
+.ph-thumb--safari { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.ph-thumb--arc { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.ph-thumb--brave { background: linear-gradient(135deg, #0d9488, #0f766e); }
+.ph-thumb--edge { background: linear-gradient(135deg, #ca8a04, #a16207); }
 .ph-thumb--cat { background: linear-gradient(135deg, #4f46e5, #6366f1); }
 
 .ph-row-body { min-width: 0; }
@@ -699,6 +885,129 @@ img { max-width: 100%; display: block; }
 .ph-empty p {
   margin: 0 0 20px;
   color: var(--ph-text-secondary);
+}
+
+/* ── Category directory (PH-style groups) ── */
+.ph-group {
+  margin-bottom: 40px;
+}
+
+.ph-group-desc {
+  margin: 4px 0 0;
+  font-size: 0.875rem;
+  color: var(--ph-text-muted);
+  font-weight: 400;
+}
+
+.ph-group-more {
+  font-size: 0.8125rem;
+  color: var(--ph-brand);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ph-group-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--ph-border);
+}
+
+.ph-group-jump a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--ph-text-secondary);
+  padding: 6px 12px;
+  border: 1px solid var(--ph-border);
+  border-radius: 999px;
+  background: #fff;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.ph-group-jump a:hover {
+  color: var(--ph-brand);
+  border-color: var(--ph-brand-muted);
+  background: var(--ph-brand-soft);
+}
+
+.ph-cat-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .ph-cat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .ph-cat-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.ph-cat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--ph-border);
+  border-radius: var(--ph-radius);
+  background: #fff;
+  box-shadow: var(--ph-shadow);
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+  min-height: 148px;
+}
+
+a.ph-cat-card:hover {
+  border-color: var(--ph-brand-muted);
+  background: #fafbff;
+  transform: translateY(-1px);
+}
+
+.ph-cat-card--disabled {
+  opacity: 0.72;
+}
+
+.ph-cat-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ph-cat-card-emoji {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.ph-cat-card-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.ph-cat-card-desc {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--ph-text-secondary);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.ph-cat-card-count {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ph-brand);
 }
 
 /* ── Home category rows ── */

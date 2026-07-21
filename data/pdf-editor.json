@@ -1,0 +1,437 @@
+{
+  "category": {
+    "slug": "pdf-editor",
+    "title": "PDF 편집",
+    "headline": "PDF는 받았는데, 고칠 수가 없나요?",
+    "subtitle": "Adobe Acrobat·Foxit·PDF Expert부터 Smallpdf·Sejda·PDFgear까지. 편집·서명·압축 기준으로 실무용 PDF 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "PDF 편집 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Adobe Acrobat, Foxit, PDF Expert, Smallpdf, Sejda, PDFgear를 용도·가격 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "PDF 유형"
+  },
+  "guide": {
+    "title": "PDF 편집 툴이란?",
+    "summary": "PDF를 작성·편집·병합·압축·OCR·보호하는 도구입니다. 전자서명·파일 스토리지와 겹치지만, ‘문서를 PDF로 다루는’ 작업에 초점이 있습니다.",
+    "howToChoose": [
+      "가끔 병합·압축만 하는지, 매일 양식·OCR·빨간펜 편집을 하는지 세어 보세요.",
+      "데스크톱 앱(Acrobat·Foxit·PDF Expert)과 웹 유틸(Smallpdf·Sejda)의 보안·오프라인 요구가 다릅니다.",
+      "민감 문서는 클라우드 업로드 정책을 먼저 확인하세요.",
+      "이미 Adobe·Microsoft 365 구독이 있으면 번들 기능을 먼저 보세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "프로·데스크톱형",
+        "description": "편집·OCR·양식·보안이 깊습니다. 구독 비용이 큽니다.",
+        "examples": [
+          "Adobe Acrobat",
+          "Foxit",
+          "PDF Expert"
+        ]
+      },
+      {
+        "type": "웹 유틸형",
+        "description": "병합·압축·변환을 브라우저에서 빠르게 처리합니다. 대량·민감 문서는 제약이 있을 수 있습니다.",
+        "examples": [
+          "Smallpdf",
+          "Sejda"
+        ]
+      },
+      {
+        "type": "가성비·프리형",
+        "description": "기본 편집을 저비용으로 합니다. 엔터프라이즈 기능은 좁을 수 있습니다.",
+        "examples": [
+          "PDFgear"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "adobe-acrobat",
+      "name": "Adobe Acrobat",
+      "rank": 1,
+      "tags": [
+        "표준",
+        "OCR",
+        "엔터프라이즈"
+      ],
+      "quote": "상대가 Acrobat으로 보낸 양식·주석을 깨지지 않게 다루려면, Adobe Acrobat이 여전히 PDF 표준 후보입니다.",
+      "quoteTone": "red",
+      "highlights": [
+        {
+          "title": "편집·OCR 깊이",
+          "body": "텍스트 수정·스캔 OCR·양식·보호까지 프로 작업에 맞습니다."
+        },
+        {
+          "title": "생태계",
+          "body": "Adobe·기업 조달에 익숙한 포맷 호환성이 강점입니다."
+        }
+      ],
+      "cons": [
+        "구독 비용이 개인·SMB에 부담일 수 있습니다.",
+        "단순 병합만 필요하면 오버스펙입니다."
+      ],
+      "notFor": [
+        "가끔 압축만 할 때",
+        "완전 무료만 고집할 때"
+      ],
+      "bestFor": "프로·엔터프라이즈 PDF 편집",
+      "comparison": {
+        "advantage": "업계 표준 프로 편집",
+        "meetingStyle": "프로·데스크톱형",
+        "freeQuota": "유료 구독",
+        "freeQuotaHighlight": false,
+        "stackFit": "법무·디자인·대기업"
+      },
+      "affiliate": {
+        "url": "https://www.adobe.com/acrobat.html",
+        "ctaLabel": "Adobe Acrobat 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "pro-pdf",
+        "ocr-forms"
+      ]
+    },
+    {
+      "slug": "foxit",
+      "name": "Foxit PDF Editor",
+      "rank": 2,
+      "tags": [
+        "가성비",
+        "데스크톱",
+        "기업"
+      ],
+      "quote": "Acrobat급 편집이 필요하지만 비용을 낮추려면, Foxit은 자주 비교되는 데스크톱 PDF 에디터입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "편집 기능 폭",
+          "body": "주석·양식·보호 등 실무 편집을 넓게 커버합니다."
+        },
+        {
+          "title": "비용 대비",
+          "body": "엔터프라이즈·볼륨 라이선스에서 Acrobat 대안이 됩니다."
+        }
+      ],
+      "cons": [
+        "브랜드 인지도·일부 고급 Acrobat 전용 워크플로는 차이가 날 수 있습니다.",
+        "웹 원클릭 유틸만큼 가볍지는 않습니다."
+      ],
+      "notFor": [
+        "브라우저에서 가끔만 변환할 때",
+        "Mac 네이티브 UX만 원할 때"
+      ],
+      "bestFor": "Acrobat 대안 데스크톱 편집",
+      "comparison": {
+        "advantage": "가성비 프로 편집",
+        "meetingStyle": "프로·데스크톱형",
+        "freeQuota": "유료(라이선스)",
+        "freeQuotaHighlight": false,
+        "stackFit": "SMB·IT 배포"
+      },
+      "affiliate": {
+        "url": "https://www.foxit.com/pdf-editor/",
+        "ctaLabel": "Foxit PDF Editor 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "acrobat-alt"
+      ]
+    },
+    {
+      "slug": "pdf-expert",
+      "name": "PDF Expert",
+      "rank": 3,
+      "tags": [
+        "Mac",
+        "iOS",
+        "주석"
+      ],
+      "quote": "맥·아이패드에서 PDF를 읽고 표시·편집하려면, PDF Expert는 Apple 생태계 후보로 자주 꼽힙니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "Apple UX",
+          "body": "Mac·iPad에서 읽기·주석·서명 흐름이 매끄러운 편입니다."
+        },
+        {
+          "title": "실무 주석",
+          "body": "리뷰·마크업 중심 작업에 잘 맞습니다."
+        }
+      ],
+      "cons": [
+        "Windows 팀은 선택지가 아닙니다.",
+        "엔터프라이즈 대량 배포는 Acrobat/Foxit이 더 맞을 수 있습니다."
+      ],
+      "notFor": [
+        "Windows 중심 조직",
+        "완전 무료 웹 툴만 원할 때"
+      ],
+      "bestFor": "Mac·iPad PDF 리뷰·편집",
+      "comparison": {
+        "advantage": "Apple 네이티브 PDF",
+        "meetingStyle": "프로·데스크톱형",
+        "freeQuota": "유료(앱/구독)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Mac 지식노동자"
+      },
+      "affiliate": {
+        "url": "https://pdfexpert.com/",
+        "ctaLabel": "PDF Expert 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "apple-pdf"
+      ]
+    },
+    {
+      "slug": "smallpdf",
+      "name": "Smallpdf",
+      "rank": 4,
+      "tags": [
+        "웹",
+        "변환",
+        "간편"
+      ],
+      "quote": "브라우저에서 빠르게 압축·변환·병합하려면, Smallpdf는 원클릭 웹 PDF 유틸 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "빠른 유틸",
+          "body": "압축·JPG↔PDF·병합을 학습 없이 처리하기 좋습니다."
+        },
+        {
+          "title": "팀 플랜",
+          "body": "자주 쓰는 팀에 구독으로 한도를 늘릴 수 있습니다."
+        }
+      ],
+      "cons": [
+        "클라우드 업로드가 부담인 문서에는 부적합할 수 있습니다.",
+        "깊은 레이아웃 편집은 데스크톱 앱만 못합니다."
+      ],
+      "notFor": [
+        "기밀 문서를 클라우드에 못 올릴 때",
+        "매일 양식 설계가 필요할 때"
+      ],
+      "bestFor": "웹에서 빠른 PDF 변환·압축",
+      "comparison": {
+        "advantage": "웹 원클릭 유틸",
+        "meetingStyle": "웹 유틸형",
+        "freeQuota": "일일 제한 무료(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "개인·가벼운 사무"
+      },
+      "affiliate": {
+        "url": "https://smallpdf.com/",
+        "ctaLabel": "Smallpdf 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "web-pdf",
+        "compress"
+      ]
+    },
+    {
+      "slug": "sejda",
+      "name": "Sejda",
+      "rank": 5,
+      "tags": [
+        "웹",
+        "편집",
+        "프라이버시"
+      ],
+      "quote": "웹에서 편집하되 파일 자동 삭제 정책이 중요하면, Sejda는 실무형 온라인 PDF 에디터 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "온라인 편집",
+          "body": "텍스트·주석·양식을 브라우저에서 다루기 좋습니다."
+        },
+        {
+          "title": "파일 처리 정책",
+          "body": "작업 후 파일 삭제 등 프라이버시 안내가 명확한 편입니다."
+        }
+      ],
+      "cons": [
+        "무료 한도가 있어 고볼륨은 유료가 필요합니다.",
+        "오프라인 전용 환경에는 맞지 않습니다."
+      ],
+      "notFor": [
+        "완전 오프라인만 허용될 때",
+        "Acrobat급 엔터프라이즈 배포가 필요할 때"
+      ],
+      "bestFor": "웹 PDF 편집·변환",
+      "comparison": {
+        "advantage": "웹 편집·변환",
+        "meetingStyle": "웹 유틸형",
+        "freeQuota": "주간 한도 무료(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "개인·프리랜서"
+      },
+      "affiliate": {
+        "url": "https://www.sejda.com/",
+        "ctaLabel": "Sejda 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "sejda-edit"
+      ]
+    },
+    {
+      "slug": "pdfgear",
+      "name": "PDFgear",
+      "rank": 6,
+      "tags": [
+        "무료",
+        "AI",
+        "가성비"
+      ],
+      "quote": "기본 PDF 편집을 비용 없이 시작하고 싶다면, PDFgear는 가성비·프리 티어 후보로 자주 언급됩니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "무료 진입",
+          "body": "읽기·편집·변환의 기본기를 낮은 비용으로 시험하기 좋습니다."
+        },
+        {
+          "title": "AI 보조",
+          "body": "요약·질의 등 AI 기능이 붙어 있는 편입니다."
+        }
+      ],
+      "cons": [
+        "엔터프라이즈 조달·장기 검증은 Acrobat/Foxit이 앞설 수 있습니다.",
+        "기능·지원 범위는 프로 제품과 차이가 날 수 있습니다."
+      ],
+      "notFor": [
+        "규제 산업 표준 툴이 필수일 때",
+        "오프라인 에어갭만 허용될 때(클라우드 기능)"
+      ],
+      "bestFor": "저비용·무료 PDF 편집 시작",
+      "comparison": {
+        "advantage": "가성비·프리 편집",
+        "meetingStyle": "가성비·프리형",
+        "freeQuota": "무료 중심",
+        "freeQuotaHighlight": true,
+        "stackFit": "개인·학생·SMB"
+      },
+      "affiliate": {
+        "url": "https://www.pdfgear.com/",
+        "ctaLabel": "PDFgear 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "free-pdf"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "pro-pdf",
+      "label": "프로·표준 편집",
+      "recommend": "adobe-acrobat",
+      "reason": "호환·OCR·양식 깊이가 큽니다."
+    },
+    {
+      "id": "ocr-forms",
+      "label": "OCR·양식",
+      "recommend": "adobe-acrobat",
+      "reason": "스캔·폼 작업에 강합니다."
+    },
+    {
+      "id": "acrobat-alt",
+      "label": "Acrobat 대안",
+      "recommend": "foxit",
+      "reason": "비용 대비 데스크톱 편집입니다."
+    },
+    {
+      "id": "apple-pdf",
+      "label": "Mac·iPad",
+      "recommend": "pdf-expert",
+      "reason": "Apple UX에 맞습니다."
+    },
+    {
+      "id": "web-pdf",
+      "label": "웹에서 빠르게",
+      "recommend": "smallpdf",
+      "reason": "변환·압축이 쉽습니다."
+    },
+    {
+      "id": "compress",
+      "label": "압축·병합",
+      "recommend": "smallpdf",
+      "reason": "원클릭 유틸에 강합니다."
+    },
+    {
+      "id": "sejda-edit",
+      "label": "웹 편집+프라이버시",
+      "recommend": "sejda",
+      "reason": "온라인 편집과 처리 정책이 실무적입니다."
+    },
+    {
+      "id": "free-pdf",
+      "label": "무료·가성비",
+      "recommend": "pdfgear",
+      "reason": "저비용으로 시작합니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "e-signature",
+      "title": "전자서명"
+    },
+    {
+      "slug": "file-storage",
+      "title": "파일 저장·공유"
+    },
+    {
+      "slug": "notes-documents",
+      "title": "노트·문서"
+    },
+    {
+      "slug": "legal-services",
+      "title": "법률·계약 소프트웨어"
+    }
+  ],
+  "faq": [
+    {
+      "q": "웹 PDF 툴에 올려도 되나요?",
+      "a": "기밀·개인정보가 있으면 회사 정책을 따르세요. 가능하면 데스크톱·온프레미스 옵션을 검토합니다."
+    },
+    {
+      "q": "Acrobat이 항상 필요한가요?",
+      "a": "매일 양식·OCR·조달이면 유리하고, 가끔 압축·병합이면 웹 유틸·PDFgear로 충분한 경우가 많습니다."
+    },
+    {
+      "q": "전자서명과 같이 쓰나요?",
+      "a": "편집 후 서명은 eSign 카테고리 툴과 이어지는 경우가 많습니다."
+    },
+    {
+      "q": "OCR이 뭔가요?",
+      "a": "스캔 이미지 PDF에서 텍스트를 인식해 검색·복사를 가능하게 하는 기능입니다."
+    },
+    {
+      "q": "무료 한도는?",
+      "a": "Smallpdf·Sejda 등은 일/주 한도가 있습니다. 자주 쓰면 유료 또는 데스크톱을 보세요."
+    }
+  ]
+}

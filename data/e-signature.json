@@ -1,0 +1,236 @@
+{
+  "category": {
+    "slug": "e-signature",
+    "title": "전자서명",
+    "headline": "계약서는 보냈는데, 서명은 언제 올까요?",
+    "subtitle": "DocuSign·Dropbox Sign·Adobe Sign부터 PandaDoc·SignNow·DocuSeal까지. 엔터프라이즈·스토리지 연동·제안서·셀프호스팅 기준으로 실무용 전자서명 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "전자서명 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "DocuSign, Dropbox Sign, Adobe Acrobat Sign, PandaDoc, SignNow, DocuSeal을 가격·연동·용도 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "서명 유형"
+  },
+  "guide": {
+    "title": "전자서명 툴이란?",
+    "summary": "PDF·계약서에 법적 효력이 있는 서명을 요청·수집·보관하는 도구입니다. 단순 서명 요청부터 제안서 작성·CLM·임베디드 API까지 범위가 갈립니다.",
+    "howToChoose": [
+      "월 서명 건수(엔벨로프)를 세어 보세요. 건수 상한이 있는 플랜과 무제한 플랜의 체감 비용이 크게 다릅니다.",
+      "파일이 Dropbox·Drive·Microsoft 365 어디에 사는지 확인하세요. 네이티브 연동이 왕복 시간을 줄입니다.",
+      "서명만 필요한지, 제안서·견적서 작성까지 한 툴에서 할지 정하세요. 후자면 PandaDoc류입니다.",
+      "엔터프라이즈 조달·컴플라이언스 브랜드가 필요한지, SMB 가성비·셀프호스팅이 필요한지 나누세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "엔터프라이즈 서명형",
+        "description": "연동·컴플라이언스·브랜드 인지도가 넓습니다. 조달에 유리하지만 건수·플랜 비용이 클 수 있습니다.",
+        "examples": ["DocuSign", "Adobe Acrobat Sign"]
+      },
+      {
+        "type": "스토리지·문서 밀착형",
+        "description": "클라우드 스토리지·제안서 작성과 붙어 서명 전후 문서 흐름이 짧습니다.",
+        "examples": ["Dropbox Sign", "PandaDoc"]
+      },
+      {
+        "type": "가성비·셀프호스트형",
+        "description": "무제한 서명·저가 또는 직접 호스팅으로 비용을 통제합니다. 엔터프라이즈 생태계는 좁을 수 있습니다.",
+        "examples": ["SignNow", "DocuSeal"]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    { "key": "name", "label": "툴" },
+    { "key": "advantage", "label": "한 줄 요약" },
+    { "key": "meetingStyle", "label": "잘 맞는 용도" },
+    { "key": "freeQuota", "label": "가격대" },
+    { "key": "stackFit", "label": "잘 맞는 팀" }
+  ],
+  "tools": [
+    {
+      "slug": "docusign",
+      "name": "DocuSign",
+      "rank": 1,
+      "tags": ["엔터프라이즈", "연동최다", "브랜드"],
+      "quote": "상대가 ‘DocuSign으로 보내 주세요’라고 하거나, 조달에 익숙한 브랜드가 필요하면 DocuSign이 여전히 기본 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        { "title": "생태계·인지도", "body": "연동과 브랜드 인지도가 넓어 대기업·파트너 계약 흐름에 마찰이 적습니다." },
+        { "title": "고급 계약 운영", "body": "템플릿·워크플로·CLM 확장으로 단순 서명을 넘어 계약 운영까지 키울 수 있습니다." }
+      ],
+      "cons": [
+        "좌석·엔벨로프 한도에 따라 비용이 빠르게 커질 수 있습니다.",
+        "SMB가 서명만 필요할 때는 오버스펙·고가일 수 있습니다."
+      ],
+      "notFor": ["월 서명이 많고 건수 상한에 민감할 때", "스토리지 네이티브 단순 UX만 원할 때"],
+      "bestFor": "엔터프라이즈 조달·광범위 연동이 필요한 전자서명",
+      "comparison": {
+        "advantage": "엔터프라이즈 표준·연동",
+        "meetingStyle": "엔터프라이즈 서명형",
+        "freeQuota": "좌석·엔벨로프 유료",
+        "freeQuotaHighlight": false,
+        "stackFit": "대기업·법무·조달"
+      },
+      "affiliate": { "url": "https://www.docusign.com/", "ctaLabel": "DocuSign 알아보기 ↗" },
+      "recommendWhen": ["enterprise-sign", "brand-trust"]
+    },
+    {
+      "slug": "dropbox-sign",
+      "name": "Dropbox Sign",
+      "rank": 2,
+      "tags": ["Dropbox", "UX", "API"],
+      "quote": "문서가 이미 Dropbox·Drive에 있다면, Dropbox Sign(구 HelloSign)은 내려받기 없이 보내고 서명본을 다시 쌓기 좋습니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        { "title": "스토리지 네이티브", "body": "Dropbox·Google Drive 등과 붙어 서명 요청·보관 왕복이 짧습니다." },
+        { "title": "SMB UX·API", "body": "첫 서명 흐름이 단순하고, 제품에 서명을 심을 API 평가도 좋은 편입니다." }
+      ],
+      "cons": [
+        "DocuSign급 CLM·초광범위 엔터프라이즈 모듈은 범위가 좁을 수 있습니다.",
+        "Dropbox 생태계 밖에서는 차별점이 줄어듭니다."
+      ],
+      "notFor": ["풀 CLM·수천 연동이 필수일 때", "완전 무료만 고집할 때"],
+      "bestFor": "클라우드 스토리지와 붙는 SMB·미드마켓 서명",
+      "comparison": {
+        "advantage": "스토리지 밀착·깔끔한 UX",
+        "meetingStyle": "스토리지·문서 밀착형",
+        "freeQuota": "유료(무제한 요청 플랜)",
+        "freeQuotaHighlight": true,
+        "stackFit": "Dropbox/Drive SMB"
+      },
+      "affiliate": { "url": "https://sign.dropbox.com/", "ctaLabel": "Dropbox Sign 알아보기 ↗" },
+      "recommendWhen": ["storage-native", "smb-sign"]
+    },
+    {
+      "slug": "adobe-sign",
+      "name": "Adobe Acrobat Sign",
+      "rank": 3,
+      "tags": ["Adobe", "Microsoft", "PDF"],
+      "quote": "팀이 이미 Acrobat·Microsoft 365로 PDF를 돌린다면, Acrobat Sign은 문서 툴체인 안의 서명 레이어에 가깝습니다.",
+      "quoteTone": "red",
+      "highlights": [
+        { "title": "Adobe·M365 밀착", "body": "PDF 편집·공유 흐름과 서명을 같은 생태계에서 이어가기 좋습니다." },
+        { "title": "기업 도입", "body": "기존 Adobe 계약·보안 검토가 있는 조직에서 추가하기 수월한 경우가 많습니다." }
+      ],
+      "cons": [
+        "Adobe 스택 밖에서는 DocuSign·Dropbox Sign 대비 선택 이유가 약해질 수 있습니다.",
+        "플랜·번들에 따라 체감 가격이 복잡합니다."
+      ],
+      "notFor": ["Adobe를 전혀 쓰지 않는 초소형 팀", "제안서 작성까지 한 툴에 원할 때"],
+      "bestFor": "Adobe·Microsoft 문서 스택의 전자서명",
+      "comparison": {
+        "advantage": "Acrobat·M365 문서 스택",
+        "meetingStyle": "엔터프라이즈 서명형",
+        "freeQuota": "유료(번들/좌석)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Adobe/Microsoft 조직"
+      },
+      "affiliate": { "url": "https://www.adobe.com/acrobat/business/sign.html", "ctaLabel": "Acrobat Sign 알아보기 ↗" },
+      "recommendWhen": ["adobe-stack", "m365-docs"]
+    },
+    {
+      "slug": "pandadoc",
+      "name": "PandaDoc",
+      "rank": 4,
+      "tags": ["제안서", "세일즈", "견적"],
+      "quote": "서명 전에 제안서·견적을 만들고 추적해야 한다면, PandaDoc은 ‘서명 앱’보다 세일즈 문서 워크스페이스에 가깝습니다.",
+      "quoteTone": "green",
+      "highlights": [
+        { "title": "제안서+서명", "body": "문서 작성·콘텐츠 라이브러리·서명·추적을 한 흐름으로 묶어 세일즈 사이클을 짧게 만듭니다." },
+        { "title": "무료 티어 진입", "body": "저볼륨은 무료/저가에서 시작해 팀 확장을 시험하기 쉽습니다." }
+      ],
+      "cons": [
+        "순수 대량 서명만 필요하면 기능이 과할 수 있습니다.",
+        "엔터프라이즈 순수 eSign 브랜드 인지도는 DocuSign이 더 강합니다."
+      ],
+      "notFor": ["서명 버튼만 필요할 때", "셀프호스팅이 필수일 때"],
+      "bestFor": "세일즈 제안서·견적과 서명을 같이 운영할 때",
+      "comparison": {
+        "advantage": "제안서·견적+서명",
+        "meetingStyle": "스토리지·문서 밀착형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "세일즈·CS"
+      },
+      "affiliate": { "url": "https://www.pandadoc.com/", "ctaLabel": "PandaDoc 알아보기 ↗" },
+      "recommendWhen": ["proposals", "sales-docs"]
+    },
+    {
+      "slug": "signnow",
+      "name": "SignNow",
+      "rank": 5,
+      "tags": ["가성비", "무제한", "SMB"],
+      "quote": "건수 상한에 시달리지 않고 서명 볼륨을 늘리고 싶다면, SignNow는 가성비·무제한 쪽 후보로 자주 비교됩니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        { "title": "비용 대비 볼륨", "body": "저가 플랜에서 서명 요청을 넉넉히 쓰는 구조가 SMB에 유리한 편입니다." },
+        { "title": "기본 워크플로", "body": "템플릿·초대·감사 추적 등 실무 필수 기능은 갖춘 편입니다." }
+      ],
+      "cons": [
+        "엔터프라이즈 연동·브랜드 인지도는 DocuSign·Adobe만 못할 수 있습니다.",
+        "고급 CLM·세일즈 문서 작성은 PandaDoc 쪽이 더 맞습니다."
+      ],
+      "notFor": ["조달에 DocuSign 브랜드가 필수일 때", "제안서 빌더가 핵심일 때"],
+      "bestFor": "SMB가 저비용으로 서명 볼륨을 처리할 때",
+      "comparison": {
+        "advantage": "가성비·볼륨 서명",
+        "meetingStyle": "가성비·셀프호스트형",
+        "freeQuota": "저가 유료(볼륨 유리)",
+        "freeQuotaHighlight": true,
+        "stackFit": "SMB·고볼륨"
+      },
+      "affiliate": { "url": "https://www.signnow.com/", "ctaLabel": "SignNow 알아보기 ↗" },
+      "recommendWhen": ["budget-sign", "high-volume"]
+    },
+    {
+      "slug": "docuseal",
+      "name": "DocuSeal",
+      "rank": 6,
+      "tags": ["오픈소스", "셀프호스팅", "개발자"],
+      "quote": "서명 데이터를 우리 서버에 두고 임베드까지 직접 하려면, DocuSeal 같은 오픈소스·셀프호스트 옵션이 맞습니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        { "title": "셀프호스팅", "body": "직접 배포하면 데이터 경로와 비용을 인프라 단위로 통제할 수 있습니다." },
+        { "title": "임베드 친화", "body": "제품/내부툴에 서명 UI를 심으려는 개발팀에 적합합니다." }
+      ],
+      "cons": [
+        "서버·보안·업타임 책임이 생깁니다.",
+        "비개발 팀만 있으면 관리형 SaaS가 더 안전합니다."
+      ],
+      "notFor": ["인프라를 만질 사람이 없을 때", "엔터프라이즈 조달 브랜드가 필요할 때"],
+      "bestFor": "오픈소스·셀프호스트 전자서명",
+      "comparison": {
+        "advantage": "오픈소스 셀프호스트",
+        "meetingStyle": "가성비·셀프호스트형",
+        "freeQuota": "셀프호스트 무료(+클라우드)",
+        "freeQuotaHighlight": true,
+        "stackFit": "개발·데이터주권"
+      },
+      "affiliate": { "url": "https://www.docuseal.com/", "ctaLabel": "DocuSeal 알아보기 ↗" },
+      "recommendWhen": ["self-host-sign", "embed-api"]
+    }
+  ],
+  "decisionTree": [
+    { "id": "enterprise-sign", "label": "엔터프라이즈·조달 표준", "recommend": "docusign", "reason": "브랜드·연동 폭이 넓습니다." },
+    { "id": "storage-native", "label": "Dropbox/Drive에 문서가 있음", "recommend": "dropbox-sign", "reason": "스토리지와 서명 왕복이 짧습니다." },
+    { "id": "adobe-stack", "label": "Acrobat·M365 씀", "recommend": "adobe-sign", "reason": "기존 문서 스택에 붙이기 쉽습니다." },
+    { "id": "proposals", "label": "제안서·견적+서명", "recommend": "pandadoc", "reason": "세일즈 문서와 서명을 한 흐름으로 묶습니다." },
+    { "id": "budget-sign", "label": "가성비·볼륨", "recommend": "signnow", "reason": "저비용으로 서명 건수를 늘리기 좋습니다." },
+    { "id": "self-host-sign", "label": "셀프호스팅", "recommend": "docuseal", "reason": "데이터·임베드를 직접 통제합니다." },
+    { "id": "smb-sign", "label": "SMB 단순 서명", "recommend": "dropbox-sign", "reason": "UX와 스토리지 연동이 실무적입니다." },
+    { "id": "high-volume", "label": "서명 건수가 많음", "recommend": "signnow", "reason": "건수 상한 스트레스가 상대적으로 적습니다." }
+  ],
+  "relatedCategories": [
+    { "slug": "file-storage", "title": "파일 저장·공유" },
+    { "slug": "cms", "title": "CMS" },
+    { "slug": "automation", "title": "AI 워크플로 자동화" },
+    { "slug": "compliance-software", "title": "컴플라이언스 소프트웨어" }
+  ],
+  "faq": [
+    { "q": "전자서명은 법적 효력이 있나요?", "a": "많은 국가에서 전자서명은 조건만 맞으면 유효합니다. 다만 업종·국가·공증 요구는 다르니 법무 확인이 필요합니다. 툴의 감사 추적·인증 기능을 함께 보세요." },
+    { "q": "DocuSign이 항상 정답인가요?", "a": "조달·브랜드에는 강하지만, SMB·스토리지 밀착·볼륨 가성비는 Dropbox Sign·SignNow·PandaDoc이 나을 수 있습니다." },
+    { "q": "엔벨로프 한도가 왜 중요한가요?", "a": "일부 플랜은 월/연 서명 요청 수가 제한됩니다. 채용·세일즈 시즌에 한도를 넘기면 추가 비용이 납니다." },
+    { "q": "제안서 툴과 서명 툴을 따로 써야 하나요?", "a": "서명만이면 eSign, 견적·제안 작성+추적이면 PandaDoc류가 한 툴로 끝나는 경우가 많습니다." },
+    { "q": "셀프호스팅은 언제?", "a": "데이터 주권·임베드·인프라 비용 통제가 우선이고 운영 인력이 있을 때입니다. 없으면 관리형이 총비용이 낮을 수 있습니다." }
+  ]
+}

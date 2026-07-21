@@ -1,0 +1,430 @@
+{
+  "category": {
+    "slug": "search",
+    "title": "검색",
+    "headline": "우리 사이트·앱에서 원하는 걸 못 찾나요?",
+    "subtitle": "Algolia·Elasticsearch·Meilisearch부터 Typesense·Coveo·Kagi까지. 사이트 검색·검색엔진 기준으로 실무용 검색 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "검색 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Algolia, Elasticsearch, Meilisearch, Typesense, Coveo, Kagi를 용도·운영·가격 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "검색 유형"
+  },
+  "guide": {
+    "title": "검색 툴이란?",
+    "summary": "문서·상품·앱 콘텐츠를 빠르게 찾게 하는 검색 인프라와, 웹을 찾는 검색엔진을 포함합니다. 지식베이스 ‘검색 UX’와 겹치지만, 여기선 검색 엔진/API 자체에 초점이 있습니다.",
+    "howToChoose": [
+      "제품 내 사이트 검색(API)인지, 개인 웹 검색엔진인지 먼저 나누세요.",
+      "관리형(Algolia·Coveo) vs 셀프호스트(Meilisearch·Typesense·Elastic) 운영 여력을 보세요.",
+      "타이포 허용·다국어·퍼스널라이제이션 요구를 체크하세요.",
+      "트래픽·레코드 수에 따라 비용이 급변하니 예상 볼륨으로 견적을 받으세요."
+    ],
+    "recordingTypes": [
+      {
+        "type": "관리형 사이트 검색형",
+        "description": "API·대시보드로 빠르게 붙입니다. 볼륨 과금에 주의하세요.",
+        "examples": [
+          "Algolia",
+          "Coveo"
+        ]
+      },
+      {
+        "type": "오픈소스·셀프호스트형",
+        "description": "인프라 비용·통제에 유리합니다. 운영 책임이 생깁니다.",
+        "examples": [
+          "Elasticsearch",
+          "Meilisearch",
+          "Typesense"
+        ]
+      },
+      {
+        "type": "웹 검색엔진형",
+        "description": "개인/팀의 웹 검색 품질·프라이버시에 초점이 있습니다.",
+        "examples": [
+          "Kagi"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "algolia",
+      "name": "Algolia",
+      "rank": 1,
+      "tags": [
+        "관리형",
+        "사이트검색",
+        "DX"
+      ],
+      "quote": "제품에 ‘즉시 반응하는’ 검색창을 붙이려면, Algolia는 관리형 사이트 검색의 기본 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "검색 UX·DX",
+          "body": "타이포 허용·랭킹·프론트 SDK가 실무적으로 잘 갖춰져 있습니다."
+        },
+        {
+          "title": "빠른 도입",
+          "body": "인프라 없이 인덱스를 올려 검색을 붙이기 좋습니다."
+        }
+      ],
+      "cons": [
+        "레코드·검색 수에 따라 비용이 커질 수 있습니다.",
+        "완전 데이터 주권·셀프호스트가 필요하면 오픈소스가 맞습니다."
+      ],
+      "notFor": [
+        "운영 팀 없이 초저가 셀프호스트만 원할 때",
+        "개인 웹 검색만 필요할 때"
+      ],
+      "bestFor": "관리형 제품·사이트 검색",
+      "comparison": {
+        "advantage": "관리형 사이트 검색 DX",
+        "meetingStyle": "관리형 사이트 검색형",
+        "freeQuota": "무료 티어(+사용량)",
+        "freeQuotaHighlight": true,
+        "stackFit": "SaaS·이커머스"
+      },
+      "affiliate": {
+        "url": "https://www.algolia.com/",
+        "ctaLabel": "Algolia 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "managed-search",
+        "product-search"
+      ]
+    },
+    {
+      "slug": "elasticsearch",
+      "name": "Elasticsearch",
+      "rank": 2,
+      "tags": [
+        "검색엔진",
+        "로그",
+        "확장"
+      ],
+      "quote": "검색뿐 아니라 로그·분석까지 같은 엔진으로 키우려면, Elasticsearch는 확장형 검색 인프라 표준입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "확장·생태계",
+          "body": "대용량 인덱스·ELK 스택과 함께 쓰기 좋습니다."
+        },
+        {
+          "title": "유연성",
+          "body": "커스텀 분석기·쿼리 DSL로 깊게 맞출 수 있습니다."
+        }
+      ],
+      "cons": [
+        "운영·튜닝 비용이 큽니다.",
+        "단순 사이트 검색만이면 Algolia/Meilisearch가 더 빠를 수 있습니다."
+      ],
+      "notFor": [
+        "프론트만 있는 초소형 팀",
+        "개인 웹 검색"
+      ],
+      "bestFor": "대용량·커스텀 검색 인프라",
+      "comparison": {
+        "advantage": "대용량 검색·분석 엔진",
+        "meetingStyle": "오픈소스·셀프호스트형",
+        "freeQuota": "오픈소스(+클라우드)",
+        "freeQuotaHighlight": true,
+        "stackFit": "플랫폼·데이터팀"
+      },
+      "affiliate": {
+        "url": "https://www.elastic.co/elasticsearch",
+        "ctaLabel": "Elasticsearch 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "elastic-scale"
+      ]
+    },
+    {
+      "slug": "meilisearch",
+      "name": "Meilisearch",
+      "rank": 3,
+      "tags": [
+        "오픈소스",
+        "빠름",
+        "DX"
+      ],
+      "quote": "오픈소스로 빠른 ‘타이핑 즉시 검색’을 원하면, Meilisearch는 개발자 친화 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "속도·UX",
+          "body": "타이포 허용과 즉각 결과가 강점입니다."
+        },
+        {
+          "title": "쉬운 운영 시작",
+          "body": "Elastic보다 가볍게 시작할 수 있는 편입니다."
+        }
+      ],
+      "cons": [
+        "초대규모·복잡한 분석 파이프라인은 Elastic이 더 맞을 수 있습니다.",
+        "엔터프라이즈 기능은 클라우드/플랜을 확인하세요."
+      ],
+      "notFor": [
+        "완전 관리형만 원할 때",
+        "웹 검색엔진이 필요할 때"
+      ],
+      "bestFor": "오픈소스 빠른 사이트 검색",
+      "comparison": {
+        "advantage": "오픈소스 즉시 검색",
+        "meetingStyle": "오픈소스·셀프호스트형",
+        "freeQuota": "오픈소스(+클라우드)",
+        "freeQuotaHighlight": true,
+        "stackFit": "스타트업·개발팀"
+      },
+      "affiliate": {
+        "url": "https://www.meilisearch.com/",
+        "ctaLabel": "Meilisearch 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "meili-oss"
+      ]
+    },
+    {
+      "slug": "typesense",
+      "name": "Typesense",
+      "rank": 4,
+      "tags": [
+        "오픈소스",
+        "타이포",
+        "단순"
+      ],
+      "quote": "Algolia 같은 감각을 오픈소스·저비용으로 가져가려면, Typesense는 실무형 대안 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "Algolia-like DX",
+          "body": "개발자가 이해하기 쉬운 API·타이포 검색에 초점이 있습니다."
+        },
+        {
+          "title": "비용 통제",
+          "body": "셀프호스트로 사용량 과금을 피할 수 있습니다."
+        }
+      ],
+      "cons": [
+        "매니지드 편의·생태계는 Algolia가 앞설 수 있습니다.",
+        "운영 모니터링은 직접 챙겨야 합니다."
+      ],
+      "notFor": [
+        "검색 인프라 인력 제로",
+        "개인 프라이버시 웹 검색만"
+      ],
+      "bestFor": "오픈소스 Algolia 대안",
+      "comparison": {
+        "advantage": "오픈소스 Algolia 감각",
+        "meetingStyle": "오픈소스·셀프호스트형",
+        "freeQuota": "오픈소스(+클라우드)",
+        "freeQuotaHighlight": true,
+        "stackFit": "비용 민감 SaaS"
+      },
+      "affiliate": {
+        "url": "https://typesense.org/",
+        "ctaLabel": "Typesense 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "typesense-alt"
+      ]
+    },
+    {
+      "slug": "coveo",
+      "name": "Coveo",
+      "rank": 5,
+      "tags": [
+        "엔터프라이즈",
+        "AI",
+        "퍼스널화"
+      ],
+      "quote": "대기업 지식·커머스 검색에 AI 퍼스널라이제이션이 필요하면, Coveo는 엔터프라이즈 검색 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "엔터프라이즈 검색",
+          "body": "복잡한 콘텐츠 소스·권한·추천을 묶는 데 초점이 있습니다."
+        },
+        {
+          "title": "AI 랭킹",
+          "body": "관련도·개인화로 전환/셀프서비스율을 노립니다."
+        }
+      ],
+      "cons": [
+        "SMB·단순 문서 검색엔 오버스펙·고가일 수 있습니다.",
+        "도입·구현 기간이 길 수 있습니다."
+      ],
+      "notFor": [
+        "5명 스타트업 블로그 검색",
+        "주말 셀프호스트 실험"
+      ],
+      "bestFor": "엔터프라이즈 AI 검색",
+      "comparison": {
+        "advantage": "엔터프라이즈 AI 검색",
+        "meetingStyle": "관리형 사이트 검색형",
+        "freeQuota": "견적형",
+        "freeQuotaHighlight": false,
+        "stackFit": "대기업·커머스"
+      },
+      "affiliate": {
+        "url": "https://www.coveo.com/",
+        "ctaLabel": "Coveo 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "enterprise-search"
+      ]
+    },
+    {
+      "slug": "kagi",
+      "name": "Kagi",
+      "rank": 6,
+      "tags": [
+        "웹검색",
+        "광고없음",
+        "품질"
+      ],
+      "quote": "광고 없는 유료 웹 검색으로 결과 품질을 올리고 싶다면, Kagi는 개인 검색엔진 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "광고 없음",
+          "body": "구독 모델로 검색 결과 오염을 줄이는 포지션입니다."
+        },
+        {
+          "title": "커스터마이즈",
+          "body": "렌즈·랭킹 조정으로 개인 검색 취향을 맞출 수 있습니다."
+        }
+      ],
+      "cons": [
+        "사이트/앱 검색 API 대용은 아닙니다.",
+        "팀 전체가 Google 습관이면 전환 비용이 있습니다."
+      ],
+      "notFor": [
+        "제품 내 검색 API가 필요할 때",
+        "완전 무료 웹 검색만 원할 때"
+      ],
+      "bestFor": "광고 없는 개인 웹 검색",
+      "comparison": {
+        "advantage": "광고 없는 웹 검색",
+        "meetingStyle": "웹 검색엔진형",
+        "freeQuota": "유료 구독",
+        "freeQuotaHighlight": false,
+        "stackFit": "개인·리서치"
+      },
+      "affiliate": {
+        "url": "https://kagi.com/",
+        "ctaLabel": "Kagi 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "web-search"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "managed-search",
+      "label": "관리형 사이트 검색",
+      "recommend": "algolia",
+      "reason": "DX와 도입 속도가 빠릅니다."
+    },
+    {
+      "id": "product-search",
+      "label": "제품 검색창",
+      "recommend": "algolia",
+      "reason": "프론트 SDK·랭킹이 실무적입니다."
+    },
+    {
+      "id": "elastic-scale",
+      "label": "대용량·로그 겸용",
+      "recommend": "elasticsearch",
+      "reason": "확장과 생태계가 넓습니다."
+    },
+    {
+      "id": "meili-oss",
+      "label": "가벼운 오픈소스",
+      "recommend": "meilisearch",
+      "reason": "빠른 즉시 검색에 맞습니다."
+    },
+    {
+      "id": "typesense-alt",
+      "label": "Algolia 오픈소스 대안",
+      "recommend": "typesense",
+      "reason": "비용 통제와 DX 균형입니다."
+    },
+    {
+      "id": "enterprise-search",
+      "label": "엔터프라이즈 AI",
+      "recommend": "coveo",
+      "reason": "퍼스널화·복합 소스에 강합니다."
+    },
+    {
+      "id": "web-search",
+      "label": "개인 웹 검색",
+      "recommend": "kagi",
+      "reason": "광고 없는 결과 품질에 초점이 있습니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "knowledge-base",
+      "title": "지식베이스"
+    },
+    {
+      "slug": "cms",
+      "title": "CMS"
+    },
+    {
+      "slug": "automation",
+      "title": "AI 워크플로 자동화"
+    },
+    {
+      "slug": "app-switcher",
+      "title": "앱 스위처"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Algolia vs Meilisearch?",
+      "a": "관리형 편의·생태계면 Algolia, 오픈소스·비용 통제면 Meilisearch/Typesense를 보세요."
+    },
+    {
+      "q": "Elasticsearch는 과한가요?",
+      "a": "단순 문서 검색엔 과할 수 있습니다. 로그·대용량·커스텀 분석이 있으면 적합합니다."
+    },
+    {
+      "q": "Kagi는 사이트 검색인가요?",
+      "a": "아닙니다. 개인 웹 검색엔진입니다. 제품 검색은 Algolia류를 보세요."
+    },
+    {
+      "q": "비용이 갑자기 늘면?",
+      "a": "인덱스 크기·쿼리 수·레플리카를 모니터링하고, 캐시·불필요 필드 제거를 하세요."
+    },
+    {
+      "q": "한국어 검색은?",
+      "a": "토크나이저·동의어·형태소 설정을 확인하세요. 엔진·플랜마다 품질 차이가 큽니다."
+    }
+  ]
+}

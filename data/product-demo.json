@@ -1,0 +1,430 @@
+{
+  "category": {
+    "slug": "product-demo",
+    "title": "제품 데모",
+    "headline": "라이브 데모마다 같은 설명을 반복하나요?",
+    "subtitle": "Loom·Navattic·Storylane부터 Walnut·Demostack·Tourial까지. 비동기 영상·인터랙티브·세일즈 데모 기준으로 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "제품 데모 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Loom, Navattic, Storylane, Walnut, Demostack, Tourial을 데모 유형·가격 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "데모 유형"
+  },
+  "guide": {
+    "title": "제품 데모 툴이란?",
+    "summary": "제품을 영상·클릭 가능한 가이드·샌드박스로 보여 주는 도구입니다. 프레젠테이션 슬라이드와 달리 ‘제품 경험’ 자체에 초점이 있습니다.",
+    "howToChoose": [
+      "비동기 화면 녹화(Loom)인지, 클릭형 인터랙티브(Navattic·Storylane)인지, 세일즈 샌드박스(Walnut·Demostack)인지 나누세요.",
+      "마케팅 사이트 임베드인지, AE 1:1 데모 복제인지 목적이 다릅니다.",
+      "데이터/PII가 들어간 데모면 샌드박스·마스킹 정책을 확인하세요.",
+      "제작 공수: 녹화 < 스크린샷 플로우 < 풀 환경 복제 순으로 커집니다."
+    ],
+    "recordingTypes": [
+      {
+        "type": "비동기 영상형",
+        "description": "화면 녹화로 빠르게 설명합니다. 인터랙션은 없습니다.",
+        "examples": [
+          "Loom"
+        ]
+      },
+      {
+        "type": "인터랙티브 가이드형",
+        "description": "클릭·핫스팟으로 셀프 데모를 만듭니다. 마케팅·온보딩에 강합니다.",
+        "examples": [
+          "Navattic",
+          "Storylane",
+          "Tourial"
+        ]
+      },
+      {
+        "type": "세일즈 샌드박스형",
+        "description": "데모 환경을 복제·개인화합니다. 비용·구축이 큽니다.",
+        "examples": [
+          "Walnut",
+          "Demostack"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "loom",
+      "name": "Loom",
+      "rank": 1,
+      "tags": [
+        "영상",
+        "비동기",
+        "간편"
+      ],
+      "quote": "5분 안에 화면을 녹화해 보내려면, Loom은 비동기 제품 설명의 기본 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "빠른 녹화",
+          "body": "설치·공유 마찰이 낮아 세일즈·CS·엔지니어링 모두 쓰기 좋습니다."
+        },
+        {
+          "title": "비동기 소통",
+          "body": "미팅 없이 맥락을 전달하는 데 강합니다."
+        }
+      ],
+      "cons": [
+        "클릭해 보는 인터랙티브 데모는 아닙니다.",
+        "엔터프라이즈 샌드박스 개인화는 전용 툴이 맞습니다."
+      ],
+      "notFor": [
+        "셀프 체험형 데모가 필요할 때",
+        "풀 환경 복제가 필요할 때"
+      ],
+      "bestFor": "빠른 비동기 화면 데모",
+      "comparison": {
+        "advantage": "빠른 화면 녹화 공유",
+        "meetingStyle": "비동기 영상형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "전 팀·SMB"
+      },
+      "affiliate": {
+        "url": "https://www.loom.com/",
+        "ctaLabel": "Loom 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "async-video",
+        "quick-demo"
+      ]
+    },
+    {
+      "slug": "navattic",
+      "name": "Navattic",
+      "rank": 2,
+      "tags": [
+        "인터랙티브",
+        "마케팅",
+        "임베드"
+      ],
+      "quote": "웹사이트에 클릭형 제품 투어를 심으려면, Navattic은 인터랙티브 데모 후보로 자주 꼽힙니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "클릭 투어",
+          "body": "스크린샷/플로우로 셀프 가이드 데모를 만들기 좋습니다."
+        },
+        {
+          "title": "마케팅 임베드",
+          "body": "랜딩·캠페인에 넣어 파이프라인을 만드는 데 초점이 있습니다."
+        }
+      ],
+      "cons": [
+        "라이브 데이터 샌드박스까지는 범위가 다를 수 있습니다.",
+        "제작·유지 공수가 녹화보다 큽니다."
+      ],
+      "notFor": [
+        "30초 녹화만 필요할 때",
+        "AE용 풀 환경 복제가 필요할 때"
+      ],
+      "bestFor": "마케팅용 인터랙티브 제품 투어",
+      "comparison": {
+        "advantage": "웹 임베드 인터랙티브",
+        "meetingStyle": "인터랙티브 가이드형",
+        "freeQuota": "유료(견적/플랜)",
+        "freeQuotaHighlight": false,
+        "stackFit": "B2B 마케팅"
+      },
+      "affiliate": {
+        "url": "https://www.navattic.com/",
+        "ctaLabel": "Navattic 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "interactive-tour"
+      ]
+    },
+    {
+      "slug": "storylane",
+      "name": "Storylane",
+      "rank": 3,
+      "tags": [
+        "노코드",
+        "데모",
+        "공유"
+      ],
+      "quote": "노코드로 인터랙티브 데모를 만들고 공유하려면, Storylane은 실무형 셀프 데모 빌더 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "노코드 제작",
+          "body": "마케팅·세일즈가 엔지니어 없이 데모를 반복 개선하기 좋습니다."
+        },
+        {
+          "title": "공유·분석",
+          "body": "누가 어디까지 클릭했는지 보는 데 초점이 있습니다."
+        }
+      ],
+      "cons": [
+        "초고난도 커스텀 환경 복제는 Demostack/Walnut이 더 맞을 수 있습니다.",
+        "가격은 팀 규모에 따라 빠르게 커질 수 있습니다."
+      ],
+      "notFor": [
+        "완전 무료만 원할 때",
+        "단순 Loom 녹화로 충분할 때"
+      ],
+      "bestFor": "노코드 인터랙티브 셀프 데모",
+      "comparison": {
+        "advantage": "노코드 셀프 데모",
+        "meetingStyle": "인터랙티브 가이드형",
+        "freeQuota": "유료(플랜)",
+        "freeQuotaHighlight": false,
+        "stackFit": "PLG·세일즈"
+      },
+      "affiliate": {
+        "url": "https://www.storylane.io/",
+        "ctaLabel": "Storylane 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "nocode-demo"
+      ]
+    },
+    {
+      "slug": "walnut",
+      "name": "Walnut",
+      "rank": 4,
+      "tags": [
+        "세일즈",
+        "개인화",
+        "데모룸"
+      ],
+      "quote": "AE가 계정별로 개인화된 데모룸을 운영하려면, Walnut은 세일즈 데모 플랫폼 후보입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "세일즈 개인화",
+          "body": "prospect별로 스토리·화면을 맞춰 데모 전환을 노립니다."
+        },
+        {
+          "title": "데모 운영",
+          "body": "반복 라이브 데모 부담을 줄이는 워크플로에 초점이 있습니다."
+        }
+      ],
+      "cons": [
+        "SMB·초기 팀엔 비용·도입이 클 수 있습니다.",
+        "간단한 제품 투어만이면 Navattic/Storylane이 맞을 수 있습니다."
+      ],
+      "notFor": [
+        "개인 사이드프로젝트",
+        "영상 녹화만 필요할 때"
+      ],
+      "bestFor": "B2B 세일즈 개인화 데모",
+      "comparison": {
+        "advantage": "세일즈 데모룸 개인화",
+        "meetingStyle": "세일즈 샌드박스형",
+        "freeQuota": "견적형",
+        "freeQuotaHighlight": false,
+        "stackFit": "B2B AE 팀"
+      },
+      "affiliate": {
+        "url": "https://www.walnut.io/",
+        "ctaLabel": "Walnut 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "sales-demo"
+      ]
+    },
+    {
+      "slug": "demostack",
+      "name": "Demostack",
+      "rank": 5,
+      "tags": [
+        "샌드박스",
+        "복제",
+        "엔터프라이즈"
+      ],
+      "quote": "프로덕션을 건드리지 않고 데모 환경을 복제·통제하려면, Demostack은 데모 인프라 쪽에 가깝습니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "환경 복제",
+          "body": "안전한 데모 인스턴스로 라이브 리스크를 줄입니다."
+        },
+        {
+          "title": "엔터프라이즈 세일즈",
+          "body": "복잡한 제품을 안정적으로 보여 줄 때 유리합니다."
+        }
+      ],
+      "cons": [
+        "구축·비용이 크고 오버킬일 수 있습니다.",
+        "마케팅 랜딩용 가벼운 투어에는 과합니다."
+      ],
+      "notFor": [
+        "초기 스타트업 간단 데모",
+        "Loom만으로 충분할 때"
+      ],
+      "bestFor": "엔터프라이즈 데모 환경 복제",
+      "comparison": {
+        "advantage": "데모 환경 인프라",
+        "meetingStyle": "세일즈 샌드박스형",
+        "freeQuota": "견적형",
+        "freeQuotaHighlight": false,
+        "stackFit": "엔터프라이즈 세일즈"
+      },
+      "affiliate": {
+        "url": "https://www.demostack.com/",
+        "ctaLabel": "Demostack 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "demo-infra"
+      ]
+    },
+    {
+      "slug": "tourial",
+      "name": "Tourial",
+      "rank": 6,
+      "tags": [
+        "가이드",
+        "온보딩",
+        "마케팅"
+      ],
+      "quote": "제품 투어·온보딩 가이드를 인터랙티브로 만들려면, Tourial은 가이드형 데모 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "가이드 투어",
+          "body": "스텝 기반 제품 소개·온보딩에 맞습니다."
+        },
+        {
+          "title": "마케팅·CS",
+          "body": "세일즈 샌드박스보다 가벼운 셀프 체험에 초점이 있습니다."
+        }
+      ],
+      "cons": [
+        "풀 샌드박스 개인화는 Walnut/Demostack이 더 맞을 수 있습니다.",
+        "단순 녹화만 필요하면 Loom이 빠릅니다."
+      ],
+      "notFor": [
+        "AE 개인화 데모룸이 핵심일 때",
+        "30초 설명 영상만 필요할 때"
+      ],
+      "bestFor": "인터랙티브 제품 가이드·온보딩",
+      "comparison": {
+        "advantage": "가이드형 제품 투어",
+        "meetingStyle": "인터랙티브 가이드형",
+        "freeQuota": "유료(플랜)",
+        "freeQuotaHighlight": false,
+        "stackFit": "마케팅·CS"
+      },
+      "affiliate": {
+        "url": "https://tourial.com/",
+        "ctaLabel": "Tourial 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "guide-tour"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "async-video",
+      "label": "빠른 화면 녹화",
+      "recommend": "loom",
+      "reason": "제작 공수가 가장 낮습니다."
+    },
+    {
+      "id": "quick-demo",
+      "label": "비동기 설명",
+      "recommend": "loom",
+      "reason": "링크로 바로 공유합니다."
+    },
+    {
+      "id": "interactive-tour",
+      "label": "웹 인터랙티브 투어",
+      "recommend": "navattic",
+      "reason": "마케팅 임베드에 강합니다."
+    },
+    {
+      "id": "nocode-demo",
+      "label": "노코드 셀프 데모",
+      "recommend": "storylane",
+      "reason": "제작·분석이 실무적입니다."
+    },
+    {
+      "id": "sales-demo",
+      "label": "AE 개인화 데모",
+      "recommend": "walnut",
+      "reason": "세일즈 데모룸에 맞습니다."
+    },
+    {
+      "id": "demo-infra",
+      "label": "환경 복제 샌드박스",
+      "recommend": "demostack",
+      "reason": "안전한 데모 인프라입니다."
+    },
+    {
+      "id": "guide-tour",
+      "label": "온보딩 가이드",
+      "recommend": "tourial",
+      "reason": "스텝 가이드에 초점이 있습니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "presentation-software",
+      "title": "프레젠테이션"
+    },
+    {
+      "slug": "video-conferencing",
+      "title": "화상회의"
+    },
+    {
+      "slug": "customer-support",
+      "title": "고객 지원"
+    },
+    {
+      "slug": "cms",
+      "title": "CMS"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Loom만으로 충분한가요?",
+      "a": "설명·버그 리포트·간단한 워크스루에는 충분합니다. 셀프 체험·세일즈 개인화면 인터랙티브/샌드박스를 보세요."
+    },
+    {
+      "q": "인터랙티브 vs 샌드박스?",
+      "a": "인터랙티브는 화면 플로우 시뮬레이션, 샌드박스는 실제/복제 환경에서 클릭하는 쪽에 가깝습니다."
+    },
+    {
+      "q": "보안은?",
+      "a": "고객 데이터·시크릿이 데모에 들어가지 않게 마스킹·별도 환경을 쓰세요."
+    },
+    {
+      "q": "마케팅과 세일즈 툴이 다른가요?",
+      "a": "네. 마케팅은 임베드 투어, 세일즈는 계정별 데모룸·환경 통제 비중이 큽니다."
+    },
+    {
+      "q": "가격대는?",
+      "a": "Loom은 무료 티어가 있고, 인터랙티브·샌드박스는 대개 팀/견적형입니다."
+    }
+  ]
+}

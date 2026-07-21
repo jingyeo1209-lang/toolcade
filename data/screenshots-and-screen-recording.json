@@ -1,0 +1,444 @@
+{
+  "category": {
+    "slug": "screenshots-and-screen-recording",
+    "title": "스크린샷·화면 녹화",
+    "headline": "설명은 긴데, 화면 한 장이면 끝나지 않나요?",
+    "subtitle": "CleanShot X·Snagit·Loom부터 OBS·Zight·Shottr까지. 캡처·주석·녹화 기준으로 실무용 화면 기록 툴을 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "스크린샷·화면 녹화 툴 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "CleanShot X, Snagit, Loom, OBS, Zight, Shottr를 용도·OS·가격 기준으로 비교."
+    },
+    "compareTitle": "가격대 · 잘 맞는 팀",
+    "statLabel": "캡처 유형"
+  },
+  "guide": {
+    "title": "스크린샷·화면 녹화 툴이란?",
+    "summary": "화면을 캡처·주석·녹화해 버그 리포트·튜토리얼·비동기 설명에 쓰는 도구입니다. 제품 데모(인터랙티브)나 화상회의 녹화와는 겹치되, ‘빠르게 화면을 남기는’ 데 초점이 있습니다.",
+    "howToChoose": [
+      "정적 캡처+주석이 많은지, 짧은 영상 설명이 많은지 세어 보세요.",
+      "Mac 전용 폴리시(CleanShot·Shottr)와 크로스플랫폼(Snagit·Loom·OBS)을 나누세요.",
+      "라이브 스트리밍·고품질 녹화면 OBS, 팀 공유 링크면 Loom/Zight가 맞습니다.",
+      "이미 Loom을 데모용으로 쓰면 캡처 전용 툴만 추가하는 편이 나을 수 있습니다."
+    ],
+    "recordingTypes": [
+      {
+        "type": "프로 캡처·주석형",
+        "description": "스크롤 캡처·주석·템플릿이 깊습니다. OS·가격 제약이 있을 수 있습니다.",
+        "examples": [
+          "CleanShot X",
+          "Snagit",
+          "Shottr"
+        ]
+      },
+      {
+        "type": "비동기 영상 공유형",
+        "description": "짧은 화면 녹화를 링크로 보냅니다. 픽셀 편집은 약할 수 있습니다.",
+        "examples": [
+          "Loom",
+          "Zight"
+        ]
+      },
+      {
+        "type": "오픈·방송형",
+        "description": "무료·고품질 녹화/스트리밍. 학습 곡선이 있습니다.",
+        "examples": [
+          "OBS Studio"
+        ]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    {
+      "key": "name",
+      "label": "툴"
+    },
+    {
+      "key": "advantage",
+      "label": "한 줄 요약"
+    },
+    {
+      "key": "meetingStyle",
+      "label": "잘 맞는 용도"
+    },
+    {
+      "key": "freeQuota",
+      "label": "가격대"
+    },
+    {
+      "key": "stackFit",
+      "label": "잘 맞는 팀"
+    }
+  ],
+  "tools": [
+    {
+      "slug": "cleanshot",
+      "name": "CleanShot X",
+      "rank": 1,
+      "tags": [
+        "Mac",
+        "주석",
+        "스크롤캡처"
+      ],
+      "quote": "맥에서 캡처·주석·짧은 녹화를 한 앱으로 끝내려면, CleanShot X는 프로 캡처 후보로 자주 꼽힙니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "캡처 완성도",
+          "body": "스크롤·배경 제거·주석까지 맥 워크플로에 맞춰져 있습니다."
+        },
+        {
+          "title": "빠른 공유",
+          "body": "캡처 후 클라우드/클립보드 흐름이 짧습니다."
+        }
+      ],
+      "cons": [
+        "Mac 전용입니다.",
+        "팀 전체 Windows면 Snagit·Loom이 맞습니다."
+      ],
+      "notFor": [
+        "Windows 중심 팀",
+        "라이브 스트리밍이 필요할 때"
+      ],
+      "bestFor": "Mac 프로 스크린샷·짧은 녹화",
+      "comparison": {
+        "advantage": "Mac 프로 캡처·주석",
+        "meetingStyle": "프로 캡처·주석형",
+        "freeQuota": "유료(일회/구독)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Mac 지식노동자"
+      },
+      "affiliate": {
+        "url": "https://cleanshot.com/",
+        "ctaLabel": "CleanShot X 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "mac-capture",
+        "annotate"
+      ]
+    },
+    {
+      "slug": "snagit",
+      "name": "Snagit",
+      "rank": 2,
+      "tags": [
+        "주석",
+        "템플릿",
+        "크로스"
+      ],
+      "quote": "매뉴얼·교육용 캡처에 스텝 주석이 많다면, Snagit은 오래 검증된 캡처·편집 후보입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "주석·템플릿",
+          "body": "화살표·스텝 번호·템플릿으로 설명 이미지를 만들기기 좋습니다."
+        },
+        {
+          "title": "Win/Mac",
+          "body": "크로스플랫폼 팀 배포에 무난합니다."
+        }
+      ],
+      "cons": [
+        "구독/라이선스 비용이 개인에게 부담일 수 있습니다.",
+        "가벼운 한 장 캡처만이면 오버스펙입니다."
+      ],
+      "notFor": [
+        "완전 무료만 원할 때",
+        "방송급 녹화만 필요할 때"
+      ],
+      "bestFor": "교육·매뉴얼용 캡처 주석",
+      "comparison": {
+        "advantage": "주석·템플릿 캡처",
+        "meetingStyle": "프로 캡처·주석형",
+        "freeQuota": "유료 라이선스",
+        "freeQuotaHighlight": false,
+        "stackFit": "교육·지원·문서화"
+      },
+      "affiliate": {
+        "url": "https://www.techsmith.com/screen-capture.html",
+        "ctaLabel": "Snagit 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "manual-capture"
+      ]
+    },
+    {
+      "slug": "loom-capture",
+      "name": "Loom",
+      "rank": 3,
+      "tags": [
+        "영상",
+        "비동기",
+        "공유"
+      ],
+      "quote": "미팅 대신 2분 화면 설명으로 끝내려면, Loom은 비동기 화면 녹화의 기본 후보입니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "빠른 녹화 공유",
+          "body": "링크 하나로 팀·고객에게 맥락을 전달하기 좋습니다."
+        },
+        {
+          "title": "낮은 마찰",
+          "body": "설치·업로드 부담이 적어 전사 도입이 쉽습니다."
+        }
+      ],
+      "cons": [
+        "정밀 주석·스크롤 캡처는 CleanShot/Snagit이 더 강합니다.",
+        "장시간·방송 품질은 OBS가 맞습니다."
+      ],
+      "notFor": [
+        "픽셀 단위 이미지 편집이 필요할 때",
+        "완전 오프라인만 허용될 때"
+      ],
+      "bestFor": "비동기 화면 설명 영상",
+      "comparison": {
+        "advantage": "빠른 비동기 화면 영상",
+        "meetingStyle": "비동기 영상 공유형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "원격·전 팀"
+      },
+      "affiliate": {
+        "url": "https://www.loom.com/",
+        "ctaLabel": "Loom 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "async-video",
+        "quick-record"
+      ]
+    },
+    {
+      "slug": "obs",
+      "name": "OBS Studio",
+      "rank": 4,
+      "tags": [
+        "무료",
+        "방송",
+        "오픈소스"
+      ],
+      "quote": "고품질 녹화·스트리밍을 비용 없이 통제하려면, OBS는 오픈소스 표준 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "무료·강력",
+          "body": "장면·소스·인코딩을 세밀히 통제할 수 있습니다."
+        },
+        {
+          "title": "방송·장시간",
+          "body": "웨비나·게임·긴 튜토리얼 녹화에 맞습니다."
+        }
+      ],
+      "cons": [
+        "학습 곡선이 있고 ‘한 클릭 공유’는 Loom만 못합니다.",
+        "팀 협업 링크 UX는 별도 업로드가 필요합니다."
+      ],
+      "notFor": [
+        "30초 설명만 빠르게 보낼 때",
+        "비기술 팀 전원 도입"
+      ],
+      "bestFor": "무료 고품질 녹화·스트리밍",
+      "comparison": {
+        "advantage": "오픈소스 고품질 녹화",
+        "meetingStyle": "오픈·방송형",
+        "freeQuota": "완전 무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "크리에이터·IT"
+      },
+      "affiliate": {
+        "url": "https://obsproject.com/",
+        "ctaLabel": "OBS Studio 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "obs-record",
+        "streaming"
+      ]
+    },
+    {
+      "slug": "zight",
+      "name": "Zight",
+      "rank": 5,
+      "tags": [
+        "GIF",
+        "공유",
+        "지원"
+      ],
+      "quote": "버그 리포트에 GIF·짧은 클립을 바로 붙이려면, Zight(구 CloudApp)는 지원·세일즈 공유 후보입니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "GIF·클립",
+          "body": "재현 단계를 짧게 보여 주기 좋습니다."
+        },
+        {
+          "title": "공유 링크",
+          "body": "티켓·슬랙에 붙여 넣기 쉬운 흐름입니다."
+        }
+      ],
+      "cons": [
+        "Mac 프로 캡처 폴리시는 CleanShot이 앞설 수 있습니다.",
+        "방송급 설정은 OBS가 맞습니다."
+      ],
+      "notFor": [
+        "라이브 스트리밍",
+        "완전 무료 무제한만 원할 때"
+      ],
+      "bestFor": "지원·버그용 GIF·짧은 클립",
+      "comparison": {
+        "advantage": "GIF·클립 빠른 공유",
+        "meetingStyle": "비동기 영상 공유형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "CS·세일즈·QA"
+      },
+      "affiliate": {
+        "url": "https://zight.com/",
+        "ctaLabel": "Zight 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "gif-bug"
+      ]
+    },
+    {
+      "slug": "shottr",
+      "name": "Shottr",
+      "rank": 6,
+      "tags": [
+        "Mac",
+        "가성비",
+        "OCR"
+      ],
+      "quote": "맥에서 가볍게 OCR·스크롤 캡처만 필요하면, Shottr는 저비용 캡처 유틸 후보입니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "가벼운 맥 캡처",
+          "body": "필수 캡처·OCR을 단순하게 제공합니다."
+        },
+        {
+          "title": "가성비",
+          "body": "프로 구독 부담을 줄이고 시작할 때 좋습니다."
+        }
+      ],
+      "cons": [
+        "팀 영상 공유·Win 지원은 범위 밖입니다.",
+        "매뉴얼 템플릿은 Snagit이 더 강합니다."
+      ],
+      "notFor": [
+        "Windows 팀",
+        "장시간 녹화·방송"
+      ],
+      "bestFor": "Mac 가성비 스크린샷·OCR",
+      "comparison": {
+        "advantage": "Mac 가성비 캡처",
+        "meetingStyle": "프로 캡처·주석형",
+        "freeQuota": "저가/팁웨어",
+        "freeQuotaHighlight": true,
+        "stackFit": "개인 Mac"
+      },
+      "affiliate": {
+        "url": "https://shottr.cc/",
+        "ctaLabel": "Shottr 알아보기 ↗"
+      },
+      "recommendWhen": [
+        "budget-mac-capture"
+      ]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "mac-capture",
+      "label": "Mac 프로 캡처",
+      "recommend": "cleanshot",
+      "reason": "주석·스크롤 완성도가 높습니다."
+    },
+    {
+      "id": "annotate",
+      "label": "주석 중심",
+      "recommend": "cleanshot",
+      "reason": "캡처 후 편집 흐름이 짧습니다."
+    },
+    {
+      "id": "manual-capture",
+      "label": "매뉴얼·교육",
+      "recommend": "snagit",
+      "reason": "템플릿·스텝 주석에 강합니다."
+    },
+    {
+      "id": "async-video",
+      "label": "비동기 영상",
+      "recommend": "loom-capture",
+      "reason": "링크 공유가 빠릅니다."
+    },
+    {
+      "id": "quick-record",
+      "label": "빠른 화면 설명",
+      "recommend": "loom-capture",
+      "reason": "전사 도입 마찰이 낮습니다."
+    },
+    {
+      "id": "obs-record",
+      "label": "고품질·무료",
+      "recommend": "obs",
+      "reason": "오픈소스로 통제합니다."
+    },
+    {
+      "id": "streaming",
+      "label": "스트리밍",
+      "recommend": "obs",
+      "reason": "방송 설정에 맞습니다."
+    },
+    {
+      "id": "gif-bug",
+      "label": "버그 GIF",
+      "recommend": "zight",
+      "reason": "짧은 재현 클립에 좋습니다."
+    },
+    {
+      "id": "budget-mac-capture",
+      "label": "Mac 가성비",
+      "recommend": "shottr",
+      "reason": "저비용으로 시작합니다."
+    }
+  ],
+  "relatedCategories": [
+    {
+      "slug": "product-demo",
+      "title": "제품 데모"
+    },
+    {
+      "slug": "video-conferencing",
+      "title": "화상회의"
+    },
+    {
+      "slug": "customer-support",
+      "title": "고객 지원"
+    },
+    {
+      "slug": "notes-documents",
+      "title": "노트·문서"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Loom과 제품 데모 카테고리 차이는?",
+      "a": "둘 다 Loom을 쓸 수 있습니다. 여기선 빠른 화면 기록, 제품 데모는 인터랙티브/샌드박스까지 포함한 데모 전략입니다."
+    },
+    {
+      "q": "OS 기본 캡처로 충분한가요?",
+      "a": "가끔 한 장이면 충분합니다. 주석·스크롤·팀 공유가 잦으면 전용 툴이 시간을 줄입니다."
+    },
+    {
+      "q": "보안은?",
+      "a": "클라우드 업로드 전 민감 정보를 가리세요. 기업은 보관 기간·SSO를 확인합니다."
+    },
+    {
+      "q": "OBS는 너무 무거운가요?",
+      "a": "짧은 설명에는 Loom이 낫고, 장시간·품질·방송이면 OBS가 맞습니다."
+    },
+    {
+      "q": "Windows 추천은?",
+      "a": "주석·매뉴얼은 Snagit, 비동기 영상은 Loom, 무료 고품질은 OBS를 보세요."
+    }
+  ]
+}

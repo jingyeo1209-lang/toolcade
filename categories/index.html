@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="toolcade-root" content="../">
+  <title>카테고리 | Toolcade</title>
+  <meta name="description" content="툴케이드 카테고리 — 업무·AI·개발·마케팅·디자인 주제별로 생산성 툴을 찾아보세요.">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/toolcade.css">
+</head>
+<body>
+  <div id="ph-nav"></div>
+  <div id="app"><p style="padding:2rem;color:#667085">로딩 중…</p></div>
+  <div id="ph-footer"></div>
+
+  <script src="../data/categories.bundle.js"></script>
+  <script src="../js/paths.js"></script>
+  <script src="../js/shell.js"></script>
+  <script src="../js/analytics.js"></script>
+  <script src="../js/load-data.js"></script>
+  <script src="../js/render.js"></script>
+  <script>
+    ToolcadeRender.mountCategoriesIndexPage({
+      categoriesUrl: "data/categories.json",
+    }).catch((err) => {
+      console.error(err);
+      document.getElementById("app").innerHTML =
+        '<p style="padding:2rem;color:#dc2626">카테고리를 불러오지 못했습니다. <code>node scripts/build-data.mjs</code> 실행 후 새로고침해 주세요.</p>';
+    });
+  </script>
+</body>
+</html>

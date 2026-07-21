@@ -1,0 +1,363 @@
+{
+  "category": {
+    "slug": "calendars",
+    "title": "캘린더",
+    "headline": "일정이 흩어져 있으면, 하루가 먼저 깨집니다",
+    "subtitle": "Google·Outlook부터 Notion Calendar·Fantastical·Motion·Reclaim까지. 스택·AI 스케줄·집중 시간 기준으로 실무용 캘린더를 골랐습니다.",
+    "updatedAt": "2026-07-10",
+    "seo": {
+      "title": "캘린더 앱 비교 가이드 | 툴케이드 (Toolcade)",
+      "description": "Google Calendar, Outlook, Notion Calendar, Fantastical, Motion, Reclaim을 스택·무료 여부·AI 스케줄 기준으로 비교."
+    },
+    "compareTitle": "가격 · 잘 맞는 스택",
+    "statLabel": "캘린더 유형"
+  },
+  "guide": {
+    "title": "캘린더 앱이란?",
+    "summary": "미팅·마감·리마인더를 시간축에 올려 공유·충돌을 관리하는 도구입니다. 메일 스택에 붙는 기본 캘린더, UX 강화형, AI가 할 일을 자동 배치하는 플래너로 나뉩니다.",
+    "howToChoose": [
+      "팀이 Google Workspace인지 Microsoft 365인지 먼저 보세요. 기본 캘린더는 스택을 따르는 게 비용·권한·공유가 쉽습니다.",
+      "‘일정 보기’만 필요한지, 할 일까지 자동으로 시간 블록에 넣을지 정하세요. 후자면 Motion·Reclaim류입니다.",
+      "여러 계정(회사·개인·고객)을 한 화면에 모아야 하는지 확인하세요. 멀티캘린더 UX가 제품마다 다릅니다.",
+      "외부 예약 링크가 핵심이면 스케줄링(Calendly 등) 카테고리를 같이 보세요. 캘린더와 역할이 겹치되 다릅니다."
+    ],
+    "recordingTypes": [
+      {
+        "type": "스택 기본형",
+        "description": "메일·화상회의와 한 제품군으로 붙습니다. 공유·권한·조직 정책에 유리하지만, UX·AI 플래닝은 별도 툴이 필요할 수 있습니다.",
+        "examples": ["Google Calendar", "Outlook Calendar"]
+      },
+      {
+        "type": "UX·허브형",
+        "description": "여러 캘린더를 예쁘고 빠르게 보고, Notion 등 작업 공간과 연결합니다. 기본 캘린더 위에 얹는 프론트엔드에 가깝습니다.",
+        "examples": ["Notion Calendar", "Fantastical"]
+      },
+      {
+        "type": "AI 플래너형",
+        "description": "할 일·집중 시간을 빈 슬롯에 자동 배치합니다. 일정 ‘기록’보다 ‘하루 설계’에 초점이 있습니다.",
+        "examples": ["Motion", "Reclaim"]
+      }
+    ]
+  },
+  "comparisonColumns": [
+    { "key": "name", "label": "툴" },
+    { "key": "advantage", "label": "한 줄 요약" },
+    { "key": "meetingStyle", "label": "잘 맞는 용도" },
+    { "key": "freeQuota", "label": "가격" },
+    { "key": "stackFit", "label": "잘 맞는 스택" }
+  ],
+  "tools": [
+    {
+      "slug": "google-calendar",
+      "name": "Google Calendar",
+      "rank": 1,
+      "tags": ["무료", "Workspace", "공유"],
+      "quote": "팀이 이미 Gmail·Meet를 쓰면 Google Calendar는 ‘선택’이라기보다 기본 인프라에 가깝습니다. 공유·권한·연동이 가장 무난합니다.",
+      "quoteTone": "blue",
+      "highlights": [
+        {
+          "title": "Workspace 밀착",
+          "body": "Meet 링크, 공유 캘린더, 권한 관리가 메일·드라이브와 이어져 온보딩 비용이 낮습니다."
+        },
+        {
+          "title": "무료·범용",
+          "body": "개인 계정으로도 충분히 쓰고, 외부 툴·예약 링크의 허브로 자주 쓰입니다."
+        }
+      ],
+      "cons": [
+        "할 일 자동 배치·고급 타임블로킹 UX는 Motion·Reclaim만 못합니다.",
+        "여러 계정을 ‘하루 설계’ 관점으로 보는 경험은 서드파티가 더 나은 경우가 많습니다."
+      ],
+      "notFor": [
+        "Microsoft 365만 쓰는 조직의 표준 캘린더로 쓸 때",
+        "AI가 할 일을 매일 재배치해 주길 원할 때"
+      ],
+      "bestFor": "Google Workspace 팀의 기본 일정·공유 캘린더",
+      "comparison": {
+        "advantage": "Workspace 기본·공유 강점",
+        "meetingStyle": "스택 기본형",
+        "freeQuota": "완전 무료(+Workspace)",
+        "freeQuotaHighlight": true,
+        "stackFit": "Google Workspace"
+      },
+      "affiliate": {
+        "url": "https://calendar.google.com/",
+        "ctaLabel": "Google Calendar 알아보기 ↗"
+      },
+      "recommendWhen": ["google-stack", "team-default"]
+    },
+    {
+      "slug": "outlook-calendar",
+      "name": "Outlook Calendar",
+      "rank": 2,
+      "tags": ["M365", "Teams", "기업"],
+      "quote": "Outlook·Teams가 회사 표준이면 캘린더도 Outlook이 맞습니다. 일정은 메일·채널과 떨어져 있으면 바로 깨집니다.",
+      "quoteTone": "purple",
+      "highlights": [
+        {
+          "title": "Microsoft 365 통합",
+          "body": "Teams 미팅, 방 예약, 조직 공유 일정이 같은 권한 체계 안에서 움직입니다."
+        },
+        {
+          "title": "기업 거버넌스",
+          "body": "관리자 정책·컴플라이언스가 있는 조직에서 기본값으로 채택되는 경우가 많습니다."
+        }
+      ],
+      "cons": [
+        "개인·스타트업이 Google만 쓸 때는 이중 캘린더가 생깁니다.",
+        "소비자 UX·자연어 입력은 Fantastical 같은 전용 앱이 더 편한 편입니다."
+      ],
+      "notFor": [
+        "Google만 쓰는 소규모 팀",
+        "캘린더 UI만 예쁘게 바꾸고 싶을 때(허브형을 위에 얹는 편이 나음)"
+      ],
+      "bestFor": "Microsoft 365 조직의 사내 일정·Teams 미팅",
+      "comparison": {
+        "advantage": "M365·Teams 네이티브",
+        "meetingStyle": "스택 기본형",
+        "freeQuota": "무료(+Microsoft 365)",
+        "freeQuotaHighlight": false,
+        "stackFit": "Microsoft 365"
+      },
+      "affiliate": {
+        "url": "https://outlook.live.com/calendar/",
+        "ctaLabel": "Outlook Calendar 알아보기 ↗"
+      },
+      "recommendWhen": ["microsoft-stack", "enterprise-cal"]
+    },
+    {
+      "slug": "notion-calendar",
+      "name": "Notion Calendar",
+      "rank": 3,
+      "tags": ["Notion연동", "무료", "멀티캘린더"],
+      "quote": "할 일과 문서는 Notion에 있는데 일정만 따로 보면 깨집니다. Notion Calendar는 Google/Outlook 위에 Notion 일정을 겹쳐 보는 허브에 가깝습니다.",
+      "quoteTone": "gray",
+      "highlights": [
+        {
+          "title": "Notion 데이터베이스 연결",
+          "body": "Notion 일정·마감을 캘린더 뷰로 가져와, 문서 작업과 시간 블록을 한눈에 보기 좋습니다."
+        },
+        {
+          "title": "무료 허브",
+          "body": "기존 Google/Outlook을 유지한 채 UI만 개선하고 싶을 때 비용 허들이 낮습니다."
+        }
+      ],
+      "cons": [
+        "Notion을 안 쓰면 차별점이 줄어듭니다.",
+        "AI 자동 스케줄·집중 시간 방어는 Reclaim·Motion 쪽이 강합니다."
+      ],
+      "notFor": [
+        "Notion을 쓰지 않는 팀",
+        "캘린더 서버 자체를 교체해야 할 때"
+      ],
+      "bestFor": "Notion으로 일하면서 멀티 캘린더를 한 화면에 볼 때",
+      "comparison": {
+        "advantage": "Notion 연동 무료 허브",
+        "meetingStyle": "UX·허브형",
+        "freeQuota": "완전 무료",
+        "freeQuotaHighlight": true,
+        "stackFit": "Notion + Google/Outlook"
+      },
+      "affiliate": {
+        "url": "https://www.notion.com/product/calendar",
+        "ctaLabel": "Notion Calendar 알아보기 ↗"
+      },
+      "recommendWhen": ["notion-users", "multi-cal-ui"]
+    },
+    {
+      "slug": "fantastical",
+      "name": "Fantastical",
+      "rank": 4,
+      "tags": ["Apple", "자연어", "디자인"],
+      "quote": "‘내일 오후 3시 김대리랑 미팅’처럼 말로 일정을 넣고 싶다면, Fantastical은 Apple 생태계에서 자주 꼽히는 프리미엄 캘린더입니다.",
+      "quoteTone": "orange",
+      "highlights": [
+        {
+          "title": "자연어 입력",
+          "body": "문장형으로 일정을 만들어, 바쁜 이동 중·키보드 입력 부담을 줄입니다."
+        },
+        {
+          "title": "Apple 친화 UX",
+          "body": "Mac·iPhone에서 보기 좋은 일정·캘린더 세트 관리로 기본 앱 대체 체감이 큽니다."
+        }
+      ],
+      "cons": [
+        "본격 기능은 구독이 필요합니다.",
+        "Windows·Android 중심 팀에는 적합도가 떨어집니다."
+      ],
+      "notFor": [
+        "완전 무료만 고집할 때",
+        "Microsoft/Google 웹만 쓰는 환경"
+      ],
+      "bestFor": "Apple 기기에서 프리미엄 캘린더 UX가 필요할 때",
+      "comparison": {
+        "advantage": "자연어·Apple 프리미엄 UX",
+        "meetingStyle": "UX·허브형",
+        "freeQuota": "무료 티어·유료 구독",
+        "freeQuotaHighlight": false,
+        "stackFit": "Apple(+일부 Windows)"
+      },
+      "affiliate": {
+        "url": "https://flexibits.com/fantastical",
+        "ctaLabel": "Fantastical 알아보기 ↗"
+      },
+      "recommendWhen": ["apple-ux", "natural-language"]
+    },
+    {
+      "slug": "motion",
+      "name": "Motion",
+      "rank": 5,
+      "tags": ["AI스케줄", "할일배치", "자동계획"],
+      "quote": "미팅은 잡히는데 할 일이 캘린더에 안 들어가면 하루가 무너집니다. Motion은 마감·우선순위로 태스크를 빈 시간에 자동 배치하는 쪽에 가깝습니다.",
+      "quoteTone": "indigo",
+      "highlights": [
+        {
+          "title": "AI 자동 스케줄",
+          "body": "할 일과 미팅을 함께 보고 하루를 다시 짜 줘, 수동 타임블로킹 시간을 줄입니다."
+        },
+        {
+          "title": "프로젝트·업무 묶음",
+          "body": "단순 일정을 넘어 태스크·프로젝트 단위로 용량을 보는 팀에게 맞습니다."
+        }
+      ],
+      "cons": [
+        "좌석당 유료라 개인·팀에 비용 부담이 있습니다.",
+        "‘내가 직접 배치’를 선호하면 자동 재배치가 거슬릴 수 있습니다."
+      ],
+      "notFor": [
+        "무료 기본 캘린더만 필요할 때",
+        "AI가 일정을 옮기는 게 불안할 때"
+      ],
+      "bestFor": "할 일까지 AI가 캘린더에 자동 배치하길 원할 때",
+      "comparison": {
+        "advantage": "AI 할 일 자동 배치",
+        "meetingStyle": "AI 플래너형",
+        "freeQuota": "유료 구독",
+        "freeQuotaHighlight": false,
+        "stackFit": "Google/Outlook 연동"
+      },
+      "affiliate": {
+        "url": "https://www.usemotion.com/",
+        "ctaLabel": "Motion 알아보기 ↗"
+      },
+      "recommendWhen": ["ai-schedule", "task-blocking"]
+    },
+    {
+      "slug": "reclaim",
+      "name": "Reclaim.ai",
+      "rank": 6,
+      "tags": ["집중시간", "습관블록", "방어"],
+      "quote": "미팅에 하루가 먹히면 캘린더에 ‘일하는 시간’을 지켜야 합니다. Reclaim은 기존 Google/Outlook 위에 집중·습관 블록을 심는 방어형 캘린더에 가깝습니다.",
+      "quoteTone": "green",
+      "highlights": [
+        {
+          "title": "포커스 타임 방어",
+          "body": "딥워크·습관 일정을 자동으로 넣어 미팅이 빈틈을 다 채우지 못하게 합니다."
+        },
+        {
+          "title": "기존 캘린더 유지",
+          "body": "Google/Outlook을 교체하지 않고 레이어로 올려, 조직 표준을 깨지 않습니다."
+        }
+      ],
+      "cons": [
+        "무료 한도 이후에는 좌석 구독이 필요합니다.",
+        "풀 AI 프로젝트 매니저 경험은 Motion 쪽이 더 넓을 수 있습니다."
+      ],
+      "notFor": [
+        "캘린더 앱 자체를 예쁘게 교체하고 싶을 때",
+        "미팅이 거의 없고 일정만 볼 때"
+      ],
+      "bestFor": "기존 캘린더 위에 집중 시간을 자동으로 지킬 때",
+      "comparison": {
+        "advantage": "집중·습관 시간 자동 방어",
+        "meetingStyle": "AI 플래너형",
+        "freeQuota": "무료 티어(+유료)",
+        "freeQuotaHighlight": true,
+        "stackFit": "Google/Outlook 위 레이어"
+      },
+      "affiliate": {
+        "url": "https://reclaim.ai/",
+        "ctaLabel": "Reclaim 알아보기 ↗"
+      },
+      "recommendWhen": ["focus-time", "habit-blocks"]
+    }
+  ],
+  "decisionTree": [
+    {
+      "id": "google-stack",
+      "label": "Google Workspace 씀",
+      "recommend": "google-calendar",
+      "reason": "메일·Meet·공유 권한이 한줄로 이어집니다."
+    },
+    {
+      "id": "microsoft-stack",
+      "label": "Microsoft 365 씀",
+      "recommend": "outlook-calendar",
+      "reason": "Teams·조직 일정과 네이티브로 붙습니다."
+    },
+    {
+      "id": "notion-users",
+      "label": "Notion으로 일함",
+      "recommend": "notion-calendar",
+      "reason": "Notion 일정과 외부 캘린더를 한 화면에서 보기 좋습니다."
+    },
+    {
+      "id": "apple-ux",
+      "label": "Apple에서 예쁜 캘린더",
+      "recommend": "fantastical",
+      "reason": "자연어 입력·프리미엄 UX가 강점입니다."
+    },
+    {
+      "id": "ai-schedule",
+      "label": "할 일을 AI가 배치해 주길",
+      "recommend": "motion",
+      "reason": "마감·우선순위로 태스크를 빈 슬롯에 넣습니다."
+    },
+    {
+      "id": "focus-time",
+      "label": "집중 시간을 지키고 싶음",
+      "recommend": "reclaim",
+      "reason": "기존 캘린더 위에 포커스·습관 블록을 심습니다."
+    },
+    {
+      "id": "team-default",
+      "label": "팀 기본 캘린더가 필요",
+      "recommend": "google-calendar",
+      "reason": "무료·공유·연동 범용성이 높습니다."
+    },
+    {
+      "id": "multi-cal-ui",
+      "label": "여러 캘린더 UI만 개선",
+      "recommend": "notion-calendar",
+      "reason": "서버를 바꾸지 않고 허브 UX를 올릴 수 있습니다."
+    }
+  ],
+  "relatedCategories": [
+    { "slug": "scheduling", "title": "스케줄링" },
+    { "slug": "video-conferencing", "title": "화상회의" },
+    { "slug": "meeting-notes", "title": "AI 미팅 노트" },
+    { "slug": "time-tracking", "title": "시간 추적" }
+  ],
+  "faq": [
+    {
+      "q": "캘린더와 스케줄링(예약 링크) 차이는?",
+      "a": "캘린더는 내 일정을 보고 관리하는 도구이고, 스케줄링(Calendly 등)은 상대가 빈 시간을 골라 예약하게 하는 도구입니다. 둘 다 쓰는 팀이 많습니다."
+    },
+    {
+      "q": "Google vs Outlook, 하나만 고른다면?",
+      "a": "이미 쓰는 메일·화상회의 스택을 따르세요. Google이면 Google Calendar, Microsoft면 Outlook이 공유·권한·비용에서 유리합니다."
+    },
+    {
+      "q": "AI 캘린더는 기존 캘린더를 대체하나요?",
+      "a": "대부분 Google/Outlook 위에 레이어로 올라갑니다. Motion·Reclaim은 ‘교체’보다 ‘자동 배치·방어’에 가깝습니다."
+    },
+    {
+      "q": "여러 회사 계정을 어떻게 보나요?",
+      "a": "기본 앱도 다중 계정은 되지만, Notion Calendar·Fantastical처럼 허브 UX가 편한 경우가 많습니다. 회사 보안 정책상 개인 기기에 회사 캘린더 동기화가 허용되는지 확인하세요."
+    },
+    {
+      "q": "무료로 시작하려면?",
+      "a": "Google Calendar 또는 Outlook 무료/포함 플랜 + (Notion 사용자면) Notion Calendar 조합이 무난합니다. AI 플래너는 유료인 경우가 많습니다."
+    }
+  ]
+}
